@@ -1,6 +1,5 @@
 
 img {
-  width: 100%;
   margin: auto;
   max-width: 1280px;
 }
@@ -17,5 +16,9 @@ body {
   body {
     --bg-color: #121212;
     --text-color: #ffffff;
+  }
+
+  a {
+    color: lightblue;
   }
 }
