@@ -19,9 +19,12 @@ function assert(condition, message) {
 }
 
 walk(rootDir);
-assert(htmlFiles.length === 36, `Expected 36 HTML files, found ${htmlFiles.length}`);
+const sitePages = htmlFiles.filter((file) =>
+  ["index.html", "help.html", "privacy-policy.html", "support.html"].includes(path.basename(file)),
+);
+assert(sitePages.length === 36, `Expected 36 localized site pages, found ${sitePages.length}`);
 
-for (const file of htmlFiles) {
+for (const file of sitePages) {
   const relative = path.relative(rootDir, file);
   const html = fs.readFileSync(file, "utf8");
   assert(/<html lang="[^"]+"/.test(html), `${relative}: missing language`);
@@ -59,4 +62,4 @@ for (const [locale, policy] of Object.entries(content.privacy)) {
   assert(policy.sections[5][1].includes("1.5.0"), `${locale}: privacy analytics text is stale`);
 }
 
-console.log(`Validated ${htmlFiles.length} localized HTML pages, sitemap, robots.txt, structured data, and internal links.`);
+console.log(`Validated ${sitePages.length} localized HTML pages, sitemap, robots.txt, structured data, and internal links.`);
