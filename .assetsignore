@@ -1,0 +1,7 @@
+.DS_Store
+.git
+.gitignore
+.wrangler
+node_modules
+content
+scripts
