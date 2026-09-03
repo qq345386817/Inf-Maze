@@ -1,0 +1,800 @@
+{
+  "home": {
+    "en": {
+      "tagline": "Endless procedural mazes for quick focus, spatial reasoning, and relaxed puzzle runs.",
+      "feature1": "Procedurally generated rectangular, hexagonal, and honeycomb mazes.",
+      "feature2": "Easy, Medium, Hard, and Insane levels with short replayable sessions.",
+      "feature3": "Designed for iPhone, iPad, Mac, and Apple TV, with offline play.",
+      "help": "Help Center",
+      "privacy": "Privacy Policy",
+      "contact": "If you have any questions, contact support: cameoshell09@gmail.com",
+      "language": "Language"
+    },
+    "ar": {
+      "tagline": "متاهات إجرائية لا نهائية للتركيز السريع والتفكير المكاني وجولات ألغاز هادئة.",
+      "feature1": "متاهات مستطيلة وسداسية وشبيهة بقرص العسل يتم إنشاؤها إجرائياً.",
+      "feature2": "مستويات Easy وMedium وHard وInsane لجولات قصيرة قابلة للإعادة.",
+      "feature3": "مصممة لـ iPhone وiPad وMac وApple TV، وتعمل دون اتصال.",
+      "help": "مركز المساعدة",
+      "privacy": "سياسة الخصوصية",
+      "contact": "إذا كانت لديك أي أسئلة، تواصل مع الدعم: cameoshell09@gmail.com",
+      "language": "اللغة"
+    },
+    "de": {
+      "tagline": "Endlose prozedurale Labyrinthe für schnellen Fokus, räumliches Denken und entspannte Puzzle-Runden.",
+      "feature1": "Prozedural erzeugte rechteckige, hexagonale und Honeycomb-Labyrinthe.",
+      "feature2": "Easy-, Medium-, Hard- und Insane-Level für kurze, wiederholbare Runden.",
+      "feature3": "Für iPhone, iPad, Mac und Apple TV entwickelt, offline spielbar.",
+      "help": "Hilfezentrum",
+      "privacy": "Datenschutzrichtlinie",
+      "contact": "Bei Fragen kontaktieren Sie den Support: cameoshell09@gmail.com",
+      "language": "Sprache"
+    },
+    "es": {
+      "tagline": "Laberintos procedurales infinitos para concentración rápida, razonamiento espacial y partidas relajadas.",
+      "feature1": "Laberintos rectangulares, hexagonales y Honeycomb generados proceduralmente.",
+      "feature2": "Niveles Easy, Medium, Hard e Insane para sesiones cortas y rejugables.",
+      "feature3": "Diseñado para iPhone, iPad, Mac y Apple TV, con juego sin conexión.",
+      "help": "Centro de ayuda",
+      "privacy": "Política de privacidad",
+      "contact": "Si tienes preguntas, contacta con soporte: cameoshell09@gmail.com",
+      "language": "Idioma"
+    },
+    "fr": {
+      "tagline": "Labyrinthes procéduraux infinis pour la concentration rapide, le raisonnement spatial et des parties détendues.",
+      "feature1": "Labyrinthes rectangulaires, hexagonaux et Honeycomb générés procéduralement.",
+      "feature2": "Niveaux Easy, Medium, Hard et Insane pour des sessions courtes rejouables.",
+      "feature3": "Conçu pour iPhone, iPad, Mac et Apple TV, jouable hors ligne.",
+      "help": "Centre d’aide",
+      "privacy": "Politique de confidentialité",
+      "contact": "Pour toute question, contactez le support : cameoshell09@gmail.com",
+      "language": "Langue"
+    },
+    "ja": {
+      "tagline": "短時間の集中、空間認識、リラックスしたパズルに向いた無限の自動生成迷路。",
+      "feature1": "長方形、Hexagonal、Honeycombの迷路を手続き生成します。",
+      "feature2": "Easy、Medium、Hard、Insaneの短く繰り返し遊べるレベル。",
+      "feature3": "iPhone、iPad、Mac、Apple TV向け。オフラインで遊べます。",
+      "help": "ヘルプセンター",
+      "privacy": "プライバシーポリシー",
+      "contact": "ご質問はサポートまで: cameoshell09@gmail.com",
+      "language": "言語"
+    },
+    "ko": {
+      "tagline": "빠른 집중, 공간 추론, 편안한 퍼즐 플레이를 위한 끝없는 절차적 미로.",
+      "feature1": "직사각형, Hexagonal, Honeycomb 미로를 절차적으로 생성합니다.",
+      "feature2": "짧고 반복해서 즐길 수 있는 Easy, Medium, Hard, Insane 레벨.",
+      "feature3": "iPhone, iPad, Mac, Apple TV용으로 설계되었으며 오프라인 플레이를 지원합니다.",
+      "help": "도움말 센터",
+      "privacy": "개인정보 처리방침",
+      "contact": "문의가 있으면 지원팀으로 연락하세요: cameoshell09@gmail.com",
+      "language": "언어"
+    },
+    "zh-Hans": {
+      "tagline": "无限程序生成迷宫，适合快速专注、空间推理和轻松解谜。",
+      "feature1": "程序生成矩形、六边形和蜂巢迷宫。",
+      "feature2": "Easy、Medium、Hard 和 Insane 难度，适合短回合反复挑战。",
+      "feature3": "适配 iPhone、iPad、Mac 和 Apple TV，并支持离线游玩。",
+      "help": "帮助中心",
+      "privacy": "隐私政策",
+      "contact": "如有问题，请联系支持：cameoshell09@gmail.com",
+      "language": "语言"
+    },
+    "zh-Hant": {
+      "tagline": "無限程式生成迷宮，適合快速專注、空間推理和輕鬆解謎。",
+      "feature1": "程式生成矩形、六邊形和蜂巢迷宮。",
+      "feature2": "Easy、Medium、Hard 和 Insane 難度，適合短回合反覆挑戰。",
+      "feature3": "適配 iPhone、iPad、Mac 和 Apple TV，並支援離線遊玩。",
+      "help": "幫助中心",
+      "privacy": "隱私政策",
+      "contact": "如有問題，請聯絡支援：cameoshell09@gmail.com",
+      "language": "語言"
+    }
+  },
+  "help": {
+    "en": {
+      "language": "Language",
+      "title": "How to play \"Infinity Maze\"",
+      "iosTitle": "On iPhone or iPad",
+      "macTitle": "On Mac",
+      "tvosTitle": "On Apple TV",
+      "footer": "If you have any questions, contact support: cameoshell09@gmail.com",
+      "ios": [
+        "Tap the screen in the direction you want the hero to move.",
+        "Choose Rectangular, Hexagonal, or Honeycomb maze types from the game menu.",
+        "Hexagonal and Honeycomb mazes support six directions; tap diagonally to move along diagonal paths.",
+        "Tap Start Over to start a new game.",
+        "Use Easy, Medium, Hard, or Insane levels, worth 5, 15, 45, and 100 points.",
+        "Pro unlocks every hero and doubles Maze Coin rewards. Leaderboard scores stay fair.",
+        "Use Print when you want a hard copy of the current maze."
+      ],
+      "mac": [
+        "Click in the game window, or use arrow keys, to move in the corresponding direction.",
+        "Choose Rectangular, Hexagonal, or Honeycomb maze types from the maze type menu.",
+        "Hexagonal and Honeycomb mazes support six directions; click or use supported controls toward the diagonal path.",
+        "Click Start Over to start a new game.",
+        "Use Easy, Medium, Hard, or Insane levels, worth 5, 15, 45, and 100 points.",
+        "Pro unlocks every hero and doubles Maze Coin rewards. Leaderboard scores stay fair.",
+        "Use Print when you want a hard copy of the current maze."
+      ],
+      "tvos": [
+        "Swipe on the Remote Clickpad to move in the nearest maze direction.",
+        "Hexagonal and Honeycomb mazes support six-direction movement by swiping diagonally.",
+        "The Remote arrow buttons are shortcuts for the main four directions.",
+        "Press Play/Pause on the Remote to open Settings.",
+        "Double tap the Clickpad on the Remote to open Game Center.",
+        "Use Easy, Medium, Hard, or Insane levels, worth 5, 15, 45, and 100 points.",
+        "Pro unlocks every hero and doubles Maze Coin rewards. Leaderboard scores stay fair."
+      ]
+    },
+    "ar": {
+      "language": "اللغة",
+      "title": "طريقة لعب \"Infinity Maze\"",
+      "iosTitle": "على iPhone أو iPad",
+      "macTitle": "على Mac",
+      "tvosTitle": "على Apple TV",
+      "footer": "إذا كانت لديك أي أسئلة، تواصل مع الدعم: cameoshell09@gmail.com",
+      "ios": [
+        "اضغط على الشاشة في الاتجاه الذي تريد أن يتحرك إليه البطل.",
+        "اختر نوع المتاهة Rectangular أو Hexagonal أو Honeycomb من قائمة اللعبة.",
+        "تدعم متاهات Hexagonal وHoneycomb ستة اتجاهات؛ اضغط قطرياً للتحرك عبر المسارات القطرية.",
+        "اضغط Start Over لبدء لعبة جديدة.",
+        "استخدم مستويات Easy وMedium وHard وInsane، بقيم 5 و15 و45 و100 نقطة.",
+        "يفتح Pro جميع الأبطال ويضاعف مكافآت عملات المتاهة. تبقى نتائج لوحة الصدارة عادلة.",
+        "استخدم Print إذا أردت نسخة ورقية من المتاهة الحالية."
+      ],
+      "mac": [
+        "انقر داخل نافذة اللعبة، أو استخدم مفاتيح الأسهم، للتحرك في الاتجاه المقابل.",
+        "اختر Rectangular أو Hexagonal أو Honeycomb من قائمة نوع المتاهة.",
+        "تدعم Hexagonal وHoneycomb ستة اتجاهات؛ انقر أو استخدم عناصر التحكم المدعومة باتجاه المسار القطري.",
+        "انقر Start Over لبدء لعبة جديدة.",
+        "استخدم مستويات Easy وMedium وHard وInsane، بقيم 5 و15 و45 و100 نقطة.",
+        "يفتح Pro جميع الأبطال ويضاعف مكافآت عملات المتاهة. تبقى نتائج لوحة الصدارة عادلة.",
+        "استخدم Print إذا أردت نسخة ورقية من المتاهة الحالية."
+      ],
+      "tvos": [
+        "اسحب على لوحة النقر في جهاز التحكم للتحرك في أقرب اتجاه داخل المتاهة.",
+        "تدعم متاهات Hexagonal وHoneycomb الحركة في ستة اتجاهات عبر السحب القطري.",
+        "أزرار الأسهم في جهاز التحكم هي اختصارات للاتجاهات الأربعة الرئيسية.",
+        "اضغط تشغيل/إيقاف مؤقت على جهاز التحكم لفتح الإعدادات.",
+        "انقر نقرًا مزدوجًا على لوحة النقر في جهاز التحكم لفتح Game Center.",
+        "استخدم مستويات Easy وMedium وHard وInsane، بقيم 5 و15 و45 و100 نقطة.",
+        "يفتح Pro جميع الأبطال ويضاعف مكافآت عملات المتاهة. تبقى نتائج لوحة الصدارة عادلة."
+      ]
+    },
+    "de": {
+      "language": "Sprache",
+      "title": "So spielen Sie \"Infinity Maze\"",
+      "iosTitle": "Auf iPhone oder iPad",
+      "macTitle": "Auf Mac",
+      "tvosTitle": "Auf Apple TV",
+      "footer": "Bei Fragen kontaktieren Sie den Support: cameoshell09@gmail.com",
+      "ios": [
+        "Tippen Sie in die Richtung, in die sich der Held bewegen soll.",
+        "Wählen Sie Rectangular, Hexagonal oder Honeycomb im Spielmenü.",
+        "Hexagonal- und Honeycomb-Labyrinthe unterstützen sechs Richtungen; tippen Sie diagonal für diagonale Wege.",
+        "Tippen Sie auf Start Over, um ein neues Spiel zu beginnen.",
+        "Easy, Medium, Hard und Insane sind 5, 15, 45 und 100 Punkte wert.",
+        "Pro schaltet alle Helden frei und verdoppelt Labyrinthmünzen. Ranglisten bleiben fair.",
+        "Nutzen Sie Print für einen Ausdruck des aktuellen Labyrinths."
+      ],
+      "mac": [
+        "Klicken Sie ins Spielfenster oder verwenden Sie die Pfeiltasten, um sich zu bewegen.",
+        "Wählen Sie Rectangular, Hexagonal oder Honeycomb im Labyrinthtyp-Menü.",
+        "Hexagonal- und Honeycomb-Labyrinthe unterstützen sechs Richtungen; klicken oder steuern Sie in Richtung diagonaler Wege.",
+        "Klicken Sie auf Start Over, um ein neues Spiel zu beginnen.",
+        "Easy, Medium, Hard und Insane sind 5, 15, 45 und 100 Punkte wert.",
+        "Pro schaltet alle Helden frei und verdoppelt Labyrinthmünzen. Ranglisten bleiben fair.",
+        "Nutzen Sie Print für einen Ausdruck des aktuellen Labyrinths."
+      ],
+      "tvos": [
+        "Wischen Sie auf dem Remote-Clickpad, um in die nächstgelegene Labyrinthrichtung zu gehen.",
+        "Hexagonal- und Honeycomb-Labyrinthe unterstützen sechs Richtungen durch diagonales Wischen.",
+        "Die Pfeiltasten der Fernbedienung sind Kurzbefehle für die vier Hauptrichtungen.",
+        "Drücken Sie Play/Pause auf der Fernbedienung, um Einstellungen zu öffnen.",
+        "Doppeltippen Sie auf das Clickpad der Fernbedienung, um Game Center zu öffnen.",
+        "Easy, Medium, Hard und Insane sind 5, 15, 45 und 100 Punkte wert.",
+        "Pro schaltet alle Helden frei und verdoppelt Labyrinthmünzen. Ranglisten bleiben fair."
+      ]
+    },
+    "es": {
+      "language": "Idioma",
+      "title": "Cómo jugar a \"Infinity Maze\"",
+      "iosTitle": "En iPhone o iPad",
+      "macTitle": "En Mac",
+      "tvosTitle": "En Apple TV",
+      "footer": "Si tienes preguntas, contacta con soporte: cameoshell09@gmail.com",
+      "ios": [
+        "Toca la pantalla en la dirección en la que quieres mover al héroe.",
+        "Elige Rectangular, Hexagonal o Honeycomb desde el menú del juego.",
+        "Los laberintos Hexagonal y Honeycomb admiten seis direcciones; toca en diagonal para seguir caminos diagonales.",
+        "Toca Start Over para empezar una partida nueva.",
+        "Usa niveles Easy, Medium, Hard o Insane, que valen 5, 15, 45 y 100 puntos.",
+        "Pro desbloquea todos los héroes y duplica las monedas del laberinto. La clasificación sigue siendo justa.",
+        "Usa Print si quieres una copia en papel del laberinto actual."
+      ],
+      "mac": [
+        "Haz clic en la ventana del juego, o usa las flechas, para moverte en la dirección correspondiente.",
+        "Elige Rectangular, Hexagonal o Honeycomb desde el menú de tipo de laberinto.",
+        "Hexagonal y Honeycomb admiten seis direcciones; haz clic o usa controles compatibles hacia el camino diagonal.",
+        "Haz clic en Start Over para empezar una partida nueva.",
+        "Usa niveles Easy, Medium, Hard o Insane, que valen 5, 15, 45 y 100 puntos.",
+        "Pro desbloquea todos los héroes y duplica las monedas del laberinto. La clasificación sigue siendo justa.",
+        "Usa Print si quieres una copia en papel del laberinto actual."
+      ],
+      "tvos": [
+        "Desliza en el Clickpad del mando para moverte en la dirección de laberinto más cercana.",
+        "Los laberintos Hexagonal y Honeycomb admiten seis direcciones al deslizar en diagonal.",
+        "Los botones de flecha del mando son atajos para las cuatro direcciones principales.",
+        "Pulsa Reproducir/Pausa en el mando para abrir Ajustes.",
+        "Toca dos veces el Clickpad del mando para abrir Game Center.",
+        "Usa niveles Easy, Medium, Hard o Insane, que valen 5, 15, 45 y 100 puntos.",
+        "Pro desbloquea todos los héroes y duplica las monedas del laberinto. La clasificación sigue siendo justa."
+      ]
+    },
+    "fr": {
+      "language": "Langue",
+      "title": "Comment jouer à \"Infinity Maze\"",
+      "iosTitle": "Sur iPhone ou iPad",
+      "macTitle": "Sur Mac",
+      "tvosTitle": "Sur Apple TV",
+      "footer": "Pour toute question, contactez le support : cameoshell09@gmail.com",
+      "ios": [
+        "Touchez l’écran dans la direction où vous voulez déplacer le héros.",
+        "Choisissez Rectangular, Hexagonal ou Honeycomb dans le menu du jeu.",
+        "Les labyrinthes Hexagonal et Honeycomb prennent en charge six directions ; touchez en diagonale pour suivre les chemins diagonaux.",
+        "Touchez Start Over pour commencer une nouvelle partie.",
+        "Les niveaux Easy, Medium, Hard et Insane valent 5, 15, 45 et 100 points.",
+        "Pro débloque tous les héros et double les pièces du labyrinthe. Le classement reste équitable.",
+        "Utilisez Print pour obtenir une copie papier du labyrinthe actuel."
+      ],
+      "mac": [
+        "Cliquez dans la fenêtre du jeu, ou utilisez les flèches, pour vous déplacer dans la direction correspondante.",
+        "Choisissez Rectangular, Hexagonal ou Honeycomb dans le menu du type de labyrinthe.",
+        "Hexagonal et Honeycomb prennent en charge six directions ; cliquez ou utilisez les commandes compatibles vers les chemins diagonaux.",
+        "Cliquez sur Start Over pour commencer une nouvelle partie.",
+        "Les niveaux Easy, Medium, Hard et Insane valent 5, 15, 45 et 100 points.",
+        "Pro débloque tous les héros et double les pièces du labyrinthe. Le classement reste équitable.",
+        "Utilisez Print pour obtenir une copie papier du labyrinthe actuel."
+      ],
+      "tvos": [
+        "Balayez sur le Clickpad de la télécommande pour vous déplacer vers la direction de labyrinthe la plus proche.",
+        "Les labyrinthes Hexagonal et Honeycomb prennent en charge six directions avec des balayages diagonaux.",
+        "Les boutons fléchés de la télécommande sont des raccourcis pour les quatre directions principales.",
+        "Appuyez sur Lecture/Pause sur la télécommande pour ouvrir les réglages.",
+        "Touchez deux fois le Clickpad de la télécommande pour ouvrir Game Center.",
+        "Les niveaux Easy, Medium, Hard et Insane valent 5, 15, 45 et 100 points.",
+        "Pro débloque tous les héros et double les pièces du labyrinthe. Le classement reste équitable."
+      ]
+    },
+    "ja": {
+      "language": "言語",
+      "title": "「Infinity Maze」の遊び方",
+      "iosTitle": "iPhoneまたはiPad",
+      "macTitle": "Mac",
+      "tvosTitle": "Apple TV",
+      "footer": "ご質問はサポートまで: cameoshell09@gmail.com",
+      "ios": [
+        "ヒーローを動かしたい方向に画面をタップします。",
+        "ゲームメニューからRectangular、Hexagonal、Honeycombを選びます。",
+        "HexagonalとHoneycombの迷路は6方向移動に対応し、斜め方向をタップして進めます。",
+        "Start Overをタップして新しいゲームを始めます。",
+        "Easy、Medium、Hard、Insaneの各レベルは5、15、45、100点です。",
+        "Proではすべてのヒーローが解放され、迷路コイン報酬が2倍になります。ランキングは公平です。",
+        "現在の迷路を印刷したいときはPrintを使います。"
+      ],
+      "mac": [
+        "ゲームウィンドウをクリック、または矢印キーで対応する方向に移動します。",
+        "迷路タイプメニューからRectangular、Hexagonal、Honeycombを選びます。",
+        "HexagonalとHoneycombは6方向移動に対応し、斜めの道へクリックまたは対応操作で進みます。",
+        "Start Overをクリックして新しいゲームを始めます。",
+        "Easy、Medium、Hard、Insaneの各レベルは5、15、45、100点です。",
+        "Proではすべてのヒーローが解放され、迷路コイン報酬が2倍になります。ランキングは公平です。",
+        "現在の迷路を印刷したいときはPrintを使います。"
+      ],
+      "tvos": [
+        "リモコンのClickpadをスワイプして、最も近い迷路方向へ移動します。",
+        "HexagonalとHoneycombの迷路では斜めスワイプで6方向移動できます。",
+        "リモコンの矢印ボタンは主要な4方向のショートカットです。",
+        "リモコンの再生/一時停止を押して設定を開きます。",
+        "リモコンのClickpadをダブルタップしてGame Centerを開きます。",
+        "Easy、Medium、Hard、Insaneの各レベルは5、15、45、100点です。",
+        "Proではすべてのヒーローが解放され、迷路コイン報酬が2倍になります。ランキングは公平です。"
+      ]
+    },
+    "ko": {
+      "language": "언어",
+      "title": "\"Infinity Maze\" 플레이 방법",
+      "iosTitle": "iPhone 또는 iPad",
+      "macTitle": "Mac",
+      "tvosTitle": "Apple TV",
+      "footer": "문의가 있으면 지원팀으로 연락하세요: cameoshell09@gmail.com",
+      "ios": [
+        "영웅을 움직일 방향으로 화면을 탭합니다.",
+        "게임 메뉴에서 Rectangular, Hexagonal, Honeycomb 미로 유형을 선택합니다.",
+        "Hexagonal 및 Honeycomb 미로는 여섯 방향 이동을 지원하므로 대각선 경로는 대각선으로 탭하세요.",
+        "Start Over를 탭하여 새 게임을 시작합니다.",
+        "Easy, Medium, Hard, Insane 레벨은 각각 5, 15, 45, 100점입니다.",
+        "Pro는 모든 영웅을 잠금 해제하고 미로 코인 보상을 두 배로 제공합니다. 순위 점수는 공정합니다.",
+        "현재 미로를 종이로 출력하려면 Print를 사용하세요."
+      ],
+      "mac": [
+        "게임 창을 클릭하거나 화살표 키를 사용하여 해당 방향으로 이동합니다.",
+        "미로 유형 메뉴에서 Rectangular, Hexagonal, Honeycomb을 선택합니다.",
+        "Hexagonal 및 Honeycomb은 여섯 방향을 지원하므로 대각선 경로 방향으로 클릭하거나 지원되는 조작을 사용하세요.",
+        "Start Over를 클릭하여 새 게임을 시작합니다.",
+        "Easy, Medium, Hard, Insane 레벨은 각각 5, 15, 45, 100점입니다.",
+        "Pro는 모든 영웅을 잠금 해제하고 미로 코인 보상을 두 배로 제공합니다. 순위 점수는 공정합니다.",
+        "현재 미로를 종이로 출력하려면 Print를 사용하세요."
+      ],
+      "tvos": [
+        "리모컨 Clickpad를 스와이프하여 가장 가까운 미로 방향으로 이동합니다.",
+        "Hexagonal 및 Honeycomb 미로는 대각선 스와이프로 여섯 방향 이동을 지원합니다.",
+        "리모컨 화살표 버튼은 기본 네 방향 단축키입니다.",
+        "리모컨의 재생/일시 정지를 눌러 설정을 엽니다.",
+        "리모컨 Clickpad를 두 번 탭하여 Game Center를 엽니다.",
+        "Easy, Medium, Hard, Insane 레벨은 각각 5, 15, 45, 100점입니다.",
+        "Pro는 모든 영웅을 잠금 해제하고 미로 코인 보상을 두 배로 제공합니다. 순위 점수는 공정합니다."
+      ]
+    },
+    "zh-Hans": {
+      "language": "语言",
+      "title": "“Infinity Maze”怎么玩",
+      "iosTitle": "在 iPhone 或 iPad 上",
+      "macTitle": "在 Mac 上",
+      "tvosTitle": "在 Apple TV 上",
+      "footer": "如有问题，请联系支持：cameoshell09@gmail.com",
+      "ios": [
+        "点击屏幕上希望角色移动的方向。",
+        "可在游戏菜单中选择矩形、六边形或蜂巢迷宫。",
+        "六边形和蜂巢迷宫支持六方向移动，可点击斜向路径前进。",
+        "点击“Start Over”开始新游戏。",
+        "Easy、Medium、Hard 和 Insane 难度分别对应 5、15、45、100 分。",
+        "Pro 解锁全部英雄并提供双倍迷宫币奖励；排行榜得分保持公平。",
+        "如需当前迷宫的纸质版本，可使用 Print。"
+      ],
+      "mac": [
+        "点击游戏窗口，或使用方向键，按对应方向移动。",
+        "可在迷宫类型菜单中选择 Rectangular、Hexagonal 或 Honeycomb。",
+        "六边形和蜂巢迷宫支持六方向移动，可点击或使用支持的控制方式朝斜向路径移动。",
+        "点击“Start Over”开始新游戏。",
+        "Easy、Medium、Hard 和 Insane 难度分别对应 5、15、45、100 分。",
+        "Pro 解锁全部英雄并提供双倍迷宫币奖励；排行榜得分保持公平。",
+        "如需当前迷宫的纸质版本，可使用 Print。"
+      ],
+      "tvos": [
+        "在遥控器点按板上滑动，按最接近的迷宫方向移动。",
+        "六边形和蜂巢迷宫可通过斜向滑动支持六方向移动。",
+        "遥控器方向键是四个主要方向的快捷操作。",
+        "按下遥控器的播放/暂停键打开设置。",
+        "双击遥控器点按板打开 Game Center。",
+        "Easy、Medium、Hard 和 Insane 难度分别对应 5、15、45、100 分。",
+        "Pro 解锁全部英雄并提供双倍迷宫币奖励；排行榜得分保持公平。"
+      ]
+    },
+    "zh-Hant": {
+      "language": "語言",
+      "title": "「Infinity Maze」怎麼玩",
+      "iosTitle": "在 iPhone 或 iPad 上",
+      "macTitle": "在 Mac 上",
+      "tvosTitle": "在 Apple TV 上",
+      "footer": "如有問題，請聯絡支援：cameoshell09@gmail.com",
+      "ios": [
+        "點擊螢幕上希望角色移動的方向。",
+        "可在遊戲選單中選擇矩形、六邊形或蜂巢迷宮。",
+        "六邊形和蜂巢迷宮支援六方向移動，可點擊斜向路徑前進。",
+        "點擊「Start Over」開始新遊戲。",
+        "Easy、Medium、Hard 和 Insane 難度分別對應 5、15、45、100 分。",
+        "Pro 解鎖全部英雄並提供雙倍迷宮幣獎勵；排行榜得分保持公平。",
+        "如需目前迷宮的紙本版本，可使用 Print。"
+      ],
+      "mac": [
+        "點擊遊戲視窗，或使用方向鍵，按對應方向移動。",
+        "可在迷宮類型選單中選擇 Rectangular、Hexagonal 或 Honeycomb。",
+        "六邊形和蜂巢迷宮支援六方向移動，可點擊或使用支援的控制方式朝斜向路徑移動。",
+        "點擊「Start Over」開始新遊戲。",
+        "Easy、Medium、Hard 和 Insane 難度分別對應 5、15、45、100 分。",
+        "Pro 解鎖全部英雄並提供雙倍迷宮幣獎勵；排行榜得分保持公平。",
+        "如需目前迷宮的紙本版本，可使用 Print。"
+      ],
+      "tvos": [
+        "在遙控器點按板上滑動，按最接近的迷宮方向移動。",
+        "六邊形和蜂巢迷宮可透過斜向滑動支援六方向移動。",
+        "遙控器方向鍵是四個主要方向的快捷操作。",
+        "按下遙控器的播放/暫停鍵打開設定。",
+        "按兩下遙控器點按板打開 Game Center。",
+        "Easy、Medium、Hard 和 Insane 難度分別對應 5、15、45、100 分。",
+        "Pro 解鎖全部英雄並提供雙倍迷宮幣獎勵；排行榜得分保持公平。"
+      ]
+    }
+  },
+  "privacy": {
+    "en": {
+      "language": "Language",
+      "title": "Privacy Policy",
+      "date": "Effective date: September 3, 2026",
+      "sections": [
+        [
+          "Introduction",
+          "This Privacy Policy explains how Infinity Maze handles information when you use the app or visit this website. By using the app or website, you accept this policy."
+        ],
+        [
+          "Contact",
+          "If you have questions about this Privacy Policy, contact support: cameoshell09@gmail.com"
+        ],
+        [
+          "User accounts",
+          "Infinity Maze does not require you to create an account or provide personal information."
+        ],
+        [
+          "Personal information",
+          "Infinity Maze does not collect personal information such as your name or email address. We do not collect keystrokes or other unrelated device data."
+        ],
+        [
+          "Data stored on device",
+          "Infinity Maze uses local storage for game settings and progress. This data stays offline on your device."
+        ],
+        [
+          "Analytics data",
+          "Starting with version 1.5.0, Infinity Maze sends first-party pseudonymous product events such as app open, maze start and completion, replay, daily challenge, control mode, paywall view, and purchase result. Data may include random installation and session identifiers, app and build version, operating system, locale, and fixed gameplay categories. Identifiers are HMAC-hashed before database storage. We do not store maze paths, Game Center identities, names, email addresses, free-form text, or raw IP addresses. Cloudflare provides the collection endpoint and database infrastructure and processes standard network information needed to deliver and protect the service. Analytics is used only to understand and improve the product, not for advertising or cross-app tracking."
+        ],
+        [
+          "Children’s privacy",
+          "We do not knowingly collect personal information from children. Parents and guardians are encouraged to help children use apps and websites safely."
+        ],
+        [
+          "Changes to this policy",
+          "We may update this policy from time to time. When we do, we will update the effective date on this page."
+        ],
+        [
+          "Your acceptance",
+          "If you do not agree with this policy, please do not use the app or website. Continuing to use the app or website means you accept the current policy."
+        ]
+      ]
+    },
+    "ar": {
+      "language": "اللغة",
+      "title": "سياسة الخصوصية",
+      "date": "تاريخ السريان: 3 سبتمبر 2026",
+      "sections": [
+        [
+          "المقدمة",
+          "توضح سياسة الخصوصية هذه كيفية تعامل Infinity Maze مع المعلومات عند استخدام التطبيق أو زيارة هذا الموقع. باستخدام التطبيق أو الموقع، فإنك توافق على هذه السياسة."
+        ],
+        [
+          "التواصل",
+          "إذا كانت لديك أسئلة حول سياسة الخصوصية، تواصل مع الدعم: cameoshell09@gmail.com"
+        ],
+        [
+          "حسابات المستخدمين",
+          "لا يتطلب Infinity Maze إنشاء حساب أو تقديم معلومات شخصية."
+        ],
+        [
+          "المعلومات الشخصية",
+          "لا يجمع Infinity Maze معلومات شخصية مثل الاسم أو البريد الإلكتروني. ولا نجمع ضغطات المفاتيح أو بيانات الجهاز غير المرتبطة بالخدمة."
+        ],
+        [
+          "البيانات المخزنة على الجهاز",
+          "يستخدم Infinity Maze التخزين المحلي لإعدادات اللعبة والتقدم. تبقى هذه البيانات دون اتصال على جهازك."
+        ],
+        [
+          "بيانات التحليلات",
+          "بدءًا من الإصدار 1.5.0، يرسل Infinity Maze أحداث استخدام مستعارة من الطرف الأول، مثل فتح التطبيق وبدء المتاهة وإكمالها وإعادة اللعب والتحدي اليومي وطريقة التحكم وعرض صفحة الشراء ونتيجة الشراء. قد تشمل البيانات معرّفات عشوائية للتثبيت والجلسة وإصدار التطبيق والنظام واللغة وفئات لعب ثابتة. تُحوّل المعرّفات إلى قيم HMAC قبل تخزينها. لا نخزن مسارات المتاهة أو هويات Game Center أو الأسماء أو البريد الإلكتروني أو النص الحر أو عناوين IP الخام. توفر Cloudflare نقطة الجمع وقاعدة البيانات وتعالج معلومات الشبكة القياسية اللازمة لتشغيل الخدمة وحمايتها. تُستخدم التحليلات فقط لفهم المنتج وتحسينه، وليس للإعلانات أو للتتبع عبر التطبيقات."
+        ],
+        [
+          "خصوصية الأطفال",
+          "لا نجمع عن علم معلومات شخصية من الأطفال. نشجع الآباء والأوصياء على مساعدة الأطفال في استخدام التطبيقات والمواقع بأمان."
+        ],
+        [
+          "تغييرات السياسة",
+          "قد نحدّث هذه السياسة من وقت لآخر. عند حدوث ذلك، سنحدّث تاريخ السريان في هذه الصفحة."
+        ],
+        [
+          "قبولك",
+          "إذا لم توافق على هذه السياسة، يرجى عدم استخدام التطبيق أو الموقع. استمرارك في الاستخدام يعني قبول السياسة الحالية."
+        ]
+      ]
+    },
+    "de": {
+      "language": "Sprache",
+      "title": "Datenschutzrichtlinie",
+      "date": "Gültig ab: 3. September 2026",
+      "sections": [
+        [
+          "Einführung",
+          "Diese Datenschutzrichtlinie erklärt, wie Infinity Maze mit Informationen umgeht, wenn Sie die App verwenden oder diese Website besuchen. Mit der Nutzung akzeptieren Sie diese Richtlinie."
+        ],
+        [
+          "Kontakt",
+          "Bei Fragen zu dieser Datenschutzrichtlinie kontaktieren Sie den Support: cameoshell09@gmail.com"
+        ],
+        [
+          "Benutzerkonten",
+          "Infinity Maze erfordert kein Benutzerkonto und keine persönlichen Informationen."
+        ],
+        [
+          "Persönliche Informationen",
+          "Infinity Maze sammelt keine persönlichen Informationen wie Name oder E-Mail-Adresse. Wir sammeln keine Tastatureingaben oder sonstige nicht mit dem Dienst verbundene Gerätedaten."
+        ],
+        [
+          "Lokale Daten",
+          "Infinity Maze verwendet lokalen Speicher für Spieleinstellungen und Fortschritt. Diese Daten bleiben offline auf Ihrem Gerät."
+        ],
+        [
+          "Analysedaten",
+          "Ab Version 1.5.0 sendet Infinity Maze pseudonyme First-Party-Produkt-Ereignisse, etwa App-Start, Start und Abschluss eines Labyrinths, erneutes Spielen, tägliche Herausforderung, Steuerungsart, Anzeige der Kaufseite und Kaufergebnis. Die Daten können zufällige Installations- und Sitzungskennungen, App-, Build- und Betriebssystemversion, Sprache sowie feste Spielkategorien enthalten. Kennungen werden vor der Speicherung per HMAC gehasht. Labyrinthpfade, Game-Center-Identitäten, Namen, E-Mail-Adressen, Freitext und rohe IP-Adressen werden nicht gespeichert. Cloudflare stellt Erfassungsendpunkt und Datenbank bereit und verarbeitet die zum Betrieb und Schutz des Dienstes nötigen Standard-Netzwerkinformationen. Analysen dienen nur dazu, das Produkt zu verstehen und zu verbessern, nicht der Werbung oder dem appübergreifenden Tracking."
+        ],
+        [
+          "Datenschutz von Kindern",
+          "Wir sammeln wissentlich keine persönlichen Informationen von Kindern. Eltern und Erziehungsberechtigte sollten Kinder bei der sicheren Nutzung von Apps und Websites unterstützen."
+        ],
+        [
+          "Änderungen",
+          "Wir können diese Richtlinie gelegentlich aktualisieren. In diesem Fall aktualisieren wir das Gültigkeitsdatum auf dieser Seite."
+        ],
+        [
+          "Ihre Zustimmung",
+          "Wenn Sie dieser Richtlinie nicht zustimmen, verwenden Sie die App oder Website bitte nicht. Die weitere Nutzung bedeutet, dass Sie die aktuelle Richtlinie akzeptieren."
+        ]
+      ]
+    },
+    "es": {
+      "language": "Idioma",
+      "title": "Política de privacidad",
+      "date": "Fecha de entrada en vigor: 3 de septiembre de 2026",
+      "sections": [
+        [
+          "Introducción",
+          "Esta Política de privacidad explica cómo Infinity Maze gestiona la información cuando usas la app o visitas este sitio web. Al usar la app o el sitio, aceptas esta política."
+        ],
+        [
+          "Contacto",
+          "Si tienes preguntas sobre esta Política de privacidad, contacta con soporte: cameoshell09@gmail.com"
+        ],
+        [
+          "Cuentas de usuario",
+          "Infinity Maze no requiere crear una cuenta ni proporcionar información personal."
+        ],
+        [
+          "Información personal",
+          "Infinity Maze no recopila información personal como tu nombre o correo electrónico. No recopilamos pulsaciones de teclado ni otros datos del dispositivo no relacionados con el servicio."
+        ],
+        [
+          "Datos almacenados en el dispositivo",
+          "Infinity Maze usa almacenamiento local para ajustes y progreso del juego. Estos datos permanecen sin conexión en tu dispositivo."
+        ],
+        [
+          "Datos analíticos",
+          "A partir de la versión 1.5.0, Infinity Maze envía eventos seudonimizados propios del producto, como apertura de la app, inicio y finalización del laberinto, repetición, desafío diario, modo de control, vista de la página de compra y resultado de compra. Los datos pueden incluir identificadores aleatorios de instalación y sesión, versiones de la app, compilación y sistema, idioma y categorías fijas del juego. Los identificadores se convierten en hashes HMAC antes de almacenarse. No guardamos rutas del laberinto, identidades de Game Center, nombres, correos, texto libre ni direcciones IP sin procesar. Cloudflare proporciona el punto de recopilación y la base de datos y procesa la información de red estándar necesaria para prestar y proteger el servicio. Los análisis se usan solo para comprender y mejorar el producto, no para publicidad ni seguimiento entre apps."
+        ],
+        [
+          "Privacidad infantil",
+          "No recopilamos conscientemente información personal de niños. Recomendamos a padres y tutores ayudar a los niños a usar apps y sitios web de forma segura."
+        ],
+        [
+          "Cambios en esta política",
+          "Podemos actualizar esta política ocasionalmente. Cuando lo hagamos, actualizaremos la fecha de entrada en vigor en esta página."
+        ],
+        [
+          "Tu aceptación",
+          "Si no estás de acuerdo con esta política, no uses la app ni el sitio web. Seguir usándolos significa que aceptas la política vigente."
+        ]
+      ]
+    },
+    "fr": {
+      "language": "Langue",
+      "title": "Politique de confidentialité",
+      "date": "Date d’entrée en vigueur : 3 septembre 2026",
+      "sections": [
+        [
+          "Introduction",
+          "Cette Politique de confidentialité explique comment Infinity Maze traite les informations lorsque vous utilisez l’app ou visitez ce site. En les utilisant, vous acceptez cette politique."
+        ],
+        [
+          "Contact",
+          "Pour toute question concernant cette politique, contactez le support : cameoshell09@gmail.com"
+        ],
+        [
+          "Comptes utilisateur",
+          "Infinity Maze ne nécessite pas de créer un compte ni de fournir des informations personnelles."
+        ],
+        [
+          "Informations personnelles",
+          "Infinity Maze ne collecte pas d’informations personnelles comme votre nom ou votre adresse e-mail. Nous ne collectons pas les frappes clavier ni d’autres données d’appareil sans rapport avec le service."
+        ],
+        [
+          "Données stockées sur l’appareil",
+          "Infinity Maze utilise le stockage local pour les réglages et la progression. Ces données restent hors ligne sur votre appareil."
+        ],
+        [
+          "Données d’analyse",
+          "À partir de la version 1.5.0, Infinity Maze envoie des événements produit pseudonymisés internes, tels que l’ouverture de l’app, le début et la fin d’un labyrinthe, le rejeu, le défi quotidien, le mode de contrôle, l’affichage de la page d’achat et le résultat d’achat. Les données peuvent inclure des identifiants aléatoires d’installation et de session, les versions de l’app, du build et du système, la langue et des catégories de jeu fixes. Les identifiants sont hachés par HMAC avant stockage. Nous ne stockons ni parcours du labyrinthe, ni identité Game Center, ni nom, e-mail, texte libre ou adresse IP brute. Cloudflare fournit le point de collecte et la base de données et traite les informations réseau standard nécessaires au fonctionnement et à la protection du service. Les analyses servent uniquement à comprendre et améliorer le produit, pas à la publicité ni au suivi entre apps."
+        ],
+        [
+          "Confidentialité des enfants",
+          "Nous ne collectons pas sciemment d’informations personnelles auprès des enfants. Les parents et tuteurs sont encouragés à aider les enfants à utiliser apps et sites en sécurité."
+        ],
+        [
+          "Modifications",
+          "Nous pouvons mettre cette politique à jour de temps à autre. Dans ce cas, nous mettrons à jour la date d’entrée en vigueur sur cette page."
+        ],
+        [
+          "Votre acceptation",
+          "Si vous n’acceptez pas cette politique, veuillez ne pas utiliser l’app ou le site. Continuer à les utiliser signifie accepter la politique actuelle."
+        ]
+      ]
+    },
+    "ja": {
+      "language": "言語",
+      "title": "プライバシーポリシー",
+      "date": "発効日: 2026年9月3日",
+      "sections": [
+        [
+          "はじめに",
+          "本プライバシーポリシーは、Infinity Mazeアプリまたは本ウェブサイトの利用時に情報をどのように扱うかを説明します。利用することで本ポリシーに同意したものとみなされます。"
+        ],
+        [
+          "お問い合わせ",
+          "本ポリシーに関する質問はサポートまで: cameoshell09@gmail.com"
+        ],
+        [
+          "ユーザーアカウント",
+          "Infinity Mazeはアカウント作成や個人情報の提供を必要としません。"
+        ],
+        [
+          "個人情報",
+          "Infinity Mazeは氏名やメールアドレスなどの個人情報を収集しません。キーストロークやサービスと無関係な端末データも収集しません。"
+        ],
+        [
+          "端末上のデータ",
+          "Infinity Mazeはゲーム設定と進行状況のためにローカルストレージを使用します。これらのデータは端末上にオフラインで保存されます。"
+        ],
+        [
+          "分析データ",
+          "バージョン1.5.0以降、Infinity Maze は、アプリ起動、迷路の開始・完了、再プレイ、デイリーチャレンジ、操作方法、購入画面の表示、購入結果など、仮名化されたファーストパーティーのプロダクトイベントを送信します。データにはランダムなインストール／セッション識別子、アプリ・ビルド・OSのバージョン、言語、および固定されたゲーム分類が含まれる場合があります。識別子はデータベース保存前に HMAC でハッシュ化されます。迷路の経路、Game Center の個人識別情報、氏名、メールアドレス、自由入力文、未加工の IP アドレスは保存しません。Cloudflare は収集エンドポイントとデータベース基盤を提供し、サービスの提供と保護に必要な標準的なネットワーク情報を処理します。分析は製品の理解と改善にのみ使用し、広告やアプリ横断トラッキングには使用しません。"
+        ],
+        [
+          "子どものプライバシー",
+          "当方は子どもから個人情報を故意に収集しません。保護者の方は、子どもがアプリやウェブサイトを安全に利用できるよう支援してください。"
+        ],
+        [
+          "変更",
+          "本ポリシーは随時更新される場合があります。その際はこのページの発効日を更新します。"
+        ],
+        [
+          "同意",
+          "本ポリシーに同意しない場合は、アプリまたはウェブサイトを使用しないでください。継続して使用することは、現在のポリシーへの同意を意味します。"
+        ]
+      ]
+    },
+    "ko": {
+      "language": "언어",
+      "title": "개인정보 처리방침",
+      "date": "시행일: 2026년 9월 3일",
+      "sections": [
+        [
+          "소개",
+          "이 개인정보 처리방침은 Infinity Maze 앱 또는 이 웹사이트를 사용할 때 정보가 어떻게 처리되는지 설명합니다. 앱 또는 웹사이트를 사용하면 이 방침에 동의하는 것입니다."
+        ],
+        [
+          "문의",
+          "이 방침에 대한 질문은 지원팀으로 연락하세요: cameoshell09@gmail.com"
+        ],
+        [
+          "사용자 계정",
+          "Infinity Maze는 계정 생성이나 개인정보 제공을 요구하지 않습니다."
+        ],
+        [
+          "개인정보",
+          "Infinity Maze는 이름이나 이메일 주소 같은 개인정보를 수집하지 않습니다. 키 입력이나 서비스와 관련 없는 기기 데이터도 수집하지 않습니다."
+        ],
+        [
+          "기기에 저장되는 데이터",
+          "Infinity Maze는 게임 설정과 진행 상황을 위해 로컬 저장소를 사용합니다. 이 데이터는 기기에 오프라인으로 저장됩니다."
+        ],
+        [
+          "분석 데이터",
+          "버전 1.5.0부터 Infinity Maze는 앱 열기, 미로 시작 및 완료, 다시 플레이, 일일 도전, 조작 방식, 구매 화면 보기, 구매 결과와 같은 가명 처리된 자사 제품 이벤트를 전송합니다. 데이터에는 무작위 설치 및 세션 식별자, 앱·빌드·운영체제 버전, 언어 및 고정된 게임 범주가 포함될 수 있습니다. 식별자는 데이터베이스에 저장되기 전에 HMAC으로 해시됩니다. 미로 경로, Game Center 신원, 이름, 이메일 주소, 자유 입력 텍스트 또는 원본 IP 주소는 저장하지 않습니다. Cloudflare는 수집 엔드포인트와 데이터베이스 인프라를 제공하며 서비스 제공 및 보호에 필요한 표준 네트워크 정보를 처리합니다. 분석은 제품을 이해하고 개선하는 데만 사용되며 광고나 앱 간 추적에는 사용되지 않습니다."
+        ],
+        [
+          "아동 개인정보",
+          "당사는 아동의 개인정보를 고의로 수집하지 않습니다. 부모와 보호자는 아동이 앱과 웹사이트를 안전하게 사용할 수 있도록 도와주시기 바랍니다."
+        ],
+        [
+          "방침 변경",
+          "이 방침은 때때로 업데이트될 수 있습니다. 변경 시 이 페이지의 시행일을 업데이트합니다."
+        ],
+        [
+          "동의",
+          "이 방침에 동의하지 않는 경우 앱 또는 웹사이트를 사용하지 마세요. 계속 사용하면 현재 방침에 동의하는 것으로 간주됩니다."
+        ]
+      ]
+    },
+    "zh-Hans": {
+      "language": "语言",
+      "title": "隐私政策",
+      "date": "生效日期：2026 年 9 月 3 日",
+      "sections": [
+        [
+          "简介",
+          "本隐私政策说明你使用 Infinity Maze App 或访问本网站时，我们如何处理信息。使用 App 或网站即表示你接受本政策。"
+        ],
+        [
+          "联系方式",
+          "如对本隐私政策有疑问，请联系支持：cameoshell09@gmail.com"
+        ],
+        [
+          "用户账户",
+          "Infinity Maze 不要求你创建账户，也不要求你提供个人信息。"
+        ],
+        [
+          "个人信息",
+          "Infinity Maze 不收集你的姓名、邮箱等个人信息，也不收集键盘输入或与服务无关的设备数据。"
+        ],
+        [
+          "设备本地数据",
+          "Infinity Maze 使用本地存储保存游戏设置和进度。这些数据离线保存在你的设备上。"
+        ],
+        [
+          "分析数据",
+          "从 1.5.0 版本开始，Infinity Maze 会发送第一方假名化产品事件，包括 App 打开、迷宫开始与完成、重玩、每日挑战、控制方式、付费页和购买结果。数据可能包含随机安装与会话标识、App 与构建版本、系统版本、语言地区及固定的游戏分类。标识会在写入数据库前使用 HMAC 哈希。我们不存储迷宫路径、Game Center 身份、姓名、邮箱、自由文本或原始 IP 地址。Cloudflare 提供收集端点与数据库基础设施，并处理提供及保护服务所需的标准网络信息。分析仅用于了解和改进产品，不用于广告或跨 App 跟踪。"
+        ],
+        [
+          "儿童隐私",
+          "我们不会有意收集儿童的个人信息。建议家长和监护人帮助儿童安全使用 App 和网站。"
+        ],
+        [
+          "政策变更",
+          "我们可能会不时更新本政策。更新时，我们会修改本页面的生效日期。"
+        ],
+        [
+          "你的接受",
+          "如果你不同意本政策，请不要使用 App 或网站。继续使用即表示你接受当前政策。"
+        ]
+      ]
+    },
+    "zh-Hant": {
+      "language": "語言",
+      "title": "隱私政策",
+      "date": "生效日期：2026 年 9 月 3 日",
+      "sections": [
+        [
+          "簡介",
+          "本隱私政策說明你使用 Infinity Maze App 或瀏覽本網站時，我們如何處理資訊。使用 App 或網站即表示你接受本政策。"
+        ],
+        [
+          "聯絡方式",
+          "如對本隱私政策有疑問，請聯絡支援：cameoshell09@gmail.com"
+        ],
+        [
+          "使用者帳戶",
+          "Infinity Maze 不要求你建立帳戶，也不要求你提供個人資訊。"
+        ],
+        [
+          "個人資訊",
+          "Infinity Maze 不收集你的姓名、電子郵件等個人資訊，也不收集鍵盤輸入或與服務無關的裝置資料。"
+        ],
+        [
+          "裝置本機資料",
+          "Infinity Maze 使用本機儲存保存遊戲設定和進度。這些資料離線保存在你的裝置上。"
+        ],
+        [
+          "分析資料",
+          "從 1.5.0 版本開始，Infinity Maze 會傳送第一方假名化產品事件，包括 App 開啟、迷宮開始與完成、重玩、每日挑戰、控制方式、付費頁和購買結果。資料可能包含隨機安裝與工作階段識別碼、App 與組建版本、系統版本、語言地區及固定的遊戲分類。識別碼會在寫入資料庫前使用 HMAC 雜湊。我們不儲存迷宮路徑、Game Center 身分、姓名、電子郵件、自由文字或原始 IP 位址。Cloudflare 提供收集端點與資料庫基礎設施，並處理提供及保護服務所需的標準網路資訊。分析僅用於瞭解和改進產品，不會用於廣告或跨 App 追蹤。"
+        ],
+        [
+          "兒童隱私",
+          "我們不會有意收集兒童的個人資訊。建議家長和監護人協助兒童安全使用 App 和網站。"
+        ],
+        [
+          "政策變更",
+          "我們可能會不時更新本政策。更新時，我們會修改本頁面的生效日期。"
+        ],
+        [
+          "你的接受",
+          "如果你不同意本政策，請不要使用 App 或網站。繼續使用即表示你接受目前政策。"
+        ]
+      ]
+    }
+  }
+}

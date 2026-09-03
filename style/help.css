@@ -1,67 +1,114 @@
-:root {
-  --panel-bg-color: #F5F5F5;
-  --accordion-bg-color: #ddd;
-  --accordion-text-color: #444;
-  --accordion-hover-bg-color: #ccc;
-  --accordion-icon-color: #777;
+.page-header {
+  padding: clamp(30px, 6vw, 68px);
+  border-radius: 36px;
 }
+
+.page-header h1 {
+  max-width: 900px;
+  font-size: clamp(2.8rem, 7vw, 6rem);
+}
+
+.effective-date {
+  display: inline-flex;
+  margin: 22px 0 0;
+  padding: 7px 12px;
+  border-radius: 999px;
+  color: #5c48dc;
+  background: rgba(128, 104, 255, 0.11);
+  font-size: 0.88rem;
+  font-weight: 760;
+}
+
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.help-card,
+.policy-section,
+.support-card {
+  border-radius: 28px;
+  padding: 26px;
+}
+
+.help-card h2,
+.policy-section h2,
+.support-card h2,
+.download-panel h2 {
+  margin: 10px 0 12px;
+  color: var(--night);
+  font-size: clamp(1.3rem, 2.4vw, 1.8rem);
+  line-height: 1.16;
+  letter-spacing: -0.035em;
+}
+
+.card-index { color: #6c53e7; font-size: 0.78rem; font-weight: 850; letter-spacing: 0.13em; }
+.help-card ul { margin: 18px 0 0; padding-inline-start: 20px; color: var(--muted); }
+.help-card li + li { margin-top: 12px; }
+
+.download-panel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 26px;
+  padding: 28px;
+  border-radius: 28px;
+  color: #f6f7ff;
+  background: linear-gradient(135deg, var(--night), var(--night-soft));
+}
+
+.download-panel h2 { color: #fff; }
+.download-panel p { max-width: 700px; margin: 0; color: #c7cae7; }
+
+.policy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.policy-section p,
+.support-card p { margin: 0; color: var(--muted); }
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 26px;
+}
+
+.support-card { min-height: 260px; }
+.support-card .feature-icon { margin-bottom: 18px; }
+
+.text-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #5c48dc;
+  font-weight: 780;
+  overflow-wrap: anywhere;
+}
+
+.resource-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+.resource-links > a:not(.button) { padding: 10px 14px; border: 1px solid var(--line); border-radius: 14px; font-weight: 720; }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --panel-bg-color: #121212;
-    --accordion-bg-color: #333;
-    --accordion-text-color: #fff;
-    --accordion-hover-bg-color: #555;
-    --accordion-icon-color: #ddd;
-  }
+  .help-card h2,
+  .policy-section h2,
+  .support-card h2 { color: #fff; }
+  .effective-date, .text-link { color: #a99bff; }
 }
 
-.wrapper {
-  margin: auto;
-  max-width: 1280px;
+@media (max-width: 900px) {
+  .help-grid { grid-template-columns: 1fr; }
+  .policy-grid, .support-grid { grid-template-columns: 1fr; }
+  .support-card { min-height: 0; }
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: var(--accordion-bg-color);
-  color: var(--accordion-text-color);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  font-weight: bold;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-  background-color: var(--accordion-hover-bg-color);
-}
-
-.accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: var(--accordion-icon-color);
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
-}
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {
-  padding: 0 18px;
-  background-color: var(--panel-bg-color);
-  max-height: none;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-
-.footer {
-  width: 100%;
-  text-align: center;
+@media (max-width: 650px) {
+  .page-header { padding: 28px 22px; border-radius: 28px; }
+  .help-card, .policy-section, .support-card { padding: 22px; border-radius: 24px; }
+  .download-panel { align-items: stretch; flex-direction: column; }
 }
