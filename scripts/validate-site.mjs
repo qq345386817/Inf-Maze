@@ -90,10 +90,15 @@ const robots = fs.readFileSync(path.join(rootDir, "robots.txt"), "utf8");
 assert(robots.includes("Sitemap: https://inf-maze.luopeike.com/sitemap.xml"), "robots.txt has the wrong sitemap URL");
 
 const redirects = fs.readFileSync(path.join(rootDir, "_redirects"), "utf8").trim().split("\n");
-assert(redirects.length === 36, `Expected 36 permanent legacy redirects, found ${redirects.length}`);
-for (const redirect of redirects) {
+assert(redirects[0] === "/google8bdd3bd447b6e703.html /google8bdd3bd447b6e703.txt 200", "Search ownership file must bypass automatic HTML redirects");
+assert(redirects.length === 37, `Expected one ownership rewrite and 36 permanent legacy redirects, found ${redirects.length}`);
+for (const redirect of redirects.slice(1)) {
   assert(/^\/[A-Za-z-]*(?:\/)?(?:index|help|privacy-policy|support)\.html \/[^ ]* 301$/.test(redirect), `Invalid redirect: ${redirect}`);
 }
+
+const verificationHtml = fs.readFileSync(path.join(rootDir, "google8bdd3bd447b6e703.html"), "utf8");
+const verificationTarget = fs.readFileSync(path.join(rootDir, "google8bdd3bd447b6e703.txt"), "utf8").trimEnd();
+assert(verificationHtml === verificationTarget, "Search ownership rewrite must preserve the exact verification token");
 
 const headers = fs.readFileSync(path.join(rootDir, "_headers"), "utf8");
 assert(headers.includes("Strict-Transport-Security: max-age=31536000"), "Missing HSTS header");
