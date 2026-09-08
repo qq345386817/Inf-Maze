@@ -412,7 +412,7 @@
     "en": {
       "language": "Language",
       "title": "Privacy Policy",
-      "date": "Effective date: September 3, 2026",
+      "date": "Effective date: September 8, 2026",
       "sections": [
         [
           "Introduction",
@@ -436,7 +436,7 @@
         ],
         [
           "Analytics data",
-          "Starting with version 1.5.0, Infinity Maze sends first-party pseudonymous product events such as app open, maze start and completion, replay, daily challenge, control mode, paywall view, and purchase result. Data may include random installation and session identifiers, app and build version, operating system, locale, and fixed gameplay categories. Identifiers are HMAC-hashed before database storage. We do not store maze paths, Game Center identities, names, email addresses, free-form text, or raw IP addresses. Cloudflare provides the collection endpoint and database infrastructure and processes standard network information needed to deliver and protect the service. Analytics is used only to understand and improve the product, not for advertising or cross-app tracking."
+          "Starting with version 1.5.0, Infinity Maze sends first-party pseudonymous product events such as app open, maze start and completion, replay, daily challenge, control mode, paywall view, and purchase result. Purchase events may include the App Store product identifier and whether the attempt succeeded, remained pending, was cancelled, or failed; they do not include payment details. Data may also include random installation and session identifiers, app and build version, operating system, locale, and fixed gameplay categories. The random identifiers are not combined with Game Center identities, user accounts, or third-party data, and are HMAC-hashed before database storage. We do not store maze paths, names, email addresses, free-form text, or raw IP addresses. Cloudflare provides the collection endpoint and database infrastructure and processes standard network information needed to deliver and protect the service. Analytics is used only to understand and improve the product, not for advertising or cross-app tracking."
         ],
         [
           "Children’s privacy",
@@ -455,7 +455,7 @@
     "ar": {
       "language": "اللغة",
       "title": "سياسة الخصوصية",
-      "date": "تاريخ السريان: 3 سبتمبر 2026",
+      "date": "تاريخ السريان: 8 سبتمبر 2026",
       "sections": [
         [
           "المقدمة",
@@ -479,7 +479,7 @@
         ],
         [
           "بيانات التحليلات",
-          "بدءًا من الإصدار 1.5.0، يرسل Infinity Maze أحداث استخدام مستعارة من الطرف الأول، مثل فتح التطبيق وبدء المتاهة وإكمالها وإعادة اللعب والتحدي اليومي وطريقة التحكم وعرض صفحة الشراء ونتيجة الشراء. قد تشمل البيانات معرّفات عشوائية للتثبيت والجلسة وإصدار التطبيق والنظام واللغة وفئات لعب ثابتة. تُحوّل المعرّفات إلى قيم HMAC قبل تخزينها. لا نخزن مسارات المتاهة أو هويات Game Center أو الأسماء أو البريد الإلكتروني أو النص الحر أو عناوين IP الخام. توفر Cloudflare نقطة الجمع وقاعدة البيانات وتعالج معلومات الشبكة القياسية اللازمة لتشغيل الخدمة وحمايتها. تُستخدم التحليلات فقط لفهم المنتج وتحسينه، وليس للإعلانات أو للتتبع عبر التطبيقات."
+          "بدءًا من الإصدار 1.5.0، يرسل Infinity Maze أحداث استخدام مستعارة من الطرف الأول، مثل فتح التطبيق وبدء المتاهة وإكمالها وإعادة اللعب والتحدي اليومي وطريقة التحكم وعرض صفحة الشراء ونتيجة الشراء. قد تتضمن أحداث الشراء معرّف منتج App Store وما إذا كانت المحاولة ناجحة أو معلّقة أو ملغاة أو فاشلة، ولا تتضمن تفاصيل الدفع. وقد تشمل البيانات أيضًا معرّفات عشوائية للتثبيت والجلسة وإصدار التطبيق والبنية ونظام التشغيل واللغة وفئات لعب ثابتة. لا تُدمج المعرّفات العشوائية مع هويات Game Center أو حسابات المستخدمين أو بيانات الأطراف الثالثة، وتُحوّل إلى قيم HMAC قبل تخزينها. لا نخزن مسارات المتاهة أو الأسماء أو البريد الإلكتروني أو النص الحر أو عناوين IP الخام. توفر Cloudflare نقطة الجمع وقاعدة البيانات وتعالج معلومات الشبكة القياسية اللازمة لتشغيل الخدمة وحمايتها. تُستخدم التحليلات فقط لفهم المنتج وتحسينه، وليس للإعلانات أو للتتبع عبر التطبيقات."
         ],
         [
           "خصوصية الأطفال",
@@ -498,7 +498,7 @@
     "de": {
       "language": "Sprache",
       "title": "Datenschutzrichtlinie",
-      "date": "Gültig ab: 3. September 2026",
+      "date": "Gültig ab: 8. September 2026",
       "sections": [
         [
           "Einführung",
@@ -522,7 +522,7 @@
         ],
         [
           "Analysedaten",
-          "Ab Version 1.5.0 sendet Infinity Maze pseudonyme First-Party-Produkt-Ereignisse, etwa App-Start, Start und Abschluss eines Labyrinths, erneutes Spielen, tägliche Herausforderung, Steuerungsart, Anzeige der Kaufseite und Kaufergebnis. Die Daten können zufällige Installations- und Sitzungskennungen, App-, Build- und Betriebssystemversion, Sprache sowie feste Spielkategorien enthalten. Kennungen werden vor der Speicherung per HMAC gehasht. Labyrinthpfade, Game-Center-Identitäten, Namen, E-Mail-Adressen, Freitext und rohe IP-Adressen werden nicht gespeichert. Cloudflare stellt Erfassungsendpunkt und Datenbank bereit und verarbeitet die zum Betrieb und Schutz des Dienstes nötigen Standard-Netzwerkinformationen. Analysen dienen nur dazu, das Produkt zu verstehen und zu verbessern, nicht der Werbung oder dem appübergreifenden Tracking."
+          "Ab Version 1.5.0 sendet Infinity Maze pseudonyme First-Party-Produkt-Ereignisse, etwa App-Start, Start und Abschluss eines Labyrinths, erneutes Spielen, tägliche Herausforderung, Steuerungsart, Anzeige der Kaufseite und Kaufergebnis. Kaufereignisse können die App-Store-Produktkennung sowie den Status erfolgreich, ausstehend, abgebrochen oder fehlgeschlagen enthalten, jedoch keine Zahlungsdaten. Die Daten können außerdem zufällige Installations- und Sitzungskennungen, App-, Build- und Betriebssystemversion, Sprache sowie feste Spielkategorien enthalten. Die zufälligen Kennungen werden nicht mit Game-Center-Identitäten, Benutzerkonten oder Daten Dritter verknüpft und vor der Speicherung per HMAC gehasht. Labyrinthpfade, Namen, E-Mail-Adressen, Freitext und rohe IP-Adressen werden nicht gespeichert. Cloudflare stellt Erfassungsendpunkt und Datenbank bereit und verarbeitet die zum Betrieb und Schutz des Dienstes nötigen Standard-Netzwerkinformationen. Analysen dienen nur dazu, das Produkt zu verstehen und zu verbessern, nicht der Werbung oder dem appübergreifenden Tracking."
         ],
         [
           "Datenschutz von Kindern",
@@ -541,7 +541,7 @@
     "es": {
       "language": "Idioma",
       "title": "Política de privacidad",
-      "date": "Fecha de entrada en vigor: 3 de septiembre de 2026",
+      "date": "Fecha de entrada en vigor: 8 de septiembre de 2026",
       "sections": [
         [
           "Introducción",
@@ -565,7 +565,7 @@
         ],
         [
           "Datos analíticos",
-          "A partir de la versión 1.5.0, Infinity Maze envía eventos seudonimizados propios del producto, como apertura de la app, inicio y finalización del laberinto, repetición, desafío diario, modo de control, vista de la página de compra y resultado de compra. Los datos pueden incluir identificadores aleatorios de instalación y sesión, versiones de la app, compilación y sistema, idioma y categorías fijas del juego. Los identificadores se convierten en hashes HMAC antes de almacenarse. No guardamos rutas del laberinto, identidades de Game Center, nombres, correos, texto libre ni direcciones IP sin procesar. Cloudflare proporciona el punto de recopilación y la base de datos y procesa la información de red estándar necesaria para prestar y proteger el servicio. Los análisis se usan solo para comprender y mejorar el producto, no para publicidad ni seguimiento entre apps."
+          "A partir de la versión 1.5.0, Infinity Maze envía eventos seudonimizados propios del producto, como apertura de la app, inicio y finalización del laberinto, repetición, desafío diario, modo de control, vista de la página de compra y resultado de compra. Los eventos de compra pueden incluir el identificador del producto de App Store y si el intento se completó, quedó pendiente, se canceló o falló; no incluyen datos de pago. Los datos también pueden incluir identificadores aleatorios de instalación y sesión, versiones de la app, compilación y sistema operativo, idioma y categorías fijas del juego. Los identificadores aleatorios no se combinan con identidades de Game Center, cuentas de usuario ni datos de terceros, y se convierten en hashes HMAC antes de almacenarse. No guardamos rutas del laberinto, nombres, correos, texto libre ni direcciones IP sin procesar. Cloudflare proporciona el punto de recopilación y la base de datos y procesa la información de red estándar necesaria para prestar y proteger el servicio. Los análisis se usan solo para comprender y mejorar el producto, no para publicidad ni seguimiento entre apps."
         ],
         [
           "Privacidad infantil",
@@ -584,7 +584,7 @@
     "fr": {
       "language": "Langue",
       "title": "Politique de confidentialité",
-      "date": "Date d’entrée en vigueur : 3 septembre 2026",
+      "date": "Date d’entrée en vigueur : 8 septembre 2026",
       "sections": [
         [
           "Introduction",
@@ -608,7 +608,7 @@
         ],
         [
           "Données d’analyse",
-          "À partir de la version 1.5.0, Infinity Maze envoie des événements produit pseudonymisés internes, tels que l’ouverture de l’app, le début et la fin d’un labyrinthe, le rejeu, le défi quotidien, le mode de contrôle, l’affichage de la page d’achat et le résultat d’achat. Les données peuvent inclure des identifiants aléatoires d’installation et de session, les versions de l’app, du build et du système, la langue et des catégories de jeu fixes. Les identifiants sont hachés par HMAC avant stockage. Nous ne stockons ni parcours du labyrinthe, ni identité Game Center, ni nom, e-mail, texte libre ou adresse IP brute. Cloudflare fournit le point de collecte et la base de données et traite les informations réseau standard nécessaires au fonctionnement et à la protection du service. Les analyses servent uniquement à comprendre et améliorer le produit, pas à la publicité ni au suivi entre apps."
+          "À partir de la version 1.5.0, Infinity Maze envoie des événements produit pseudonymisés internes, tels que l’ouverture de l’app, le début et la fin d’un labyrinthe, le rejeu, le défi quotidien, le mode de contrôle, l’affichage de la page d’achat et le résultat d’achat. Les événements d’achat peuvent inclure l’identifiant du produit App Store et indiquer si la tentative a réussi, est restée en attente, a été annulée ou a échoué ; ils ne contiennent aucune donnée de paiement. Les données peuvent aussi inclure des identifiants aléatoires d’installation et de session, les versions de l’app, du build et du système d’exploitation, la langue et des catégories de jeu fixes. Les identifiants aléatoires ne sont pas combinés avec des identités Game Center, des comptes utilisateur ou des données tierces, et sont hachés par HMAC avant stockage. Nous ne stockons ni parcours du labyrinthe, ni nom, e-mail, texte libre ou adresse IP brute. Cloudflare fournit le point de collecte et la base de données et traite les informations réseau standard nécessaires au fonctionnement et à la protection du service. Les analyses servent uniquement à comprendre et améliorer le produit, pas à la publicité ni au suivi entre apps."
         ],
         [
           "Confidentialité des enfants",
@@ -627,7 +627,7 @@
     "ja": {
       "language": "言語",
       "title": "プライバシーポリシー",
-      "date": "発効日: 2026年9月3日",
+      "date": "発効日: 2026年9月8日",
       "sections": [
         [
           "はじめに",
@@ -651,7 +651,7 @@
         ],
         [
           "分析データ",
-          "バージョン1.5.0以降、Infinity Maze は、アプリ起動、迷路の開始・完了、再プレイ、デイリーチャレンジ、操作方法、購入画面の表示、購入結果など、仮名化されたファーストパーティーのプロダクトイベントを送信します。データにはランダムなインストール／セッション識別子、アプリ・ビルド・OSのバージョン、言語、および固定されたゲーム分類が含まれる場合があります。識別子はデータベース保存前に HMAC でハッシュ化されます。迷路の経路、Game Center の個人識別情報、氏名、メールアドレス、自由入力文、未加工の IP アドレスは保存しません。Cloudflare は収集エンドポイントとデータベース基盤を提供し、サービスの提供と保護に必要な標準的なネットワーク情報を処理します。分析は製品の理解と改善にのみ使用し、広告やアプリ横断トラッキングには使用しません。"
+          "バージョン1.5.0以降、Infinity Maze は、アプリ起動、迷路の開始・完了、再プレイ、デイリーチャレンジ、操作方法、購入画面の表示、購入結果など、仮名化されたファーストパーティーのプロダクトイベントを送信します。購入イベントには App Store の製品識別子と、試行が成功・保留・キャンセル・失敗のいずれであったかが含まれる場合がありますが、支払い情報は含まれません。データにはランダムなインストール／セッション識別子、App・ビルド・OSのバージョン、言語、および固定されたゲーム分類が含まれる場合があります。ランダム識別子は Game Center の個人識別情報、ユーザーアカウント、第三者データと組み合わせず、データベース保存前に HMAC でハッシュ化します。迷路の経路、氏名、メールアドレス、自由入力文、未加工の IP アドレスは保存しません。Cloudflare は収集エンドポイントとデータベース基盤を提供し、サービスの提供と保護に必要な標準的なネットワーク情報を処理します。分析は製品の理解と改善にのみ使用し、広告やアプリ横断トラッキングには使用しません。"
         ],
         [
           "子どものプライバシー",
@@ -670,7 +670,7 @@
     "ko": {
       "language": "언어",
       "title": "개인정보 처리방침",
-      "date": "시행일: 2026년 9월 3일",
+      "date": "시행일: 2026년 9월 8일",
       "sections": [
         [
           "소개",
@@ -694,7 +694,7 @@
         ],
         [
           "분석 데이터",
-          "버전 1.5.0부터 Infinity Maze는 앱 열기, 미로 시작 및 완료, 다시 플레이, 일일 도전, 조작 방식, 구매 화면 보기, 구매 결과와 같은 가명 처리된 자사 제품 이벤트를 전송합니다. 데이터에는 무작위 설치 및 세션 식별자, 앱·빌드·운영체제 버전, 언어 및 고정된 게임 범주가 포함될 수 있습니다. 식별자는 데이터베이스에 저장되기 전에 HMAC으로 해시됩니다. 미로 경로, Game Center 신원, 이름, 이메일 주소, 자유 입력 텍스트 또는 원본 IP 주소는 저장하지 않습니다. Cloudflare는 수집 엔드포인트와 데이터베이스 인프라를 제공하며 서비스 제공 및 보호에 필요한 표준 네트워크 정보를 처리합니다. 분석은 제품을 이해하고 개선하는 데만 사용되며 광고나 앱 간 추적에는 사용되지 않습니다."
+          "버전 1.5.0부터 Infinity Maze는 앱 열기, 미로 시작 및 완료, 다시 플레이, 일일 도전, 조작 방식, 구매 화면 보기, 구매 결과와 같은 가명 처리된 자사 제품 이벤트를 전송합니다. 구매 이벤트에는 App Store 제품 식별자와 시도가 성공, 보류, 취소 또는 실패했는지가 포함될 수 있지만 결제 정보는 포함되지 않습니다. 데이터에는 무작위 설치 및 세션 식별자, 앱·빌드·운영체제 버전, 언어 및 고정된 게임 범주가 포함될 수 있습니다. 무작위 식별자는 Game Center 신원, 사용자 계정 또는 제3자 데이터와 결합되지 않으며 데이터베이스에 저장되기 전에 HMAC으로 해시됩니다. 미로 경로, 이름, 이메일 주소, 자유 입력 텍스트 또는 원본 IP 주소는 저장하지 않습니다. Cloudflare는 수집 엔드포인트와 데이터베이스 인프라를 제공하며 서비스 제공 및 보호에 필요한 표준 네트워크 정보를 처리합니다. 분석은 제품을 이해하고 개선하는 데만 사용되며 광고나 앱 간 추적에는 사용되지 않습니다."
         ],
         [
           "아동 개인정보",
@@ -713,7 +713,7 @@
     "zh-Hans": {
       "language": "语言",
       "title": "隐私政策",
-      "date": "生效日期：2026 年 9 月 3 日",
+      "date": "生效日期：2026 年 9 月 8 日",
       "sections": [
         [
           "简介",
@@ -737,7 +737,7 @@
         ],
         [
           "分析数据",
-          "从 1.5.0 版本开始，Infinity Maze 会发送第一方假名化产品事件，包括 App 打开、迷宫开始与完成、重玩、每日挑战、控制方式、付费页和购买结果。数据可能包含随机安装与会话标识、App 与构建版本、系统版本、语言地区及固定的游戏分类。标识会在写入数据库前使用 HMAC 哈希。我们不存储迷宫路径、Game Center 身份、姓名、邮箱、自由文本或原始 IP 地址。Cloudflare 提供收集端点与数据库基础设施，并处理提供及保护服务所需的标准网络信息。分析仅用于了解和改进产品，不用于广告或跨 App 跟踪。"
+          "从 1.5.0 版本开始，Infinity Maze 会发送第一方假名化产品事件，包括 App 打开、迷宫开始与完成、重玩、每日挑战、控制方式、付费页和购买结果。购买事件可能包含 App Store 产品标识，以及购买尝试成功、待处理、取消或失败的结果，但不包含付款信息。数据还可能包含随机安装与会话标识、App 与构建版本、系统版本、语言地区及固定的游戏分类。随机标识不会与 Game Center 身份、用户账户或第三方数据合并，并会在写入数据库前使用 HMAC 哈希。我们不存储迷宫路径、姓名、邮箱、自由文本或原始 IP 地址。Cloudflare 提供收集端点与数据库基础设施，并处理提供及保护服务所需的标准网络信息。分析仅用于了解和改进产品，不用于广告或跨 App 跟踪。"
         ],
         [
           "儿童隐私",
@@ -756,7 +756,7 @@
     "zh-Hant": {
       "language": "語言",
       "title": "隱私政策",
-      "date": "生效日期：2026 年 9 月 3 日",
+      "date": "生效日期：2026 年 9 月 8 日",
       "sections": [
         [
           "簡介",
@@ -780,7 +780,7 @@
         ],
         [
           "分析資料",
-          "從 1.5.0 版本開始，Infinity Maze 會傳送第一方假名化產品事件，包括 App 開啟、迷宮開始與完成、重玩、每日挑戰、控制方式、付費頁和購買結果。資料可能包含隨機安裝與工作階段識別碼、App 與組建版本、系統版本、語言地區及固定的遊戲分類。識別碼會在寫入資料庫前使用 HMAC 雜湊。我們不儲存迷宮路徑、Game Center 身分、姓名、電子郵件、自由文字或原始 IP 位址。Cloudflare 提供收集端點與資料庫基礎設施，並處理提供及保護服務所需的標準網路資訊。分析僅用於瞭解和改進產品，不會用於廣告或跨 App 追蹤。"
+          "從 1.5.0 版本開始，Infinity Maze 會傳送第一方假名化產品事件，包括 App 開啟、迷宮開始與完成、重玩、每日挑戰、控制方式、付費頁和購買結果。購買事件可能包含 App Store 產品識別碼，以及購買嘗試成功、待處理、取消或失敗的結果，但不包含付款資訊。資料還可能包含隨機安裝與工作階段識別碼、App 與組建版本、系統版本、語言地區及固定的遊戲分類。隨機識別碼不會與 Game Center 身分、使用者帳戶或第三方資料合併，並會在寫入資料庫前使用 HMAC 雜湊。我們不儲存迷宮路徑、姓名、電子郵件、自由文字或原始 IP 位址。Cloudflare 提供收集端點與資料庫基礎設施，並處理提供及保護服務所需的標準網路資訊。分析僅用於瞭解和改進產品，不會用於廣告或跨 App 追蹤。"
         ],
         [
           "兒童隱私",

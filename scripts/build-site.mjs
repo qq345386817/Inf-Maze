@@ -321,7 +321,7 @@ function renderPrivacy(locale) {
     description: t.privacyLead,
     inLanguage: locale.htmlLang,
     url: `${baseUrl}${pagePath(locale, "privacy")}`,
-    dateModified: "2026-09-03",
+    dateModified: "2026-09-08",
     isPartOf: { "@type": "WebSite", name: "Infinity Maze", url: baseUrl },
   };
   const sections = privacy.sections.map(([heading, body]) => `<section class="policy-section"><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p></section>`).join("\n");
@@ -374,9 +374,14 @@ for (const locale of locales) {
 
 const sitemapUrls = [];
 for (const pageKey of Object.keys(pages)) {
-  for (const locale of locales) sitemapUrls.push(`${baseUrl}${pagePath(locale, pageKey)}`);
+  for (const locale of locales) {
+    sitemapUrls.push({
+      url: `${baseUrl}${pagePath(locale, pageKey)}`,
+      lastModified: pageKey === "privacy" ? "2026-09-08" : "2026-09-03",
+    });
+  }
 }
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.map((url) => `  <url><loc>${url}</loc><lastmod>2026-09-03</lastmod></url>`).join("\n")}\n</urlset>\n`;
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.map((entry) => `  <url><loc>${entry.url}</loc><lastmod>${entry.lastModified}</lastmod></url>`).join("\n")}\n</urlset>\n`;
 fs.writeFileSync(path.join(rootDir, "sitemap.xml"), sitemap);
 fs.writeFileSync(path.join(rootDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${baseUrl}/sitemap.xml\n`);
 
