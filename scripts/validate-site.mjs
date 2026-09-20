@@ -61,11 +61,14 @@ for (const file of sitePages) {
   assert(html.includes('<meta name="robots" content="index,follow,max-image-preview:large">'), `${relative}: wrong robots directive`);
   assert((html.match(/rel="alternate" hreflang=/g) || []).length === 10, `${relative}: incomplete hreflang set`);
   assert(html.includes('<meta property="og:image:width" content="512">'), `${relative}: missing social image dimensions`);
+  assert((html.match(/<meta property="og:image:width"/g) || []).length === 1, `${relative}: duplicate social image width`);
   assert(html.includes('<meta name="twitter:image:alt" content="Infinity Maze app icon">'), `${relative}: missing social image alt text`);
   assert((html.match(/<h1/g) || []).length === 1, `${relative}: expected exactly one h1`);
   assert(/https:\/\/apps\.apple\.com\/[a-z]{2}\/app\/infinity-maze\/id6608970522/.test(html), `${relative}: missing storefront-specific App Store link`);
   assert(!html.includes("https://apps.apple.com/app/id6608970522"), `${relative}: generic App Store link can lose the product destination`);
   assert(html.includes("/images/app-store-icon.svg"), `${relative}: missing App Store icon`);
+  assert((html.match(/class="footer-languages"/g) || []).length === 1, `${relative}: missing crawlable language navigation`);
+  assert((html.match(/<a href="[^"]+" hreflang="/g) || []).length === 9, `${relative}: incomplete crawlable language links`);
   assert(!/<a class="button[^"]*"[^>]+aria-label=/.test(html), `${relative}: button accessible name overrides its visible label`);
   assert(!html.includes("data-i18n"), `${relative}: client-side translated content remains`);
 
@@ -85,6 +88,8 @@ for (const file of sitePages) {
 const sitemap = fs.readFileSync(path.join(rootDir, "sitemap.xml"), "utf8");
 assert((sitemap.match(/<url>/g) || []).length === 36, "Sitemap must contain 36 URLs");
 assert(sitemap.includes("https://inf-maze.luopeike.com/zh-Hans/privacy-policy"), "Sitemap is missing localized privacy pages");
+assert(sitemap.includes('xmlns:xhtml="http://www.w3.org/1999/xhtml"'), "Sitemap is missing the XHTML namespace");
+assert((sitemap.match(/<xhtml:link /g) || []).length === 360, "Sitemap must list all language alternates for every URL");
 
 const robots = fs.readFileSync(path.join(rootDir, "robots.txt"), "utf8");
 assert(robots.includes("Sitemap: https://inf-maze.luopeike.com/sitemap.xml"), "robots.txt has the wrong sitemap URL");

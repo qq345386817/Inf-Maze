@@ -140,6 +140,13 @@ function languageOptions(currentLocale, pageKey) {
   }).join("");
 }
 
+function languageLinks(currentLocale, pageKey) {
+  return locales.map((locale) => {
+    const current = locale.key === currentLocale.key ? ' aria-current="page"' : "";
+    return `<a href="${pagePath(locale, pageKey)}" hreflang="${locale.hreflang}" lang="${locale.htmlLang}"${current}>${escapeHtml(locale.label)}</a>`;
+  }).join("");
+}
+
 function header(locale, pageKey) {
   const t = ui[locale.key];
   const nav = ["home", "help", "support", "privacy"].map((key) => {
@@ -162,11 +169,11 @@ function storeButton(locale, compact = false) {
   return `<a class="button primary${compact ? " compact" : ""}" href="${appStoreUrl(locale)}"><img class="store-icon" src="/images/app-store-icon.svg" alt="" width="24" height="24"><span>${escapeHtml(t.download)}</span></a>`;
 }
 
-function footer(locale) {
+function footer(locale, pageKey) {
   const t = ui[locale.key];
   return `<footer class="footer">
-  <div><strong>Infinity Maze</strong><p>${escapeHtml(t.copyright)}</p></div>
-  ${storeButton(locale, true)}
+  <div class="footer-main"><div><strong>Infinity Maze</strong><p>${escapeHtml(t.copyright)}</p></div>${storeButton(locale, true)}</div>
+  <nav class="footer-languages" aria-label="${escapeHtml(t.language)}"><span>${escapeHtml(t.language)}</span><div>${languageLinks(locale, pageKey)}</div></nav>
 </footer>`;
 }
 
@@ -273,7 +280,7 @@ ${header(locale, "home")}
     </div>
   </section>
 </main>
-${footer(locale)}
+${footer(locale, "home")}
 </div></div>
 </body>
 </html>\n`;
@@ -306,7 +313,7 @@ ${header(locale, "help")}
   <section class="help-grid">${cards}</section>
   <section class="download-panel"><div><h2>${escapeHtml(t.platforms)}</h2><p>${escapeHtml(t.platformsBody)}</p></div>${storeButton(locale, true)}</section>
 </main>
-${footer(locale)}
+${footer(locale, "help")}
 </div></div></body>
 </html>\n`;
 }
@@ -332,7 +339,7 @@ ${header(locale, "privacy")}
   <header class="page-header"><p class="kicker">Infinity Maze 1.5</p><h1>${escapeHtml(privacy.title)}</h1><p class="lead">${escapeHtml(t.privacyLead)}</p><p class="effective-date">${escapeHtml(privacy.date)}</p></header>
   <div class="policy-grid">${sections}</div>
 </main>
-${footer(locale)}
+${footer(locale, "privacy")}
 </div></div></body>
 </html>\n`;
 }
@@ -358,7 +365,7 @@ ${header(locale, "support")}
     <article class="support-card"><span class="feature-icon">↗</span><h2>${escapeHtml(t.resourcesTitle)}</h2><div class="resource-links"><a href="${pagePath(locale, "help")}">${escapeHtml(t.help)}</a><a href="${pagePath(locale, "privacy")}">${escapeHtml(t.privacy)}</a>${storeButton(locale, true)}</div></article>
   </section>
 </main>
-${footer(locale)}
+${footer(locale, "support")}
 </div></div></body>
 </html>\n`;
 }
@@ -377,11 +384,19 @@ for (const pageKey of Object.keys(pages)) {
   for (const locale of locales) {
     sitemapUrls.push({
       url: `${baseUrl}${pagePath(locale, pageKey)}`,
-      lastModified: pageKey === "privacy" ? "2026-09-08" : "2026-09-03",
+      pageKey,
+      lastModified: "2026-09-20",
     });
   }
 }
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.map((entry) => `  <url><loc>${entry.url}</loc><lastmod>${entry.lastModified}</lastmod></url>`).join("\n")}\n</urlset>\n`;
+function sitemapAlternates(pageKey) {
+  const links = locales.map((locale) =>
+    `    <xhtml:link rel="alternate" hreflang="${locale.hreflang}" href="${baseUrl}${pagePath(locale, pageKey)}" />`,
+  );
+  links.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${baseUrl}${pagePath(locales[0], pageKey)}" />`);
+  return links.join("\n");
+}
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${sitemapUrls.map((entry) => `  <url>\n    <loc>${entry.url}</loc>\n    <lastmod>${entry.lastModified}</lastmod>\n${sitemapAlternates(entry.pageKey)}\n  </url>`).join("\n")}\n</urlset>\n`;
 fs.writeFileSync(path.join(rootDir, "sitemap.xml"), sitemap);
 fs.writeFileSync(path.join(rootDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${baseUrl}/sitemap.xml\n`);
 

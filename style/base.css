@@ -290,8 +290,7 @@ h1 {
 
 .footer {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
   gap: 28px;
   margin-top: 34px;
   padding: 28px 4px 4px;
@@ -299,8 +298,44 @@ h1 {
   font-size: 0.9rem;
 }
 
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  width: 100%;
+}
+
 .footer strong { color: var(--text); }
 .footer p { margin: 4px 0 0; }
+
+.footer-languages {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  width: 100%;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.footer-languages > span {
+  flex: 0 0 auto;
+  color: var(--text);
+  font-weight: 750;
+}
+
+.footer-languages div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 14px;
+}
+
+.footer-languages a:hover,
+.footer-languages a[aria-current="page"] {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
 
 a:focus-visible,
 button:focus-visible,
@@ -347,7 +382,7 @@ select:focus-visible { outline: 3px solid var(--cyan); outline-offset: 3px; }
   .button { width: 100%; }
   .maze-preview { width: 100%; padding: 14px; border-radius: 26px; transform: none; }
   .intro-grid { grid-template-columns: 1fr; }
-  .footer { align-items: stretch; flex-direction: column; }
+  .footer-main, .footer-languages { align-items: stretch; flex-direction: column; }
 }
 
 @media (prefers-reduced-motion: reduce) {
