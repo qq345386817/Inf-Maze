@@ -105,7 +105,7 @@
         "Hexagonal and Honeycomb mazes support six directions; tap diagonally to move along diagonal paths.",
         "Tap Start Over to start a new game.",
         "Use Easy, Medium, Hard, or Insane levels, worth 5, 15, 45, and 100 points.",
-        "Pro unlocks every hero and doubles Maze Coin rewards. Leaderboard scores stay fair.",
+        "Pro unlocks every hero and doubles lifetime leaderboard scores.",
         "Use Print when you want a hard copy of the current maze."
       ],
       "mac": [
@@ -114,7 +114,7 @@
         "Hexagonal and Honeycomb mazes support six directions; click or use supported controls toward the diagonal path.",
         "Click Start Over to start a new game.",
         "Use Easy, Medium, Hard, or Insane levels, worth 5, 15, 45, and 100 points.",
-        "Pro unlocks every hero and doubles Maze Coin rewards. Leaderboard scores stay fair.",
+        "Pro unlocks every hero and doubles lifetime leaderboard scores.",
         "Use Print when you want a hard copy of the current maze."
       ],
       "tvos": [
@@ -124,7 +124,7 @@
         "Press Play/Pause on the Remote to open Settings.",
         "Double tap the Clickpad on the Remote to open Game Center.",
         "Use Easy, Medium, Hard, or Insane levels, worth 5, 15, 45, and 100 points.",
-        "Pro unlocks every hero and doubles Maze Coin rewards. Leaderboard scores stay fair."
+        "Pro unlocks every hero and doubles lifetime leaderboard scores."
       ]
     },
     "ar": {
@@ -140,7 +140,7 @@
         "تدعم متاهات Hexagonal وHoneycomb ستة اتجاهات؛ اضغط قطرياً للتحرك عبر المسارات القطرية.",
         "اضغط Start Over لبدء لعبة جديدة.",
         "استخدم مستويات Easy وMedium وHard وInsane، بقيم 5 و15 و45 و100 نقطة.",
-        "يفتح Pro جميع الأبطال ويضاعف مكافآت عملات المتاهة. تبقى نتائج لوحة الصدارة عادلة.",
+        "يفتح Pro جميع الأبطال ويضاعف نقاط لوحة الصدارة التراكمية.",
         "استخدم Print إذا أردت نسخة ورقية من المتاهة الحالية."
       ],
       "mac": [
@@ -149,7 +149,7 @@
         "تدعم Hexagonal وHoneycomb ستة اتجاهات؛ انقر أو استخدم عناصر التحكم المدعومة باتجاه المسار القطري.",
         "انقر Start Over لبدء لعبة جديدة.",
         "استخدم مستويات Easy وMedium وHard وInsane، بقيم 5 و15 و45 و100 نقطة.",
-        "يفتح Pro جميع الأبطال ويضاعف مكافآت عملات المتاهة. تبقى نتائج لوحة الصدارة عادلة.",
+        "يفتح Pro جميع الأبطال ويضاعف نقاط لوحة الصدارة التراكمية.",
         "استخدم Print إذا أردت نسخة ورقية من المتاهة الحالية."
       ],
       "tvos": [
@@ -159,7 +159,7 @@
         "اضغط تشغيل/إيقاف مؤقت على جهاز التحكم لفتح الإعدادات.",
         "انقر نقرًا مزدوجًا على لوحة النقر في جهاز التحكم لفتح Game Center.",
         "استخدم مستويات Easy وMedium وHard وInsane، بقيم 5 و15 و45 و100 نقطة.",
-        "يفتح Pro جميع الأبطال ويضاعف مكافآت عملات المتاهة. تبقى نتائج لوحة الصدارة عادلة."
+        "يفتح Pro جميع الأبطال ويضاعف نقاط لوحة الصدارة التراكمية."
       ]
     },
     "de": {
@@ -175,7 +175,7 @@
         "Hexagonal- und Honeycomb-Labyrinthe unterstützen sechs Richtungen; tippen Sie diagonal für diagonale Wege.",
         "Tippen Sie auf Start Over, um ein neues Spiel zu beginnen.",
         "Easy, Medium, Hard und Insane sind 5, 15, 45 und 100 Punkte wert.",
-        "Pro schaltet alle Helden frei und verdoppelt Labyrinthmünzen. Ranglisten bleiben fair.",
+        "Pro schaltet alle Helden frei und verdoppelt die Punkte der dauerhaft geführten Rangliste.",
         "Nutzen Sie Print für einen Ausdruck des aktuellen Labyrinths."
       ],
       "mac": [
@@ -184,7 +184,7 @@
         "Hexagonal- und Honeycomb-Labyrinthe unterstützen sechs Richtungen; klicken oder steuern Sie in Richtung diagonaler Wege.",
         "Klicken Sie auf Start Over, um ein neues Spiel zu beginnen.",
         "Easy, Medium, Hard und Insane sind 5, 15, 45 und 100 Punkte wert.",
-        "Pro schaltet alle Helden frei und verdoppelt Labyrinthmünzen. Ranglisten bleiben fair.",
+        "Pro schaltet alle Helden frei und verdoppelt die Punkte der dauerhaft geführten Rangliste.",
         "Nutzen Sie Print für einen Ausdruck des aktuellen Labyrinths."
       ],
       "tvos": [
@@ -194,7 +194,7 @@
         "Drücken Sie Play/Pause auf der Fernbedienung, um Einstellungen zu öffnen.",
         "Doppeltippen Sie auf das Clickpad der Fernbedienung, um Game Center zu öffnen.",
         "Easy, Medium, Hard und Insane sind 5, 15, 45 und 100 Punkte wert.",
-        "Pro schaltet alle Helden frei und verdoppelt Labyrinthmünzen. Ranglisten bleiben fair."
+        "Pro schaltet alle Helden frei und verdoppelt die Punkte der dauerhaft geführten Rangliste."
       ]
     },
     "es": {
@@ -210,7 +210,7 @@
         "Los laberintos Hexagonal y Honeycomb admiten seis direcciones; toca en diagonal para seguir caminos diagonales.",
         "Toca Start Over para empezar una partida nueva.",
         "Usa niveles Easy, Medium, Hard o Insane, que valen 5, 15, 45 y 100 puntos.",
-        "Pro desbloquea todos los héroes y duplica las monedas del laberinto. La clasificación sigue siendo justa.",
+        "Pro desbloquea todos los héroes y duplica la puntuación acumulada de la clasificación.",
         "Usa Print si quieres una copia en papel del laberinto actual."
       ],
       "mac": [
@@ -219,7 +219,7 @@
         "Hexagonal y Honeycomb admiten seis direcciones; haz clic o usa controles compatibles hacia el camino diagonal.",
         "Haz clic en Start Over para empezar una partida nueva.",
         "Usa niveles Easy, Medium, Hard o Insane, que valen 5, 15, 45 y 100 puntos.",
-        "Pro desbloquea todos los héroes y duplica las monedas del laberinto. La clasificación sigue siendo justa.",
+        "Pro desbloquea todos los héroes y duplica la puntuación acumulada de la clasificación.",
         "Usa Print si quieres una copia en papel del laberinto actual."
       ],
       "tvos": [
@@ -229,7 +229,7 @@
         "Pulsa Reproducir/Pausa en el mando para abrir Ajustes.",
         "Toca dos veces el Clickpad del mando para abrir Game Center.",
         "Usa niveles Easy, Medium, Hard o Insane, que valen 5, 15, 45 y 100 puntos.",
-        "Pro desbloquea todos los héroes y duplica las monedas del laberinto. La clasificación sigue siendo justa."
+        "Pro desbloquea todos los héroes y duplica la puntuación acumulada de la clasificación."
       ]
     },
     "fr": {
@@ -245,7 +245,7 @@
         "Les labyrinthes Hexagonal et Honeycomb prennent en charge six directions ; touchez en diagonale pour suivre les chemins diagonaux.",
         "Touchez Start Over pour commencer une nouvelle partie.",
         "Les niveaux Easy, Medium, Hard et Insane valent 5, 15, 45 et 100 points.",
-        "Pro débloque tous les héros et double les pièces du labyrinthe. Le classement reste équitable.",
+        "Pro débloque tous les héros et double les scores cumulés du classement.",
         "Utilisez Print pour obtenir une copie papier du labyrinthe actuel."
       ],
       "mac": [
@@ -254,7 +254,7 @@
         "Hexagonal et Honeycomb prennent en charge six directions ; cliquez ou utilisez les commandes compatibles vers les chemins diagonaux.",
         "Cliquez sur Start Over pour commencer une nouvelle partie.",
         "Les niveaux Easy, Medium, Hard et Insane valent 5, 15, 45 et 100 points.",
-        "Pro débloque tous les héros et double les pièces du labyrinthe. Le classement reste équitable.",
+        "Pro débloque tous les héros et double les scores cumulés du classement.",
         "Utilisez Print pour obtenir une copie papier du labyrinthe actuel."
       ],
       "tvos": [
@@ -264,7 +264,7 @@
         "Appuyez sur Lecture/Pause sur la télécommande pour ouvrir les réglages.",
         "Touchez deux fois le Clickpad de la télécommande pour ouvrir Game Center.",
         "Les niveaux Easy, Medium, Hard et Insane valent 5, 15, 45 et 100 points.",
-        "Pro débloque tous les héros et double les pièces du labyrinthe. Le classement reste équitable."
+        "Pro débloque tous les héros et double les scores cumulés du classement."
       ]
     },
     "ja": {
@@ -280,7 +280,7 @@
         "HexagonalとHoneycombの迷路は6方向移動に対応し、斜め方向をタップして進めます。",
         "Start Overをタップして新しいゲームを始めます。",
         "Easy、Medium、Hard、Insaneの各レベルは5、15、45、100点です。",
-        "Proではすべてのヒーローが解放され、迷路コイン報酬が2倍になります。ランキングは公平です。",
+        "Proではすべてのヒーローが解放され、累計ランキングスコアが2倍になります。",
         "現在の迷路を印刷したいときはPrintを使います。"
       ],
       "mac": [
@@ -289,7 +289,7 @@
         "HexagonalとHoneycombは6方向移動に対応し、斜めの道へクリックまたは対応操作で進みます。",
         "Start Overをクリックして新しいゲームを始めます。",
         "Easy、Medium、Hard、Insaneの各レベルは5、15、45、100点です。",
-        "Proではすべてのヒーローが解放され、迷路コイン報酬が2倍になります。ランキングは公平です。",
+        "Proではすべてのヒーローが解放され、累計ランキングスコアが2倍になります。",
         "現在の迷路を印刷したいときはPrintを使います。"
       ],
       "tvos": [
@@ -299,7 +299,7 @@
         "リモコンの再生/一時停止を押して設定を開きます。",
         "リモコンのClickpadをダブルタップしてGame Centerを開きます。",
         "Easy、Medium、Hard、Insaneの各レベルは5、15、45、100点です。",
-        "Proではすべてのヒーローが解放され、迷路コイン報酬が2倍になります。ランキングは公平です。"
+        "Proではすべてのヒーローが解放され、累計ランキングスコアが2倍になります。"
       ]
     },
     "ko": {
@@ -315,7 +315,7 @@
         "Hexagonal 및 Honeycomb 미로는 여섯 방향 이동을 지원하므로 대각선 경로는 대각선으로 탭하세요.",
         "Start Over를 탭하여 새 게임을 시작합니다.",
         "Easy, Medium, Hard, Insane 레벨은 각각 5, 15, 45, 100점입니다.",
-        "Pro는 모든 영웅을 잠금 해제하고 미로 코인 보상을 두 배로 제공합니다. 순위 점수는 공정합니다.",
+        "Pro는 모든 영웅을 잠금 해제하고 누적 리더보드 점수를 두 배로 올려 줍니다.",
         "현재 미로를 종이로 출력하려면 Print를 사용하세요."
       ],
       "mac": [
@@ -324,7 +324,7 @@
         "Hexagonal 및 Honeycomb은 여섯 방향을 지원하므로 대각선 경로 방향으로 클릭하거나 지원되는 조작을 사용하세요.",
         "Start Over를 클릭하여 새 게임을 시작합니다.",
         "Easy, Medium, Hard, Insane 레벨은 각각 5, 15, 45, 100점입니다.",
-        "Pro는 모든 영웅을 잠금 해제하고 미로 코인 보상을 두 배로 제공합니다. 순위 점수는 공정합니다.",
+        "Pro는 모든 영웅을 잠금 해제하고 누적 리더보드 점수를 두 배로 올려 줍니다.",
         "현재 미로를 종이로 출력하려면 Print를 사용하세요."
       ],
       "tvos": [
@@ -334,7 +334,7 @@
         "리모컨의 재생/일시 정지를 눌러 설정을 엽니다.",
         "리모컨 Clickpad를 두 번 탭하여 Game Center를 엽니다.",
         "Easy, Medium, Hard, Insane 레벨은 각각 5, 15, 45, 100점입니다.",
-        "Pro는 모든 영웅을 잠금 해제하고 미로 코인 보상을 두 배로 제공합니다. 순위 점수는 공정합니다."
+        "Pro는 모든 영웅을 잠금 해제하고 누적 리더보드 점수를 두 배로 올려 줍니다."
       ]
     },
     "zh-Hans": {
@@ -350,7 +350,7 @@
         "六边形和蜂巢迷宫支持六方向移动，可点击斜向路径前进。",
         "点击“Start Over”开始新游戏。",
         "Easy、Medium、Hard 和 Insane 难度分别对应 5、15、45、100 分。",
-        "Pro 解锁全部英雄并提供双倍迷宫币奖励；排行榜得分保持公平。",
+        "Pro 解锁全部英雄，并使累计排行榜得分翻倍。",
         "如需当前迷宫的纸质版本，可使用 Print。"
       ],
       "mac": [
@@ -359,7 +359,7 @@
         "六边形和蜂巢迷宫支持六方向移动，可点击或使用支持的控制方式朝斜向路径移动。",
         "点击“Start Over”开始新游戏。",
         "Easy、Medium、Hard 和 Insane 难度分别对应 5、15、45、100 分。",
-        "Pro 解锁全部英雄并提供双倍迷宫币奖励；排行榜得分保持公平。",
+        "Pro 解锁全部英雄，并使累计排行榜得分翻倍。",
         "如需当前迷宫的纸质版本，可使用 Print。"
       ],
       "tvos": [
@@ -369,7 +369,7 @@
         "按下遥控器的播放/暂停键打开设置。",
         "双击遥控器点按板打开 Game Center。",
         "Easy、Medium、Hard 和 Insane 难度分别对应 5、15、45、100 分。",
-        "Pro 解锁全部英雄并提供双倍迷宫币奖励；排行榜得分保持公平。"
+        "Pro 解锁全部英雄，并使累计排行榜得分翻倍。"
       ]
     },
     "zh-Hant": {
@@ -385,7 +385,7 @@
         "六邊形和蜂巢迷宮支援六方向移動，可點擊斜向路徑前進。",
         "點擊「Start Over」開始新遊戲。",
         "Easy、Medium、Hard 和 Insane 難度分別對應 5、15、45、100 分。",
-        "Pro 解鎖全部英雄並提供雙倍迷宮幣獎勵；排行榜得分保持公平。",
+        "Pro 解鎖全部英雄，並使累計排行榜得分翻倍。",
         "如需目前迷宮的紙本版本，可使用 Print。"
       ],
       "mac": [
@@ -394,7 +394,7 @@
         "六邊形和蜂巢迷宮支援六方向移動，可點擊或使用支援的控制方式朝斜向路徑移動。",
         "點擊「Start Over」開始新遊戲。",
         "Easy、Medium、Hard 和 Insane 難度分別對應 5、15、45、100 分。",
-        "Pro 解鎖全部英雄並提供雙倍迷宮幣獎勵；排行榜得分保持公平。",
+        "Pro 解鎖全部英雄，並使累計排行榜得分翻倍。",
         "如需目前迷宮的紙本版本，可使用 Print。"
       ],
       "tvos": [
@@ -404,7 +404,7 @@
         "按下遙控器的播放/暫停鍵打開設定。",
         "按兩下遙控器點按板打開 Game Center。",
         "Easy、Medium、Hard 和 Insane 難度分別對應 5、15、45、100 分。",
-        "Pro 解鎖全部英雄並提供雙倍迷宮幣獎勵；排行榜得分保持公平。"
+        "Pro 解鎖全部英雄，並使累計排行榜得分翻倍。"
       ]
     }
   },
