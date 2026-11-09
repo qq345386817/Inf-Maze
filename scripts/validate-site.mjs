@@ -149,14 +149,18 @@ assert(robots.includes("Sitemap: https://inf-maze.luopeike.com/sitemap.xml"), "r
 
 const redirects = fs.readFileSync(path.join(rootDir, "_redirects"), "utf8").trim().split("\n");
 assert(redirects[0] === "/google8bdd3bd447b6e703.html /google8bdd3bd447b6e703.txt 200", "Search ownership file must bypass automatic HTML redirects");
-assert(redirects.length === 37, `Expected one ownership rewrite and 36 permanent legacy redirects, found ${redirects.length}`);
-for (const redirect of redirects.slice(1)) {
+assert(redirects.length === 38, `Expected one ownership rewrite, one favicon redirect, and 36 permanent legacy redirects, found ${redirects.length}`);
+assert(redirects[1] === `/favicon.ico ${images.brand.src} 301`, "Favicon compatibility URL must use the current app icon");
+for (const redirect of redirects.slice(2)) {
   assert(/^\/[A-Za-z-]*(?:\/)?(?:index|help|privacy-policy|support)\.html \/[^ ]* 301$/.test(redirect), `Invalid redirect: ${redirect}`);
 }
 
 const verificationHtml = fs.readFileSync(path.join(rootDir, "google8bdd3bd447b6e703.html"), "utf8");
 const verificationTarget = fs.readFileSync(path.join(rootDir, "google8bdd3bd447b6e703.txt"), "utf8").trimEnd();
 assert(verificationHtml === verificationTarget, "Search ownership rewrite must preserve the exact verification token");
+const {keyFile} = JSON.parse(fs.readFileSync(path.join(rootDir, "content/search-indexing.json"), "utf8"));
+assert(/^[a-f0-9]{32}\.txt$/.test(keyFile), "Invalid IndexNow verification filename");
+assert(fs.readFileSync(path.join(rootDir, keyFile), "utf8").trim() === keyFile.slice(0, -4), "IndexNow verification contents must match its filename");
 
 const headers = fs.readFileSync(path.join(rootDir, "_headers"), "utf8");
 assert(headers.includes("Strict-Transport-Security: max-age=31536000"), "Missing HSTS header");

@@ -465,7 +465,10 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
 fs.writeFileSync(path.join(rootDir, "sitemap.xml"), sitemap);
 fs.writeFileSync(path.join(rootDir, "robots.txt"), `User-agent: *\nAllow: /\nSitemap: ${baseUrl}/sitemap.xml\n`);
 
-const redirects = ["/google8bdd3bd447b6e703.html /google8bdd3bd447b6e703.txt 200"];
+const redirects = [
+  "/google8bdd3bd447b6e703.html /google8bdd3bd447b6e703.txt 200",
+  `/favicon.ico ${gameplay.brand.src} 301`,
+];
 for (const pageKey of Object.keys(pages)) {
   for (const locale of locales) {
     redirects.push(`${legacyPagePath(locale, pageKey)} ${pagePath(locale, pageKey)} 301`);

@@ -7,6 +7,9 @@ const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const output=path.join(root,'.public');
 const locales=['','ar','de-DE','es-ES','fr-FR','ja','ko','zh-Hans','zh-Hant'];
 const files=new Set(['404.html','_headers','_redirects','robots.txt','sitemap.xml','google8bdd3bd447b6e703.html','google8bdd3bd447b6e703.txt']);
+const {keyFile}=JSON.parse(fs.readFileSync(path.join(root,'content/search-indexing.json'),'utf8'));
+if(!/^[a-f0-9]{32}\.txt$/.test(keyFile)||fs.readFileSync(path.join(root,keyFile),'utf8').trim()!==keyFile.slice(0,-4)) throw new Error('Invalid IndexNow verification file');
+files.add(keyFile);
 for(const locale of locales) for(const page of ['index.html','help.html','support.html','privacy-policy.html']) files.add(path.posix.join(locale,page));
 for(const file of [...files].filter(f=>f.endsWith('.html'))){
   const html=fs.readFileSync(path.join(root,file),'utf8');

@@ -10,9 +10,22 @@ node scripts/validate-site.mjs
 node scripts/package-site.mjs
 npx wrangler deploy --dry-run
 npx wrangler deploy
+node scripts/notify-indexnow.mjs --submit
 ```
 
 Wrangler publishes only `.public/`, an allowlist of rendered pages and referenced public assets. Source JSON, scripts, Git files, credentials and local QA artifacts are excluded. `_headers` and `_redirects` preserve security headers and clean/legacy URLs. A real 404 is served for unknown routes. CSS/JS/images use content fingerprints. Existing privacy policy HTML and its legacy CSS are preserved byte-for-byte by the build.
+
+`/favicon.ico` redirects to the current app icon, providing a compatibility URL
+without using the old favicon artwork. The root IndexNow verification text file
+is included explicitly in the publish allowlist. `content/search-indexing.json`
+records its filename; this config and the submission script are not published.
+
+After deployment, `notify-indexnow.mjs --submit` verifies the live key and notifies
+participating search engines of canonical pages changed since the last accepted
+submission. The first run submits all 36 pages; subsequent unchanged runs submit
+nothing. Run without `--submit` to preview the count. Submission state stays in
+ignored `.wrangler/indexnow-state.json`. HTTP 200 means received, and HTTP 202
+means received with key validation pending; neither confirms crawling or indexing.
 
 ## Content and design
 
