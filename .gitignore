@@ -1,3 +1,14 @@
 .DS_Store
 .wrangler/
 node_modules/
+.public/
+
+# Local credentials and tool output
+.env
+.env.*
+!.env.example
+!.env.template
+*.p8
+*.p12
+*.log
+__pycache__/

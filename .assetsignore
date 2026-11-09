@@ -5,3 +5,7 @@
 node_modules
 content
 scripts
+README.md
+wrangler.jsonc
+script/gameplay.js
+style/site.css

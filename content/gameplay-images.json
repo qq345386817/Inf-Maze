@@ -1,0 +1,412 @@
+{
+  "sourceVersion": "1.7.0 (105)",
+  "locales": {
+    "en": {
+      "rectangular": {
+        "src": "/images/gameplay/en-rectangular.3dda9c33feaf.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 46630,
+        "source": "iphone17promax_en_US_01-easy.png",
+        "sourceSha256": "f4e7942124ff6407f1cb417f6e6bad282c3940ac78fb83ae689e1401f0b898df",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/en-hexagonal.137ce386e113.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 54568,
+        "source": "iphone17promax_en_US_01-easy_hexagonal.png",
+        "sourceSha256": "c4fc8c1eb2cb4f321a228839480e49d9c0efca2b6f311db60b3323a0803846fc",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/en-honeycomb.3c9199e8a564.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 53392,
+        "source": "iphone17promax_en_US_01-easy_honeycomb.png",
+        "sourceSha256": "bfde408be6e9e849b075d88b5eea4b055955cca5596c1d28702c78baacfe1c33",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/en-circular.91f4842dd9a5.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 53634,
+        "source": "iphone17promax_en_US_01-easy_circular.png",
+        "sourceSha256": "843ac1e02c6c10949927bae148669b95de188b00beb6bfdff181dc65950db842",
+        "crop": null
+      }
+    },
+    "ar": {
+      "rectangular": {
+        "src": "/images/gameplay/ar-rectangular.b4943f8c5aec.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 43514,
+        "source": "iphone17promax_ar_01-easy.png",
+        "sourceSha256": "97d1340e00f602bcead642530a475226e259ebd111497d6e7770e9a2fab29e8d",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/ar-hexagonal.758915d26afc.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 53594,
+        "source": "iphone17promax_ar_01-easy_hexagonal.png",
+        "sourceSha256": "9563dbdc74e2be5ba60302691f4eb21314f88cd8e8f18a20992dc2a5ce846257",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/ar-honeycomb.563c17338938.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 52110,
+        "source": "iphone17promax_ar_01-easy_honeycomb.png",
+        "sourceSha256": "83653729c70cf857f3f6dd91fef35ae0a318610e2f41e3d5998743ca2d8a14ae",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/ar-circular.2cf32e958137.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 54232,
+        "source": "iphone17promax_ar_01-easy_circular.png",
+        "sourceSha256": "48689dc25da16308c5364cc2e642c8925c787a774b9e053ca38817b91676dcab",
+        "crop": null
+      }
+    },
+    "de": {
+      "rectangular": {
+        "src": "/images/gameplay/de-rectangular.f37d18423ba8.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 48348,
+        "source": "iphone17promax_de_01-easy.png",
+        "sourceSha256": "671e74c746ffe3f6f03efbbdc241c1bc06824af89e685db7d8fc1565bb9132d9",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/de-hexagonal.9bb5c640dc29.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 57652,
+        "source": "iphone17promax_de_01-easy_hexagonal.png",
+        "sourceSha256": "6f503864d62b0e33832778a7998ce53dfe119be33ab0a65f859aaa274c95ded3",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/de-honeycomb.00c6e7765349.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 55364,
+        "source": "iphone17promax_de_01-easy_honeycomb.png",
+        "sourceSha256": "0514ca8a9f63d77ce496ff8bff9db8cad0d48b89ec94579f40fd568cb7afb990",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/de-circular.eae2326e6f39.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 56740,
+        "source": "iphone17promax_de_01-easy_circular.png",
+        "sourceSha256": "e394f4da42e16d94064b3d3d4e0180ec6432b56efb2810958b8b5c674d027c89",
+        "crop": null
+      }
+    },
+    "es": {
+      "rectangular": {
+        "src": "/images/gameplay/es-rectangular.c060dc3a166b.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 47148,
+        "source": "iphone17promax_es_01-easy.png",
+        "sourceSha256": "ee0725bb3d4fbe27664a53c621426594afbfc5dc317da69f6a72997eb17cedf7",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/es-hexagonal.2bbf259ee7b7.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 55848,
+        "source": "iphone17promax_es_01-easy_hexagonal.png",
+        "sourceSha256": "40b201d97c089d4bd8024850406f71181da38fe52811ab46640cd62e94ddd7ef",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/es-honeycomb.1f8599dc3be3.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 56226,
+        "source": "iphone17promax_es_01-easy_honeycomb.png",
+        "sourceSha256": "81720bd30110aad2489f6c556062a936b0d7062cfd48a436714ad26a6dd6d94c",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/es-circular.6fbdfc41dfb0.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 57794,
+        "source": "iphone17promax_es_01-easy_circular.png",
+        "sourceSha256": "7ff7111caf9fb5db2a7ff14da75ab011809341d99b5ab7faa1cf4ae0ad448c80",
+        "crop": null
+      }
+    },
+    "fr": {
+      "rectangular": {
+        "src": "/images/gameplay/fr-rectangular.73f106e50691.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 47170,
+        "source": "iphone17promax_fr_01-easy.png",
+        "sourceSha256": "c034d7004055ff5851d36bc880d83ff9f1d8275b51f4bc3dc2025928a9ca11ee",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/fr-hexagonal.e79f5598002b.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 57624,
+        "source": "iphone17promax_fr_01-easy_hexagonal.png",
+        "sourceSha256": "03e99a7982dcaf14dfa800265baa093f351a6f88aa0e76b836d47e90159e17d9",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/fr-honeycomb.6ea12c0f9eeb.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 54196,
+        "source": "iphone17promax_fr_01-easy_honeycomb.png",
+        "sourceSha256": "6d9f6b0cb517d097e76eeb9d8e0f7be775043945b47ae6d14c2f5f7ff691928c",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/fr-circular.f07e61b1cdac.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 56994,
+        "source": "iphone17promax_fr_01-easy_circular.png",
+        "sourceSha256": "28033e3a68b12e3a744b8e46f716b1634049323965471dfbbf7465e592cdea66",
+        "crop": null
+      }
+    },
+    "ja": {
+      "rectangular": {
+        "src": "/images/gameplay/ja-rectangular.a2b2841e7656.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 45816,
+        "source": "iphone17promax_ja_01-easy.png",
+        "sourceSha256": "3fd5083e84068ec7f2d8162a890aca68ae768e8e0e65ed423089e821dffc134c",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/ja-hexagonal.d7652ba02cb1.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 55444,
+        "source": "iphone17promax_ja_01-easy_hexagonal.png",
+        "sourceSha256": "b0b72331cfc8e1bdfb460494cf7597b246962b24546e48a0d3896ab46cf2ae44",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/ja-honeycomb.072bccadf15a.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 52414,
+        "source": "iphone17promax_ja_01-easy_honeycomb.png",
+        "sourceSha256": "e59919dfd373e25de6ccbe85d2d55ccfa70e15f975bc1104349ba0463470679c",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/ja-circular.72ee21571bce.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 54558,
+        "source": "iphone17promax_ja_01-easy_circular.png",
+        "sourceSha256": "0c33d9434cc535b053699225e14d4fd500dcefd3771c3ff6b72194840dc91771",
+        "crop": null
+      }
+    },
+    "ko": {
+      "rectangular": {
+        "src": "/images/gameplay/ko-rectangular.9398a8ca6a66.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 44772,
+        "source": "iphone17promax_ko_01-easy.png",
+        "sourceSha256": "9d1f141615a770b557218c1c58e754702daa14e34d2c083f2a02c45e43c6b631",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/ko-hexagonal.94a11077fc78.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 52378,
+        "source": "iphone17promax_ko_01-easy_hexagonal.png",
+        "sourceSha256": "731374e452a9b2f9306ccc3130b7a08b2339b6afdb682a7973c7b9e1be824d3a",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/ko-honeycomb.53db997a0319.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 50276,
+        "source": "iphone17promax_ko_01-easy_honeycomb.png",
+        "sourceSha256": "1bb755e3251b4f3ead3553c022a34f0ab460f389d3ab34a2d0f892771c2bedfd",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/ko-circular.a6d21594940f.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 52296,
+        "source": "iphone17promax_ko_01-easy_circular.png",
+        "sourceSha256": "ff1d6f78c0e34a192e98fa7937747bd9b4c3661b144035f6ba7d78cff1fd5828",
+        "crop": null
+      }
+    },
+    "zh-Hans": {
+      "rectangular": {
+        "src": "/images/gameplay/zh-Hans-rectangular.75e0cc25793e.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 44928,
+        "source": "iphone17promax_zh_Hans_01-easy.png",
+        "sourceSha256": "96cb80140d43d529832cbc9d7fd42d8d46fe09b741b771898915dc425dd7863e",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/zh-Hans-hexagonal.cd69fb2edb33.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 53882,
+        "source": "iphone17promax_zh_Hans_01-easy_hexagonal.png",
+        "sourceSha256": "fe71c72daf813332fcf9b95184f1cba2f5b7b8c6fb36648689da696ec5ca0b28",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/zh-Hans-honeycomb.9947e997e074.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 51666,
+        "source": "iphone17promax_zh_Hans_01-easy_honeycomb.png",
+        "sourceSha256": "2778bf2acc3da51e7db77d6e221744897c2387783ae7da13ee19b7c63dc7012b",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/zh-Hans-circular.b6b4e92c1f49.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 52298,
+        "source": "iphone17promax_zh_Hans_01-easy_circular.png",
+        "sourceSha256": "a6d906fa27583537e5536b6612ed3d00830318e9e1fb8841f313bed39b380ac2",
+        "crop": null
+      }
+    },
+    "zh-Hant": {
+      "rectangular": {
+        "src": "/images/gameplay/zh-Hant-rectangular.b01984c508a7.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 45028,
+        "source": "iphone17promax_zh_Hant_01-easy.png",
+        "sourceSha256": "76b520fe62bf145fb7ccf01171403f365233edb9d95122a4f93c7e2c22ab20f6",
+        "crop": null
+      },
+      "hexagonal": {
+        "src": "/images/gameplay/zh-Hant-hexagonal.76e6235c4271.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 54940,
+        "source": "iphone17promax_zh_Hant_01-easy_hexagonal.png",
+        "sourceSha256": "96c548d7fc6adc7cf469a7bfe2ebf55fe920c671046e83853bf449afe0028cda",
+        "crop": null
+      },
+      "honeycomb": {
+        "src": "/images/gameplay/zh-Hant-honeycomb.20604fa48abe.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 52126,
+        "source": "iphone17promax_zh_Hant_01-easy_honeycomb.png",
+        "sourceSha256": "17ca6d2aab2db5a02aa1cf0a4b7a24478c27e52f0095359f1ee2303630e2e621",
+        "crop": null
+      },
+      "circular": {
+        "src": "/images/gameplay/zh-Hant-circular.1c4224c6da8b.webp",
+        "width": 660,
+        "height": 1434,
+        "bytes": 54062,
+        "source": "iphone17promax_zh_Hant_01-easy_circular.png",
+        "sourceSha256": "307e5fa6c6758a3aafa19e16f3343548f213b759b1b4ee71e82f823713bbe199",
+        "crop": null
+      }
+    }
+  },
+  "crops": {
+    "rectangular": {
+      "src": "/images/gameplay/maze-rectangular.28f6d658595a.webp",
+      "width": 792,
+      "height": 828,
+      "bytes": 28962,
+      "source": "iphone17promax_en_US_01-easy.png",
+      "sourceSha256": "f4e7942124ff6407f1cb417f6e6bad282c3940ac78fb83ae689e1401f0b898df",
+      "crop": [
+        0,
+        380,
+        1320,
+        1760
+      ]
+    },
+    "hexagonal": {
+      "src": "/images/gameplay/maze-hexagonal.19013193879e.webp",
+      "width": 792,
+      "height": 828,
+      "bytes": 40102,
+      "source": "iphone17promax_en_US_01-easy_hexagonal.png",
+      "sourceSha256": "c4fc8c1eb2cb4f321a228839480e49d9c0efca2b6f311db60b3323a0803846fc",
+      "crop": [
+        0,
+        380,
+        1320,
+        1760
+      ]
+    },
+    "honeycomb": {
+      "src": "/images/gameplay/maze-honeycomb.fbb44c7ba0d9.webp",
+      "width": 792,
+      "height": 828,
+      "bytes": 37904,
+      "source": "iphone17promax_en_US_01-easy_honeycomb.png",
+      "sourceSha256": "bfde408be6e9e849b075d88b5eea4b055955cca5596c1d28702c78baacfe1c33",
+      "crop": [
+        0,
+        380,
+        1320,
+        1760
+      ]
+    },
+    "circular": {
+      "src": "/images/gameplay/maze-circular.3f2456e11ab7.webp",
+      "width": 792,
+      "height": 828,
+      "bytes": 38990,
+      "source": "iphone17promax_en_US_01-easy_circular.png",
+      "sourceSha256": "843ac1e02c6c10949927bae148669b95de188b00beb6bfdff181dc65950db842",
+      "crop": [
+        0,
+        380,
+        1320,
+        1760
+      ]
+    }
+  },
+  "brand": {
+    "src": "/images/gameplay/app-icon.3b782a7d17fc.png",
+    "width": 512,
+    "height": 512,
+    "source": "icon-512.png",
+    "sha256": "3b782a7d17fcdfaea6539ce525d697e09b50b173c06089c53ca7e573474d8018"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "inf-maze",
+  "account_id": "bab4f0abd1eb8841b9cfc25ef1087c7d",
+  "compatibility_date": "2026-09-18",
+  "workers_dev": true,
+  "preview_urls": true,
+  "routes": [{"pattern":"inf-maze.luopeike.com","custom_domain":true}],
+  "assets": {
+    "directory": ".public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

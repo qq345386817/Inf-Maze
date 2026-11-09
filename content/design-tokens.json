@@ -1,0 +1,35 @@
+{
+  "name": "Infinity Maze",
+  "version": 1,
+  "meta": {"source": "InfiniteMaze iOS/GameViewController.swift, InfiniteMaze Shared/GameScene.swift, Inf-Maze/style/base.css; website edition 2026-10-25"},
+  "color": {
+    "themes": [{"id":"dark","name":"Night maze"}],
+    "tokens": [
+      {"name":"canvas","value":"#080d17","usage":"Page background; from GameScene result backdrop RGB .03/.05/.09."},
+      {"name":"surface","value":"#0e1624","usage":"Quiet panels; iOS controls RGB .055/.085/.14."},
+      {"name":"surface-raised","value":"#182334","usage":"Raised controls and secondary surfaces; website extension."},
+      {"name":"ink","value":"#f5f5fb","usage":"Primary text on canvas and surface; existing website dark text."},
+      {"name":"muted","value":"#b5b9d2","usage":"Body and secondary copy on canvas/surface; existing website dark muted."},
+      {"name":"accent","value":"#40e0f0","usage":"Primary buttons and focus rings; native iOS button RGB .25/.88/.94."},
+      {"name":"accent-ink","value":"#05141f","usage":"Text on accent; native iOS button RGB .02/.08/.12."},
+      {"name":"signal","value":"#ffd133","usage":"Small section indices; GameScene score stars RGB 1/.82/.20."},
+      {"name":"line","value":"#354055","usage":"Noninteractive separators and panel outlines; website extension."},
+      {"name":"control-line","value":"#76849b","usage":"Visible field boundaries on surface; website extension, contrast at least 3:1."}
+    ]
+  },
+  "type": {
+    "fonts": [],
+    "families": {"sans":"\"Avenir Next\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif","mono":"ui-monospace, SFMono-Regular, Menlo, monospace"},
+    "groups": [{"name":"Website","family":"sans","styles":[
+      {"name":"display","fontSize":"80px","lineHeight":"84px","fontWeight":700,"letterSpacing":"-3px","usage":"Desktop hero; fluid scale down to 44px on mobile."},
+      {"name":"heading","fontSize":"44px","lineHeight":"50px","fontWeight":700,"letterSpacing":"-1px","usage":"Section headings; down to 30px on mobile."},
+      {"name":"title","fontSize":"24px","lineHeight":"32px","fontWeight":600,"usage":"Shape and feature titles."},
+      {"name":"lead","fontSize":"20px","lineHeight":"32px","fontWeight":400,"usage":"Introductory copy."},
+      {"name":"body","fontSize":"16px","lineHeight":"26px","fontWeight":400,"usage":"Body paragraphs and help articles."},
+      {"name":"label","fontSize":"14px","lineHeight":"22px","fontWeight":600,"usage":"Buttons, navigation and image captions."},
+      {"name":"index","family":"mono","fontSize":"12px","lineHeight":"20px","fontWeight":500,"letterSpacing":"1px","usage":"Section numbers and short eyebrows; keep text readable."}
+    ]}]
+  },
+  "spacing":{"tokens":[{"name":"space-1","value":"8px","usage":"Icon gaps."},{"name":"space-2","value":"16px","usage":"Related content."},{"name":"space-3","value":"24px","usage":"Panel padding and grid gaps."},{"name":"space-4","value":"48px","usage":"Section interior."},{"name":"space-5","value":"96px","usage":"Desktop section spacing; reduce on mobile."}]},
+  "radius":{"tokens":[{"name":"radius-sm","value":"8px","usage":"Buttons and form fields."},{"name":"radius-md","value":"16px","usage":"Screenshots and panels."},{"name":"radius-lg","value":"24px","usage":"Large feature presentation."}]}
+}

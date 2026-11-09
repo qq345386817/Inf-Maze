@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="无限程序生成迷宫，适合快速专注、空间推理和轻松解谜。">
+  <meta name="description" content="探索矩形、六边形、蜂巢和圆形迷宫，选择四种玩法与四档难度，开启迷雾或重玩同一座迷宫优化路线。适用于 iPhone、iPad、Mac 和 Apple TV，核心玩法支持离线。">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#101337">
+  <meta name="theme-color" content="#080d17">
   <meta name="apple-itunes-app" content="app-id=6608970522">
-  <meta property="og:title" content="Infinity Maze｜适用于 Apple 设备的无限迷宫游戏">
-  <meta property="og:description" content="无限程序生成迷宫，适合快速专注、空间推理和轻松解谜。">
+  <meta property="og:title" content="Infinity Maze｜四种形状、迷雾与离线迷宫解谜">
+  <meta property="og:description" content="探索矩形、六边形、蜂巢和圆形迷宫，选择四种玩法与四档难度，开启迷雾或重玩同一座迷宫优化路线。适用于 iPhone、iPad、Mac 和 Apple TV，核心玩法支持离线。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://inf-maze.luopeike.com/zh-Hans/">
-  <meta property="og:image" content="https://inf-maze.luopeike.com/favicon/android-chrome-512x512.png">
+  <meta property="og:image" content="https://inf-maze.luopeike.com/images/gameplay/app-icon.3b782a7d17fc.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
@@ -19,9 +19,9 @@
   <meta property="og:site_name" content="Infinity Maze">
   <meta property="og:locale" content="zh_CN">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Infinity Maze｜适用于 Apple 设备的无限迷宫游戏">
-  <meta name="twitter:description" content="无限程序生成迷宫，适合快速专注、空间推理和轻松解谜。">
-  <meta name="twitter:image" content="https://inf-maze.luopeike.com/favicon/android-chrome-512x512.png">
+  <meta name="twitter:title" content="Infinity Maze｜四种形状、迷雾与离线迷宫解谜">
+  <meta name="twitter:description" content="探索矩形、六边形、蜂巢和圆形迷宫，选择四种玩法与四档难度，开启迷雾或重玩同一座迷宫优化路线。适用于 iPhone、iPad、Mac 和 Apple TV，核心玩法支持离线。">
+  <meta name="twitter:image" content="https://inf-maze.luopeike.com/images/gameplay/app-icon.3b782a7d17fc.png">
   <meta name="twitter:image:alt" content="Infinity Maze app icon">
   <link rel="canonical" href="https://inf-maze.luopeike.com/zh-Hans/">
   <link rel="alternate" hreflang="en" href="https://inf-maze.luopeike.com/">
@@ -34,67 +34,69 @@
   <link rel="alternate" hreflang="zh-Hans" href="https://inf-maze.luopeike.com/zh-Hans/">
   <link rel="alternate" hreflang="zh-Hant" href="https://inf-maze.luopeike.com/zh-Hant/">
   <link rel="alternate" hreflang="x-default" href="https://inf-maze.luopeike.com/">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="apple-touch-icon" href="/images/gameplay/app-icon.3b782a7d17fc.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/images/gameplay/app-icon.3b782a7d17fc.png">
   <link rel="manifest" href="/favicon/site.webmanifest">
-  <link rel="stylesheet" href="/style/base.css">
-  <link rel="stylesheet" href="/style/help.css">
-  <title>Infinity Maze｜适用于 Apple 设备的无限迷宫游戏</title>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Infinity Maze","applicationCategory":"GameApplication","operatingSystem":"iOS, iPadOS, macOS, tvOS","inLanguage":"zh-Hans","description":"无限程序生成迷宫，适合快速专注、空间推理和轻松解谜。","url":"https://inf-maze.luopeike.com/zh-Hans/","downloadUrl":"https://apps.apple.com/us/app/infinity-maze/id6608970522","installUrl":"https://apps.apple.com/us/app/infinity-maze/id6608970522","image":"https://inf-maze.luopeike.com/favicon/android-chrome-512x512.png","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+  <link rel="stylesheet" href="/style/generated/site.e38c3f8bc9dc.css">
+  <title>Infinity Maze｜四种形状、迷雾与离线迷宫解谜</title>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","@id":"https://inf-maze.luopeike.com/#app","name":"Infinity Maze","applicationCategory":"GameApplication","operatingSystem":"iOS, iPadOS, macOS, tvOS","inLanguage":"zh-Hans","description":"Infinity Maze 是适用于 iPhone、iPad、Mac 和 Apple TV 的离线迷宫解谜游戏。在矩形、六边形、蜂巢和圆形迷宫中寻找出口，也可开启迷雾探索。","featureList":["经典模式: 按自己的节奏探索并通关。","最少步数: 争取更高效的路线，星级更看重最短路径。","计时挑战: 争取在目标时间内通关，星级根据完成用时评价。","不走回头路: 不能反向移动，需要更谨慎地选择路线。","迷雾是一项额外选项：它会限制探索时能看到的迷宫范围。","查看用时、步数、回退次数、星级与分数。选择“再玩一次”在同一座迷宫里优化路线，或选择“新迷宫”探索另一种布局。","选择经典、最少步数、计时挑战或不走回头路。也可开启迷雾，限制探索时的可见范围。","在 iPhone、iPad、Mac 和 Apple TV 上离线体验核心迷宫玩法。Game Center 功能需要联网并登录。"],"screenshot":["https://inf-maze.luopeike.com/images/gameplay/zh-Hans-rectangular.75e0cc25793e.webp","https://inf-maze.luopeike.com/images/gameplay/zh-Hans-hexagonal.cd69fb2edb33.webp","https://inf-maze.luopeike.com/images/gameplay/zh-Hans-honeycomb.9947e997e074.webp","https://inf-maze.luopeike.com/images/gameplay/zh-Hans-circular.b6b4e92c1f49.webp"],"url":"https://inf-maze.luopeike.com/zh-Hans/","downloadUrl":"https://apps.apple.com/us/app/infinity-maze/id6608970522","installUrl":"https://apps.apple.com/us/app/infinity-maze/id6608970522","image":"https://inf-maze.luopeike.com/images/gameplay/app-icon.3b782a7d17fc.png","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
 </head>
-<body>
+<body class="home-page">
+<a class="skip-link" href="#main">跳至正文</a>
 <div class="page"><div class="container">
 <header class="topbar">
   <a class="brand" href="/zh-Hans/" aria-label="Infinity Maze 首页">
-    <img src="/favicon/apple-touch-icon.png" alt="" width="44" height="44">
+    <img src="/images/gameplay/app-icon.3b782a7d17fc.png" alt="" width="44" height="44">
     <span>Infinity Maze</span>
   </a>
   <nav class="nav" aria-label="语言"><a href="/zh-Hans/" aria-current="page">首页</a><a href="/zh-Hans/help">帮助</a><a href="/zh-Hans/support">支持</a><a href="/zh-Hans/privacy-policy">隐私</a>
     <label class="language-switch"><span>语言</span><select aria-label="语言" onchange="if (this.value) window.location.href=this.value"><option value="/">English</option><option value="/ar/">العربية</option><option value="/de-DE/">Deutsch</option><option value="/es-ES/">Español</option><option value="/fr-FR/">Français</option><option value="/ja/">日本語</option><option value="/ko/">한국어</option><option value="/zh-Hans/" selected>简体中文</option><option value="/zh-Hant/">繁體中文</option></select></label>
   </nav>
 </header>
-<main>
+<main id="main">
   <section class="hero">
     <div class="hero-copy">
-      <p class="kicker">无限程序生成迷宫游戏</p>
-      <h1>Infinity Maze</h1>
-      <p class="lead">无限程序生成迷宫，适合快速专注、空间推理和轻松解谜。</p>
-      <div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/infinity-maze/id6608970522"><img class="store-icon" src="/images/app-store-icon.svg" alt="" width="24" height="24"><span>前往 App Store 下载</span></a><a class="button secondary" href="/zh-Hans/help">帮助</a></div>
+      <p class="kicker">按自己的节奏，寻找出路</p>
+      <h1><span>四种迷宫，</span><span>无限出路。</span></h1>
+      <p class="lead">Infinity Maze 是适用于 iPhone、iPad、Mac 和 Apple TV 的离线迷宫解谜游戏。在矩形、六边形、蜂巢和圆形迷宫中寻找出口，也可开启迷雾探索。</p>
+      <div class="actions"><a class="button primary" href="https://apps.apple.com/us/app/infinity-maze/id6608970522"><img class="store-icon" src="/images/app-store-icon.svg" alt="" width="24" height="24"><span>前往 App Store 下载</span></a><a class="text-action" href="#shapes">探索四种迷宫<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
       <p class="platform-note">iPhone · iPad · Mac · Apple TV</p>
     </div>
-    <div class="maze-preview" aria-hidden="true">
-  <svg viewBox="0 0 520 520" role="img">
-    <rect x="16" y="16" width="488" height="488" rx="54" fill="#222222"/>
-    <g fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M78 430V78h132v88h88V78h144v88"/>
-      <path d="M78 210h88v88H78m132-132v176h88v88"/>
-      <path d="M298 166h88v88h56m-144 88h88v88h56"/>
-      <path d="M166 298v132h44m176-176v88"/>
-    </g>
-    <circle cx="78" cy="430" r="16" fill="#55d8e6"/>
-    <circle cx="442" cy="166" r="16" fill="#8b6cff"/>
-  </svg>
-  <span class="preview-chip">Rectangular · Hexagonal · Honeycomb</span>
-</div>
+    <figure class="hero-visual"><img class="hero-image" src="/images/gameplay/maze-circular.3f2456e11ab7.webp" alt="圆形" width="792" height="828" fetchpriority="high" loading="eager" decoding="async"><figcaption class="image-caption"><span>04 / 圆形</span><span>实际游戏画面</span></figcaption></figure>
   </section>
-  <section class="section intro-grid">
-    <article><p class="section-number">01</p><h2>每一局，都是一条新路线</h2><p>程序生成矩形、六边形和蜂巢迷宫，提供四档难度；既适合快速专注，也适合挑战空间推理。</p></article>
-    <article><p class="section-number">02</p><h2>一个迷宫，覆盖所有 Apple 设备</h2><p>适配 iPhone、iPad、Mac 和 Apple TV，支持离线游玩，并针对不同屏幕设计操作方式。</p></article>
+  <section class="section" id="shapes" aria-labelledby="shapes-title">
+    <div class="section-intro"><div><p class="section-number">01 / 选择你的迷宫形状</p><h2 id="shapes-title">换一种形状，换一种思路。</h2></div><p>选择“新迷宫”生成新的布局，或重玩同一座迷宫，尝试另一条路线。不同形状，带来不同的寻路方式。</p></div>
+    <div class="shape-grid"><article class="shape-card"><img class="shape-image" src="/images/gameplay/maze-rectangular.28f6d658595a.webp" alt="矩形" width="792" height="828" loading="lazy" decoding="async"><header><h3>矩形</h3><span>01</span></header><p>熟悉的格子，意想不到的转角。</p></article><article class="shape-card"><img class="shape-image" src="/images/gameplay/maze-hexagonal.19013193879e.webp" alt="六边形" width="792" height="828" loading="lazy" decoding="async"><header><h3>六边形</h3><span>02</span></header><p>在六边形结构中，寻找新的方向。</p></article><article class="shape-card"><img class="shape-image" src="/images/gameplay/maze-honeycomb.fbb44c7ba0d9.webp" alt="蜂巢" width="792" height="828" loading="lazy" decoding="async"><header><h3>蜂巢</h3><span>03</span></header><p>穿过相连的蜂巢单元，逐步探索。</p></article><article class="shape-card"><img class="shape-image" src="/images/gameplay/maze-circular.3f2456e11ab7.webp" alt="圆形" width="792" height="828" loading="lazy" decoding="async"><header><h3>圆形</h3><span>04</span></header><p>沿着圆环前进，重新思考路线。</p></article></div>
   </section>
-  <section class="section">
-    <div class="section-heading"><p class="kicker">Infinity Maze 1.5</p><h2>专注、轻松，又能不断挑战的迷宫</h2></div>
+  <section class="section" aria-labelledby="pace-title">
+    <div class="challenge">
+      <div class="capture-panel" data-gameplay-gallery>
+        <figure><img id="gameplay-image" data-gameplay-image class="full-capture" src="/images/gameplay/zh-Hans-circular.b6b4e92c1f49.webp" alt="圆形 — 实际游戏画面" width="660" height="1434" loading="lazy" decoding="async"><figcaption data-gameplay-caption aria-live="polite">圆形 — 实际游戏画面</figcaption></figure>
+        <div class="capture-choices" role="group" aria-label="选择要查看的游戏截图"><button type="button" class="capture-choice" aria-controls="gameplay-image" aria-pressed="false" data-gameplay-src="/images/gameplay/zh-Hans-rectangular.75e0cc25793e.webp" data-gameplay-alt="矩形 — 实际游戏画面"><span aria-hidden="true">01</span>矩形</button><button type="button" class="capture-choice" aria-controls="gameplay-image" aria-pressed="false" data-gameplay-src="/images/gameplay/zh-Hans-hexagonal.cd69fb2edb33.webp" data-gameplay-alt="六边形 — 实际游戏画面"><span aria-hidden="true">02</span>六边形</button><button type="button" class="capture-choice" aria-controls="gameplay-image" aria-pressed="false" data-gameplay-src="/images/gameplay/zh-Hans-honeycomb.9947e997e074.webp" data-gameplay-alt="蜂巢 — 实际游戏画面"><span aria-hidden="true">03</span>蜂巢</button><button type="button" class="capture-choice" aria-controls="gameplay-image" aria-pressed="true" data-gameplay-src="/images/gameplay/zh-Hans-circular.b6b4e92c1f49.webp" data-gameplay-alt="圆形 — 实际游戏画面"><span aria-hidden="true">04</span>圆形</button></div>
+      </div>
+      <div class="challenge-copy"><p class="section-number">02 / 按自己的节奏挑战</p><h2 id="pace-title">可以片刻放松，也能深入挑战。</h2><p>从简单开始，逐步挑战中等、困难与疯狂难度。在 iPhone 和 iPad 上，用双指缩放、拖动查看更大的迷宫。</p><ul class="level-list"><li>简单</li><li>中等</li><li>困难</li><li>疯狂</li></ul><a class="text-action" href="/zh-Hans/help">帮助<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a></div>
+    </div>
     <div class="feature-grid">
-      <article class="feature"><span class="feature-icon">▦</span><p>程序生成矩形、六边形和蜂巢迷宫。</p></article>
-      <article class="feature"><span class="feature-icon">✦</span><p>Easy、Medium、Hard 和 Insane 难度，适合短回合反复挑战。</p></article>
-      <article class="feature"><span class="feature-icon"></span><p>适配 iPhone、iPad、Mac 和 Apple TV，并支持离线游玩。</p></article>
+      <article class="feature"><span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 7v5h-5M4 17v-5h5M5.6 7a7 7 0 0 1 11.6-1L20 9M4 15l2.8 3A7 7 0 0 0 18.4 17"/></svg></span><h3>通关、比较，再试一次</h3><p>查看用时、步数、回退次数、星级与分数。选择“再玩一次”在同一座迷宫里优化路线，或选择“新迷宫”探索另一种布局。</p></article><article class="feature"><span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="2" fill="currentColor"/><circle cx="16" cy="12" r="2" fill="currentColor"/><circle cx="10" cy="18" r="2" fill="currentColor"/></svg></span><h3>换个规则，再试一次</h3><p>选择经典、最少步数、计时挑战或不走回头路。也可开启迷雾，限制探索时的可见范围。</p></article><article class="feature"><span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="14" height="11" rx="2"/><path d="M7 20h6M10 15v5"/><rect x="16" y="11" width="5" height="10" rx="1"/></svg></span><h3>随时随地，走进迷宫</h3><p>在 iPhone、iPad、Mac 和 Apple TV 上离线体验核心迷宫玩法。Game Center 功能需要联网并登录。</p></article>
     </div>
   </section>
+  <section class="section" id="play-modes" aria-labelledby="modes-title">
+    <div class="section-intro"><h2 id="modes-title">四种玩法，寻找出口。</h2><p>除了形状和难度，还能选择游戏模式。不同规则带来不同挑战，也影响通关后的星级评价。</p></div>
+    <div class="mode-grid"><article class="mode-card"><span class="card-index">01</span><h3>经典模式</h3><p>按自己的节奏探索并通关。</p></article><article class="mode-card"><span class="card-index">02</span><h3>最少步数</h3><p>争取更高效的路线，星级更看重最短路径。</p></article><article class="mode-card"><span class="card-index">03</span><h3>计时挑战</h3><p>争取在目标时间内通关，星级根据完成用时评价。</p></article><article class="mode-card"><span class="card-index">04</span><h3>不走回头路</h3><p>不能反向移动，需要更谨慎地选择路线。</p></article></div>
+    <p class="section-note">迷雾是一项额外选项：它会限制探索时能看到的迷宫范围。</p>
+  </section>
+  <section class="section" aria-labelledby="faq-title">
+    <div class="section-intro"><h2 id="faq-title">开始前，你可能想了解</h2></div>
+    <div class="faq-list"><details><summary>可以离线玩吗？<span class="faq-toggle" aria-hidden="true">+</span></summary><p>可以。核心迷宫玩法支持离线；Game Center 功能需要联网并登录。</p></details><details><summary>能重玩同一座迷宫吗？<span class="faq-toggle" aria-hidden="true">+</span></summary><p>可以。通关后可查看用时、步数、回退次数、星级与分数。“再玩一次”保留同一布局，“新迷宫”则生成另一种布局。</p></details><details><summary>Infinity Maze 免费吗？<span class="faq-toggle" aria-hidden="true">+</span></summary><p>App 可免费下载，无需 Pro 即可体验核心迷宫玩法。可选 Pro 内购可解锁全部英雄，并使累计排行榜得分翻倍。当前价格以 App 内展示为准。</p></details><details><summary>如何移动和查看迷宫？<span class="faq-toggle" aria-hidden="true">+</span></summary><p>在 iPhone 和 iPad 上，可点击路径方向，或点击、按住方向按钮移动；双指缩放、拖动平移。Mac 支持键盘或点击操作；Apple TV 使用 Siri Remote 点按板滑动。</p></details></div>
+<a class="text-action" href="/zh-Hans/help">帮助<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></a>
+  </section>
+  <section class="closing"><div><h2>下一条出路，从这里开始。</h2><p>选好形状和难度，出发寻找出口。</p></div><a class="button primary" href="https://apps.apple.com/us/app/infinity-maze/id6608970522"><img class="store-icon" src="/images/app-store-icon.svg" alt="" width="24" height="24"><span>前往 App Store 下载</span></a></section>
 </main>
 <footer class="footer">
-  <div class="footer-main"><div><strong>Infinity Maze</strong><p>Infinity Maze — 面向 Apple 设备的无限程序生成迷宫。</p></div><a class="button primary compact" href="https://apps.apple.com/us/app/infinity-maze/id6608970522"><img class="store-icon" src="/images/app-store-icon.svg" alt="" width="24" height="24"><span>前往 App Store 下载</span></a></div>
+  <div class="footer-main"><div><strong>Infinity Maze</strong><p>Infinity Maze — 面向 Apple 设备的无限程序生成迷宫。</p></div></div>
   <nav class="footer-languages" aria-label="语言"><span>语言</span><div><a href="/" hreflang="en" lang="en">English</a><a href="/ar/" hreflang="ar" lang="ar">العربية</a><a href="/de-DE/" hreflang="de" lang="de-DE">Deutsch</a><a href="/es-ES/" hreflang="es" lang="es-ES">Español</a><a href="/fr-FR/" hreflang="fr" lang="fr-FR">Français</a><a href="/ja/" hreflang="ja" lang="ja">日本語</a><a href="/ko/" hreflang="ko" lang="ko">한국어</a><a href="/zh-Hans/" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a><a href="/zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></div></nav>
 </footer>
 </div></div>
+<script src="/script/generated/gameplay.230897cbb5cc.js" defer></script>
 </body>
 </html>

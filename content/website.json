@@ -1,0 +1,848 @@
+{
+  "en": {
+    "headline": [
+      "Four shapes.",
+      "Endless ways out."
+    ],
+    "eyebrow": "Find your way, at your pace",
+    "intro": "Infinity Maze is an offline maze puzzle game for iPhone, iPad, Mac and Apple TV. Explore rectangles, hexagons, honeycombs and circles, with optional fog.",
+    "shapesLink": "Explore the mazes",
+    "skip": "Skip to content",
+    "shapeEyebrow": "Choose your geometry",
+    "shapeTitle": "Different shapes. A different way to think.",
+    "shapeIntro": "Choose New Maze for a freshly generated layout, or replay the same maze to try another route. Each shape changes how you find the exit.",
+    "shapeNames": [
+      "Rectangular",
+      "Hexagonal",
+      "Honeycomb",
+      "Circular"
+    ],
+    "shapeBodies": [
+      "A familiar grid. Unexpected turns.",
+      "Find your route across six-sided geometry.",
+      "Explore a maze of connected cells.",
+      "Follow the rings. Rethink your route."
+    ],
+    "capture": "In-game screenshot",
+    "gallery": "Choose a gameplay screenshot",
+    "paceEyebrow": "Find your pace",
+    "paceTitle": "A quick escape. Or a deeper challenge.",
+    "paceBody": "Start with Easy, then work your way through Medium, Hard and Insane. Pinch and drag to explore larger mazes on iPhone and iPad.",
+    "levels": [
+      "Easy",
+      "Medium",
+      "Hard",
+      "Insane"
+    ],
+    "featureTitles": [
+      "Finish. Compare. Replay.",
+      "Change the rules",
+      "Take it with you"
+    ],
+    "featureBodies": [
+      "Review your time, steps, backtracks, stars and score. Choose Play Again to improve your route in the same maze, or New Maze for a fresh layout.",
+      "Choose Classic, Fewest Steps, Time Attack or No Backtrack. Add fog for a more limited view of the paths.",
+      "Core maze play works offline on iPhone, iPad, Mac and Apple TV. Game Center requires a network connection and sign-in."
+    ],
+    "closing": "Your next way out starts here.",
+    "closingBody": "Pick a shape. Choose a challenge. Find the exit.",
+    "circularHelp": "Circular mazes support eight movement directions.",
+    "shapeHelp": "Choose Rectangular, Hexagonal, Honeycomb or Circular from the maze type menu.",
+    "seoTitle": "Infinity Maze | Four Shapes, Fog & Offline Maze Puzzles",
+    "seoDescription": "Explore four maze shapes, fog and four play modes. Replay the same maze to improve your route. Offline puzzles for iPhone, iPad, Mac and Apple TV.",
+    "modesTitle": "Four ways to find the exit.",
+    "modesIntro": "Pick a play mode as well as a shape and difficulty. Mode rules change the challenge and how your run earns stars.",
+    "fogBody": "Fog is an additional option: it limits how much of the maze you can see while you explore.",
+    "faqTitle": "Before you start",
+    "faqs": [
+      [
+        "Can I play offline?",
+        "Yes. Core maze play works offline. Game Center features require a network connection and sign-in."
+      ],
+      [
+        "Can I replay the same maze?",
+        "Yes. After finishing, review your time, steps, backtracks, stars and score. Play Again keeps the same layout; New Maze generates another one."
+      ],
+      [
+        "Is Infinity Maze free?",
+        "The app is free to download and core maze play is available without Pro. Optional Pro purchases unlock every hero and double lifetime leaderboard scores. Check the app for current prices."
+      ],
+      [
+        "How do I move and explore?",
+        "On iPhone and iPad, tap toward a path or tap and hold the direction buttons; pinch to zoom and drag to pan. On Mac, use the keyboard or click. On Apple TV, swipe the Siri Remote Clickpad."
+      ]
+    ],
+    "seoHelp": "Infinity Maze Help | Modes, Replay & Controls",
+    "helpLead": "Learn the four play modes, fog, same-maze replay, platform controls, offline play and optional Pro benefits.",
+    "modes": [
+      {
+        "name": "Classic",
+        "body": "Explore and solve at your own pace."
+      },
+      {
+        "name": "Fewest Steps",
+        "body": "Aim for an efficient route; stars give more weight to the shortest path."
+      },
+      {
+        "name": "Time Attack",
+        "body": "Stars reward finishing within the target time."
+      },
+      {
+        "name": "No Backtrack",
+        "body": "Reverse moves are blocked, so choose your route carefully."
+      }
+    ]
+  },
+  "ar": {
+    "headline": [
+      "أربعة أشكال.",
+      "طرق لا تنتهي."
+    ],
+    "eyebrow": "اعثر على طريقك بالوتيرة التي تناسبك",
+    "intro": "Infinity Maze لعبة ألغاز متاهات دون اتصال على iPhone وiPad وMac وApple TV. ابحث عن المخرج في متاهات مستطيلة وسداسية وخلايا عسل ودائرية، مع ضباب اختياري.",
+    "shapesLink": "استكشف المتاهات",
+    "skip": "انتقل إلى المحتوى",
+    "shapeEyebrow": "اختر شكل المتاهة",
+    "shapeTitle": "أشكال مختلفة. طرق جديدة للتفكير.",
+    "shapeIntro": "اختر متاهة جديدة لتوليد تخطيط جديد، أو أعد المتاهة نفسها لتجربة مسار آخر. يغيّر كل شكل طريقة البحث عن المخرج.",
+    "shapeNames": [
+      "مستطيلة",
+      "سداسية",
+      "خلايا العسل",
+      "دائرية"
+    ],
+    "shapeBodies": [
+      "شبكة مألوفة ومنعطفات غير متوقعة.",
+      "اعثر على طريقك في هندسة سداسية.",
+      "استكشف متاهة من الخلايا المتصلة.",
+      "اتبع الحلقات واكتشف مسارًا جديدًا."
+    ],
+    "capture": "لقطة من اللعبة",
+    "gallery": "اختر لقطة للعبة",
+    "paceEyebrow": "العب بالوتيرة التي تناسبك",
+    "paceTitle": "استراحة قصيرة أو تحدٍّ أعمق.",
+    "paceBody": "ابدأ بالسهل، ثم انتقل إلى المتوسط والصعب والجنوني. كبّر بإصبعين واسحب لاستكشاف المتاهات الأكبر على iPhone وiPad.",
+    "levels": [
+      "سهل",
+      "متوسط",
+      "صعب",
+      "جنوني"
+    ],
+    "featureTitles": [
+      "أكمل، وقارن، وحاول مجددًا.",
+      "غيّر القواعد",
+      "العب أينما كنت"
+    ],
+    "featureBodies": [
+      "راجع الوقت والخطوات والتراجعات والنجوم والنقاط. أعد المتاهة نفسها لتحسين مسارك، أو اختر متاهة جديدة لاستكشاف تخطيط آخر.",
+      "اختر كلاسيكي أو أقل خطوات أو تحدي الوقت أو دون رجوع. أضف الضباب لتقليل نطاق الرؤية أثناء الاستكشاف.",
+      "تعمل تجربة المتاهات الأساسية دون اتصال على iPhone وiPad وMac وApple TV. تتطلب ميزات Game Center اتصالًا بالشبكة وتسجيل الدخول."
+    ],
+    "closing": "طريقك التالي إلى الخروج يبدأ هنا.",
+    "closingBody": "اختر الشكل والتحدّي، ثم اعثر على المخرج.",
+    "circularHelp": "تدعم المتاهات الدائرية الحركة في ثمانية اتجاهات.",
+    "shapeHelp": "اختر Rectangular أو Hexagonal أو Honeycomb أو Circular من قائمة نوع المتاهة.",
+    "seoTitle": "Infinity Maze | ٤ أشكال وضباب ومتاهات دون اتصال",
+    "seoDescription": "استكشف أربعة أشكال للمتاهات وأربعة أنماط مع ضباب اختياري. أعد المتاهة نفسها لتحسين مسارك. ألغاز دون اتصال على iPhone وiPad وMac وApple TV.",
+    "modesTitle": "أربع طرق للعثور على المخرج.",
+    "modesIntro": "اختر نمط لعب إلى جانب الشكل والصعوبة. تغيّر القواعد التحدّي وطريقة احتساب النجوم بعد إكمال المتاهة.",
+    "fogBody": "الضباب خيار إضافي يحدّ من الجزء الذي يمكنك رؤيته من المتاهة أثناء الاستكشاف.",
+    "faqTitle": "قبل أن تبدأ",
+    "faqs": [
+      [
+        "هل يمكنني اللعب دون اتصال؟",
+        "نعم. تعمل تجربة المتاهات الأساسية دون اتصال. تتطلب ميزات Game Center اتصالًا بالشبكة وتسجيل الدخول."
+      ],
+      [
+        "هل يمكنني إعادة المتاهة نفسها؟",
+        "نعم. بعد الإكمال، راجع الوقت والخطوات والتراجعات والنجوم والنقاط. يحافظ خيار اللعب مجددًا على التخطيط نفسه، بينما تولّد متاهة جديدة تخطيطًا آخر."
+      ],
+      [
+        "هل Infinity Maze مجانية؟",
+        "يمكن تنزيل التطبيق مجانًا ولعب المتاهات الأساسية دون Pro. تفتح مشتريات Pro الاختيارية جميع الأبطال وتضاعف النقاط التراكمية في لوحة الصدارة. راجع الأسعار الحالية داخل التطبيق."
+      ],
+      [
+        "كيف أتحرك وأستكشف المتاهة؟",
+        "على iPhone وiPad، انقر باتجاه المسار أو انقر مطولًا على أزرار الاتجاهات. قرّب بإصبعين واسحب لتحريك العرض. على Mac استخدم لوحة المفاتيح أو النقر، وعلى Apple TV اسحب على Clickpad في Siri Remote."
+      ]
+    ],
+    "seoHelp": "مساعدة Infinity Maze | الأنماط والإعادة والتحكم",
+    "helpLead": "تعرّف على أنماط اللعب الأربعة والضباب وإعادة المتاهة نفسها والتحكم على كل جهاز واللعب دون اتصال ومزايا Pro الاختيارية.",
+    "modes": [
+      {
+        "name": "كلاسيكي",
+        "body": "استكشف وحل المتاهة بالوتيرة التي تناسبك."
+      },
+      {
+        "name": "أقل خطوات",
+        "body": "ابحث عن مسار فعّال؛ يعطي تقييم النجوم أهمية أكبر لأقصر طريق."
+      },
+      {
+        "name": "تحدي الوقت",
+        "body": "يكافئ تقييم النجوم إنهاء المتاهة ضمن الوقت المستهدف."
+      },
+      {
+        "name": "دون رجوع",
+        "body": "تُمنع الحركة في الاتجاه المعاكس، لذا اختر مسارك بعناية."
+      }
+    ]
+  },
+  "de": {
+    "headline": [
+      "Vier Formen.",
+      "Endlos neue Wege."
+    ],
+    "eyebrow": "Finde deinen Weg in deinem Tempo",
+    "intro": "Infinity Maze ist ein Offline-Labyrinthspiel für iPhone, iPad, Mac und Apple TV. Finde den Ausgang in Rechtecken, Sechsecken, Waben und Kreisen – auf Wunsch mit Nebel.",
+    "shapesLink": "Labyrinthe entdecken",
+    "skip": "Zum Inhalt springen",
+    "shapeEyebrow": "Wähle deine Geometrie",
+    "shapeTitle": "Andere Formen. Neue Denkwege.",
+    "shapeIntro": "Wähle ein neues Labyrinth für ein frisch erzeugtes Layout oder spiele dasselbe erneut, um einen anderen Weg zu testen. Jede Form verändert die Wegsuche.",
+    "shapeNames": [
+      "Rechteck",
+      "Sechseck",
+      "Waben",
+      "Kreis"
+    ],
+    "shapeBodies": [
+      "Vertrautes Raster. Unerwartete Wendungen.",
+      "Finde den Weg durch sechseckige Geometrie.",
+      "Erkunde ein Netz verbundener Zellen.",
+      "Folge den Ringen. Überdenke deinen Weg."
+    ],
+    "capture": "Screenshot aus dem Spiel",
+    "gallery": "Spiel-Screenshot auswählen",
+    "paceEyebrow": "Finde dein Tempo",
+    "paceTitle": "Eine kurze Auszeit. Oder mehr Herausforderung.",
+    "paceBody": "Starte mit Easy und steigere dich über Medium und Hard bis Insane. Mit Zoomen und Ziehen erkundest du größere Labyrinthe auf iPhone und iPad.",
+    "levels": [
+      "Easy",
+      "Medium",
+      "Hard",
+      "Insane"
+    ],
+    "featureTitles": [
+      "Lösen. Vergleichen. Erneut spielen.",
+      "Andere Spielregeln",
+      "Überall dabei"
+    ],
+    "featureBodies": [
+      "Prüfe Zeit, Schritte, Rückwege, Sterne und Punkte. Spiele dasselbe Labyrinth erneut, um deinen Weg zu verbessern, oder wähle ein neues Layout.",
+      "Wähle Klassisch, Wenigste Schritte, Zeitangriff oder Kein Zurück. Aktiviere zusätzlich Nebel für eine eingeschränkte Sicht auf die Wege.",
+      "Das eigentliche Labyrinthspiel funktioniert auf iPhone, iPad, Mac und Apple TV offline. Game Center benötigt eine Internetverbindung und Anmeldung."
+    ],
+    "closing": "Dein nächster Ausweg beginnt hier.",
+    "closingBody": "Wähle Form und Herausforderung. Finde den Ausgang.",
+    "circularHelp": "Kreisförmige Labyrinthe unterstützen acht Bewegungsrichtungen.",
+    "shapeHelp": "Wähle Rectangular, Hexagonal, Honeycomb oder Circular im Labyrinthtyp-Menü.",
+    "seoTitle": "Infinity Maze | Vier Formen, Nebel & Offline-Labyrinthe",
+    "seoDescription": "Vier Labyrinthformen, Nebel und vier Spielmodi. Spiele dasselbe Labyrinth erneut und verbessere deinen Weg. Offline auf iPhone, iPad, Mac und Apple TV.",
+    "modesTitle": "Vier Wege, den Ausgang zu finden.",
+    "modesIntro": "Wähle neben Form und Schwierigkeit auch einen Spielmodus. Die Regeln verändern die Herausforderung und die Vergabe der Sterne.",
+    "fogBody": "Nebel ist eine zusätzliche Option: Er schränkt ein, wie viel vom Labyrinth du beim Erkunden sehen kannst.",
+    "faqTitle": "Vor dem Start",
+    "faqs": [
+      [
+        "Kann ich offline spielen?",
+        "Ja. Das eigentliche Labyrinthspiel funktioniert offline. Game Center benötigt eine Internetverbindung und Anmeldung."
+      ],
+      [
+        "Kann ich dasselbe Labyrinth erneut spielen?",
+        "Ja. Nach dem Abschluss siehst du Zeit, Schritte, Rückwege, Sterne und Punkte. Erneut spielen behält das Layout bei; Neues Labyrinth erzeugt ein anderes."
+      ],
+      [
+        "Ist Infinity Maze kostenlos?",
+        "Der Download ist kostenlos und das eigentliche Labyrinthspiel erfordert kein Pro. Optionale Pro-Käufe schalten alle Helden frei und verdoppeln die Gesamtpunkte der Bestenliste. Aktuelle Preise stehen in der App."
+      ],
+      [
+        "Wie bewege ich mich und erkunde das Labyrinth?",
+        "Auf iPhone und iPad tippst du in Wegrichtung oder nutzt die Richtungstasten durch Tippen und Halten. Zoome mit zwei Fingern und verschiebe durch Ziehen. Auf Mac nutzt du Tastatur oder Maus, auf Apple TV das Clickpad der Siri Remote."
+      ]
+    ],
+    "seoHelp": "Infinity Maze Hilfe | Spielmodi, Wiederholen & Steuerung",
+    "helpLead": "Alles zu vier Spielmodi, Nebel, erneutem Spielen, Plattformsteuerung, Offline-Spiel und optionalen Pro-Vorteilen.",
+    "modes": [
+      {
+        "name": "Klassisch",
+        "body": "Erkunde und löse das Labyrinth in deinem Tempo."
+      },
+      {
+        "name": "Wenigste Schritte",
+        "body": "Suche einen effizienten Weg; der kürzeste Pfad zählt stärker für die Sterne."
+      },
+      {
+        "name": "Zeitangriff",
+        "body": "Sterne belohnen das Abschließen innerhalb der Zielzeit."
+      },
+      {
+        "name": "Kein Zurück",
+        "body": "Rückwärtsbewegungen sind gesperrt. Wähle deinen Weg sorgfältig."
+      }
+    ]
+  },
+  "es": {
+    "headline": [
+      "Cuatro formas.",
+      "Infinitas salidas."
+    ],
+    "eyebrow": "Encuentra tu camino a tu ritmo",
+    "intro": "Infinity Maze es un juego de laberintos sin conexión para iPhone, iPad, Mac y Apple TV. Busca la salida en rectángulos, hexágonos, panales y círculos, con niebla opcional.",
+    "shapesLink": "Explorar los laberintos",
+    "skip": "Saltar al contenido",
+    "shapeEyebrow": "Elige tu geometría",
+    "shapeTitle": "Otras formas. Otra manera de pensar.",
+    "shapeIntro": "Elige un nuevo laberinto para generar otro diseño, o repite el mismo para probar otra ruta. Cada forma cambia la manera de encontrar la salida.",
+    "shapeNames": [
+      "Rectangular",
+      "Hexagonal",
+      "Panal",
+      "Circular"
+    ],
+    "shapeBodies": [
+      "Una cuadrícula familiar. Giros inesperados.",
+      "Encuentra tu ruta entre seis lados.",
+      "Explora un laberinto de celdas conectadas.",
+      "Sigue los anillos. Replantea tu ruta."
+    ],
+    "capture": "Captura del juego",
+    "gallery": "Elegir una captura del juego",
+    "paceEyebrow": "Encuentra tu ritmo",
+    "paceTitle": "Una breve escapada. O un reto mayor.",
+    "paceBody": "Empieza en Easy y avanza por Medium, Hard e Insane. Amplía y arrastra para explorar laberintos más grandes en iPhone y iPad.",
+    "levels": [
+      "Easy",
+      "Medium",
+      "Hard",
+      "Insane"
+    ],
+    "featureTitles": [
+      "Completa, compara y repite.",
+      "Cambia las reglas",
+      "Llévalo contigo"
+    ],
+    "featureBodies": [
+      "Revisa el tiempo, los pasos, los retrocesos, las estrellas y los puntos. Repite el mismo laberinto para mejorar la ruta o elige un diseño nuevo.",
+      "Elige Clásico, Menos pasos, Contrarreloj o Sin retroceso. Añade niebla para limitar la parte visible de los caminos.",
+      "El juego de laberintos funciona sin conexión en iPhone, iPad, Mac y Apple TV. Game Center requiere conexión e inicio de sesión."
+    ],
+    "closing": "Tu próxima salida empieza aquí.",
+    "closingBody": "Elige una forma y un reto. Encuentra la salida.",
+    "circularHelp": "Los laberintos circulares permiten moverse en ocho direcciones.",
+    "shapeHelp": "Elige Rectangular, Hexagonal, Honeycomb o Circular desde el menú de tipo de laberinto.",
+    "seoTitle": "Infinity Maze | 4 formas, niebla y laberintos sin conexión",
+    "seoDescription": "Cuatro formas de laberinto, niebla y cuatro modos. Repite el mismo laberinto y mejora tu ruta. Puzles sin conexión para iPhone, iPad, Mac y Apple TV.",
+    "modesTitle": "Cuatro formas de encontrar la salida.",
+    "modesIntro": "Elige un modo además de la forma y la dificultad. Las reglas cambian el reto y la manera de obtener estrellas.",
+    "fogBody": "La niebla es una opción adicional: limita cuánto puedes ver del laberinto mientras lo exploras.",
+    "faqTitle": "Antes de empezar",
+    "faqs": [
+      [
+        "¿Puedo jugar sin conexión?",
+        "Sí. El juego de laberintos funciona sin conexión. Las funciones de Game Center requieren conexión e inicio de sesión."
+      ],
+      [
+        "¿Puedo repetir el mismo laberinto?",
+        "Sí. Al terminar, revisa el tiempo, los pasos, los retrocesos, las estrellas y los puntos. Volver a jugar conserva el diseño; Nuevo laberinto genera otro."
+      ],
+      [
+        "¿Infinity Maze es gratis?",
+        "La descarga es gratuita y puedes jugar a los laberintos sin Pro. Las compras Pro opcionales desbloquean todos los héroes y duplican los puntos acumulados de la clasificación. Consulta los precios actuales en la app."
+      ],
+      [
+        "¿Cómo me muevo y exploro?",
+        "En iPhone y iPad, toca hacia un camino o toca y mantén los botones de dirección. Pellizca para ampliar y arrastra para desplazar la vista. En Mac, usa el teclado o haz clic; en Apple TV, desliza por el Clickpad del Siri Remote."
+      ]
+    ],
+    "seoHelp": "Ayuda de Infinity Maze | Modos, repetición y controles",
+    "helpLead": "Conoce los cuatro modos, la niebla, la repetición del mismo laberinto, los controles, el juego sin conexión y las ventajas Pro opcionales.",
+    "modes": [
+      {
+        "name": "Clásico",
+        "body": "Explora y resuelve a tu ritmo."
+      },
+      {
+        "name": "Menos pasos",
+        "body": "Busca una ruta eficiente; el camino más corto pesa más en las estrellas."
+      },
+      {
+        "name": "Contrarreloj",
+        "body": "Las estrellas premian terminar dentro del tiempo objetivo."
+      },
+      {
+        "name": "Sin retroceso",
+        "body": "Los movimientos en sentido contrario están bloqueados. Elige la ruta con cuidado."
+      }
+    ]
+  },
+  "fr": {
+    "headline": [
+      "Quatre formes.",
+      "Des issues à l’infini."
+    ],
+    "eyebrow": "Trouvez votre chemin à votre rythme",
+    "intro": "Infinity Maze est un jeu de labyrinthes hors ligne pour iPhone, iPad, Mac et Apple TV. Trouvez la sortie dans des rectangles, hexagones, alvéoles et cercles, avec de la brume en option.",
+    "shapesLink": "Explorer les labyrinthes",
+    "skip": "Aller au contenu",
+    "shapeEyebrow": "Choisissez votre géométrie",
+    "shapeTitle": "D’autres formes. Une autre façon de penser.",
+    "shapeIntro": "Choisissez un nouveau labyrinthe pour générer un autre plan, ou rejouez le même pour tester un autre trajet. Chaque forme change votre façon de trouver la sortie.",
+    "shapeNames": [
+      "Rectangulaire",
+      "Hexagonal",
+      "Alvéoles",
+      "Circulaire"
+    ],
+    "shapeBodies": [
+      "Une grille familière. Des virages inattendus.",
+      "Trouvez votre chemin dans une géométrie à six côtés.",
+      "Explorez un labyrinthe de cellules reliées.",
+      "Suivez les anneaux. Repensez votre itinéraire."
+    ],
+    "capture": "Capture du jeu",
+    "gallery": "Choisir une capture du jeu",
+    "paceEyebrow": "Trouvez votre rythme",
+    "paceTitle": "Une courte évasion. Ou un défi plus profond.",
+    "paceBody": "Commencez en Easy, puis passez à Medium, Hard et Insane. Pincez et faites glisser pour explorer les grands labyrinthes sur iPhone et iPad.",
+    "levels": [
+      "Easy",
+      "Medium",
+      "Hard",
+      "Insane"
+    ],
+    "featureTitles": [
+      "Terminez, comparez, rejouez.",
+      "Changez les règles",
+      "Emportez-le partout"
+    ],
+    "featureBodies": [
+      "Consultez le temps, les pas, les retours, les étoiles et le score. Rejouez le même labyrinthe pour améliorer votre trajet, ou choisissez un nouveau plan.",
+      "Choisissez Classique, Moins de pas, Contre-la-montre ou Sans retour. Ajoutez la brume pour limiter la visibilité des chemins.",
+      "Le jeu de labyrinthe fonctionne hors ligne sur iPhone, iPad, Mac et Apple TV. Game Center nécessite une connexion et une identification."
+    ],
+    "closing": "Votre prochaine issue commence ici.",
+    "closingBody": "Choisissez une forme, un défi, puis trouvez la sortie.",
+    "circularHelp": "Les labyrinthes circulaires permettent de se déplacer dans huit directions.",
+    "shapeHelp": "Choisissez Rectangular, Hexagonal, Honeycomb ou Circular dans le menu du type de labyrinthe.",
+    "seoTitle": "Infinity Maze | 4 formes, brume et labyrinthes hors ligne",
+    "seoDescription": "Quatre formes de labyrinthes, la brume et quatre modes. Rejouez le même labyrinthe pour améliorer votre trajet, sur iPhone, iPad, Mac et Apple TV, hors ligne.",
+    "modesTitle": "Quatre façons de trouver la sortie.",
+    "modesIntro": "Choisissez un mode en plus de la forme et de la difficulté. Les règles changent le défi et la façon de gagner des étoiles.",
+    "fogBody": "La brume est une option supplémentaire : elle limite la partie du labyrinthe visible pendant votre exploration.",
+    "faqTitle": "Avant de commencer",
+    "faqs": [
+      [
+        "Puis-je jouer hors ligne ?",
+        "Oui. Le jeu de labyrinthe fonctionne hors ligne. Les fonctions Game Center nécessitent une connexion et une identification."
+      ],
+      [
+        "Puis-je rejouer le même labyrinthe ?",
+        "Oui. Après une partie, consultez le temps, les pas, les retours, les étoiles et le score. Rejouer conserve le même plan ; Nouveau labyrinthe en génère un autre."
+      ],
+      [
+        "Infinity Maze est-il gratuit ?",
+        "Le téléchargement est gratuit et le jeu de labyrinthe est accessible sans Pro. Les achats Pro facultatifs débloquent tous les héros et doublent les scores cumulés du classement. Les prix actuels sont indiqués dans l’app."
+      ],
+      [
+        "Comment se déplacer et explorer ?",
+        "Sur iPhone et iPad, touchez la direction du chemin ou touchez et maintenez les boutons directionnels. Pincez pour zoomer et faites glisser pour déplacer la vue. Sur Mac, utilisez le clavier ou la souris ; sur Apple TV, balayez le Clickpad de la Siri Remote."
+      ]
+    ],
+    "seoHelp": "Aide Infinity Maze | Modes, rejouer et commandes",
+    "helpLead": "Découvrez les quatre modes, la brume, le même labyrinthe à rejouer, les commandes, le jeu hors ligne et les avantages Pro facultatifs.",
+    "modes": [
+      {
+        "name": "Classique",
+        "body": "Explorez et terminez à votre rythme."
+      },
+      {
+        "name": "Moins de pas",
+        "body": "Cherchez un trajet efficace : le plus court chemin compte davantage pour les étoiles."
+      },
+      {
+        "name": "Contre-la-montre",
+        "body": "Les étoiles récompensent une arrivée avant le temps cible."
+      },
+      {
+        "name": "Sans retour",
+        "body": "Les mouvements en sens inverse sont bloqués. Choisissez votre chemin avec soin."
+      }
+    ]
+  },
+  "ja": {
+    "headline": [
+      "4つのかたち。",
+      "無限の抜け道。"
+    ],
+    "eyebrow": "自分のペースで出口を探そう",
+    "intro": "Infinity Mazeは、iPhone、iPad、Mac、Apple TVで遊べるオフライン迷路パズルです。四角形・六角形・ハニカム・円形の迷路で出口を探し、霧を使った探索にも挑戦できます。",
+    "shapesLink": "迷路を見てみる",
+    "skip": "本文へ移動",
+    "shapeEyebrow": "かたちを選ぶ",
+    "shapeTitle": "かたちが変わると、考え方も変わる。",
+    "shapeIntro": "新しい迷路を選ぶと別の配置を生成。同じ迷路をもう一度遊んで、別のルートも試せます。形が変わると、出口の探し方も変わります。",
+    "shapeNames": [
+      "長方形",
+      "六角形",
+      "ハニカム",
+      "円形"
+    ],
+    "shapeBodies": [
+      "見慣れた格子に、思いがけない曲がり角。",
+      "六角形の中で、進む道を探そう。",
+      "つながるセルをたどって探索。",
+      "輪をたどり、新しい道を見つけよう。"
+    ],
+    "capture": "ゲーム画面",
+    "gallery": "ゲーム画面を選ぶ",
+    "paceEyebrow": "自分のペースで",
+    "paceTitle": "ちょっとひと息。じっくり挑戦。",
+    "paceBody": "Easyから始めて、Medium、Hard、Insaneへ。iPhoneとiPadでは、ピンチとドラッグで大きな迷路を探索できます。",
+    "levels": [
+      "Easy",
+      "Medium",
+      "Hard",
+      "Insane"
+    ],
+    "featureTitles": [
+      "クリアして、比べて、もう一度。",
+      "ルールを変えて",
+      "どの画面でも"
+    ],
+    "featureBodies": [
+      "時間、歩数、引き返した回数、星、スコアを確認。同じ迷路をもう一度遊んでルートを改善するか、新しい迷路で別の配置に挑戦できます。",
+      "クラシック、最少歩数、タイムアタック、引き返し禁止から選択。霧を追加すると、探索中に見える範囲が狭くなります。",
+      "iPhone、iPad、Mac、Apple TVで迷路の基本プレイをオフラインで楽しめます。Game Centerの利用にはネット接続とサインインが必要です。"
+    ],
+    "closing": "次の出口は、ここから。",
+    "closingBody": "かたちと難易度を選んで、出口を見つけよう。",
+    "circularHelp": "円形の迷路は8方向の移動に対応しています。",
+    "shapeHelp": "迷路タイプメニューからRectangular、Hexagonal、Honeycomb、Circularを選べます。",
+    "seoTitle": "Infinity Maze｜4つの形・霧・オフライン迷路パズル",
+    "seoDescription": "四角形・六角形・ハニカム・円形の迷路を4つのモードで探索。霧を有効にしたり、同じ迷路をもう一度遊んでルートを改善できます。iPhone、iPad、Mac、Apple TVでオフラインの迷路パズルを楽しめます。",
+    "modesTitle": "出口を探す、4つの遊び方。",
+    "modesIntro": "形と難易度に加えて、ゲームモードも選べます。ルールによって挑戦内容や星の評価基準が変わります。",
+    "fogBody": "霧は追加の設定です。探索中に見える迷路の範囲を制限します。",
+    "faqTitle": "遊ぶ前に知っておきたいこと",
+    "faqs": [
+      [
+        "オフラインで遊べますか？",
+        "はい。迷路の基本プレイはオフラインで楽しめます。Game Centerの機能にはネット接続とサインインが必要です。"
+      ],
+      [
+        "同じ迷路をもう一度遊べますか？",
+        "はい。クリア後に時間、歩数、引き返した回数、星、スコアを確認できます。「もう一度」は同じ配置を保ち、「新しい迷路」は別の配置を生成します。"
+      ],
+      [
+        "Infinity Mazeは無料ですか？",
+        "無料でダウンロードでき、Proなしでも迷路の基本プレイを楽しめます。任意のPro購入ですべてのヒーローが使えるようになり、累計ランキングスコアが2倍になります。現在の価格はアプリ内でご確認ください。"
+      ],
+      [
+        "移動や迷路の表示はどう操作しますか？",
+        "iPhoneとiPadでは、道の方向をタップするか、方向ボタンをタップ・長押しします。ピンチで拡大縮小し、ドラッグで移動できます。Macはキーボードやクリック、Apple TVはSiri Remoteのクリックパッドをスワイプして操作します。"
+      ]
+    ],
+    "seoHelp": "Infinity Mazeヘルプ｜モード・再プレイ・操作方法",
+    "helpLead": "4つのモード、霧、同じ迷路の再プレイ、各端末の操作、オフライン利用、任意のPro購入について説明します。",
+    "modes": [
+      {
+        "name": "クラシック",
+        "body": "自分のペースで探索してクリア。"
+      },
+      {
+        "name": "最少歩数",
+        "body": "効率のよいルートを目指すモード。最短経路が星の評価でより重視されます。"
+      },
+      {
+        "name": "タイムアタック",
+        "body": "目標時間内のクリアが星の評価につながります。"
+      },
+      {
+        "name": "引き返し禁止",
+        "body": "逆方向への移動は禁止。慎重にルートを選びましょう。"
+      }
+    ]
+  },
+  "ko": {
+    "headline": [
+      "네 가지 모양.",
+      "끝없는 탈출 경로."
+    ],
+    "eyebrow": "나만의 속도로 출구를 찾아보세요",
+    "intro": "Infinity Maze는 iPhone, iPad, Mac, Apple TV에서 즐기는 오프라인 미로 퍼즐입니다. 사각형, 육각형, 벌집형, 원형 미로에서 출구를 찾고 안개를 켜서 탐험할 수도 있습니다.",
+    "shapesLink": "미로 둘러보기",
+    "skip": "본문으로 이동",
+    "shapeEyebrow": "미로 모양 선택",
+    "shapeTitle": "다른 모양, 새로운 생각의 길.",
+    "shapeIntro": "새 미로를 선택해 새로운 배치를 만들거나 같은 미로를 다시 플레이하며 다른 경로를 시험해 보세요. 모양에 따라 출구를 찾는 방법도 달라집니다.",
+    "shapeNames": [
+      "직사각형",
+      "육각형",
+      "벌집",
+      "원형"
+    ],
+    "shapeBodies": [
+      "익숙한 격자, 예상 밖의 갈림길.",
+      "여섯 변의 구조에서 길을 찾아보세요.",
+      "서로 연결된 셀을 따라 탐험하세요.",
+      "고리를 따라 새로운 경로를 생각해 보세요."
+    ],
+    "capture": "실제 게임 화면",
+    "gallery": "게임 화면 선택",
+    "paceEyebrow": "나만의 속도로",
+    "paceTitle": "잠깐의 휴식부터 깊이 있는 도전까지.",
+    "paceBody": "Easy에서 시작해 Medium, Hard, Insane에 도전해 보세요. iPhone과 iPad에서는 핀치와 드래그로 큰 미로를 탐험할 수 있습니다.",
+    "levels": [
+      "Easy",
+      "Medium",
+      "Hard",
+      "Insane"
+    ],
+    "featureTitles": [
+      "완주하고, 비교하고, 다시 도전하세요.",
+      "규칙을 바꿔 보세요",
+      "어디서나 함께"
+    ],
+    "featureBodies": [
+      "시간, 걸음 수, 되돌아간 횟수, 별과 점수를 확인하세요. 같은 미로를 다시 플레이해 경로를 개선하거나 새 미로에서 다른 배치를 탐험할 수 있습니다.",
+      "클래식, 최소 걸음, 타임어택, 되돌아가기 금지 중 선택하세요. 안개를 추가하면 탐험 중 볼 수 있는 범위가 줄어듭니다.",
+      "iPhone, iPad, Mac, Apple TV에서 핵심 미로 플레이를 오프라인으로 즐길 수 있습니다. Game Center 기능은 네트워크 연결과 로그인이 필요합니다."
+    ],
+    "closing": "다음 출구를 향한 여정은 여기서.",
+    "closingBody": "모양과 난이도를 고르고 출구를 찾아보세요.",
+    "circularHelp": "원형 미로는 여덟 방향 이동을 지원합니다.",
+    "shapeHelp": "미로 유형 메뉴에서 Rectangular, Hexagonal, Honeycomb, Circular을 선택하세요.",
+    "seoTitle": "Infinity Maze | 4가지 모양과 안개, 오프라인 미로 퍼즐",
+    "seoDescription": "네 가지 미로 모양과 네 가지 모드를 탐험하세요. 안개를 켜거나 같은 미로를 다시 플레이하며 경로를 개선할 수 있습니다. iPhone, iPad, Mac, Apple TV에서 오프라인으로 즐기세요.",
+    "modesTitle": "출구를 찾는 네 가지 방식.",
+    "modesIntro": "모양과 난이도 외에 게임 모드도 선택할 수 있습니다. 모드 규칙에 따라 도전 방식과 별 평가 기준이 달라집니다.",
+    "fogBody": "안개는 추가 옵션입니다. 탐험 중 볼 수 있는 미로의 범위를 제한합니다.",
+    "faqTitle": "시작하기 전에",
+    "faqs": [
+      [
+        "오프라인으로 플레이할 수 있나요?",
+        "네. 핵심 미로 플레이는 오프라인으로 즐길 수 있습니다. Game Center 기능은 네트워크 연결과 로그인이 필요합니다."
+      ],
+      [
+        "같은 미로를 다시 플레이할 수 있나요?",
+        "네. 완주 후 시간, 걸음 수, 되돌아간 횟수, 별과 점수를 확인할 수 있습니다. 다시 플레이는 같은 배치를 유지하며 새 미로는 다른 배치를 만듭니다."
+      ],
+      [
+        "Infinity Maze는 무료인가요?",
+        "무료로 다운로드할 수 있고 Pro 없이도 핵심 미로 플레이를 즐길 수 있습니다. 선택적인 Pro 구매로 모든 영웅을 잠금 해제하고 누적 순위표 점수를 두 배로 받을 수 있습니다. 현재 가격은 앱에서 확인하세요."
+      ],
+      [
+        "어떻게 이동하고 미로를 살펴보나요?",
+        "iPhone과 iPad에서는 경로 방향을 탭하거나 방향 버튼을 탭하고 길게 누르세요. 두 손가락으로 확대·축소하고 드래그해 화면을 이동할 수 있습니다. Mac은 키보드나 클릭, Apple TV는 Siri Remote 클릭패드 스와이프로 조작합니다."
+      ]
+    ],
+    "seoHelp": "Infinity Maze 도움말 | 모드, 다시 플레이와 조작",
+    "helpLead": "네 가지 모드, 안개, 같은 미로 다시 플레이, 기기별 조작, 오프라인 플레이와 선택적인 Pro 혜택을 알아보세요.",
+    "modes": [
+      {
+        "name": "클래식",
+        "body": "나만의 속도로 탐험하고 완주하세요."
+      },
+      {
+        "name": "최소 걸음",
+        "body": "효율적인 경로에 도전하세요. 별 평가에서 최단 경로가 더 중요해집니다."
+      },
+      {
+        "name": "타임어택",
+        "body": "목표 시간 안에 완주하면 별 평가에 유리합니다."
+      },
+      {
+        "name": "되돌아가기 금지",
+        "body": "반대 방향 이동이 차단됩니다. 경로를 신중하게 선택하세요."
+      }
+    ]
+  },
+  "zh-Hans": {
+    "headline": [
+      "四种迷宫，",
+      "无限出路。"
+    ],
+    "eyebrow": "按自己的节奏，寻找出路",
+    "intro": "Infinity Maze 是适用于 iPhone、iPad、Mac 和 Apple TV 的离线迷宫解谜游戏。在矩形、六边形、蜂巢和圆形迷宫中寻找出口，也可开启迷雾探索。",
+    "shapesLink": "探索四种迷宫",
+    "skip": "跳至正文",
+    "shapeEyebrow": "选择你的迷宫形状",
+    "shapeTitle": "换一种形状，换一种思路。",
+    "shapeIntro": "选择“新迷宫”生成新的布局，或重玩同一座迷宫，尝试另一条路线。不同形状，带来不同的寻路方式。",
+    "shapeNames": [
+      "矩形",
+      "六边形",
+      "蜂巢",
+      "圆形"
+    ],
+    "shapeBodies": [
+      "熟悉的格子，意想不到的转角。",
+      "在六边形结构中，寻找新的方向。",
+      "穿过相连的蜂巢单元，逐步探索。",
+      "沿着圆环前进，重新思考路线。"
+    ],
+    "capture": "实际游戏画面",
+    "gallery": "选择要查看的游戏截图",
+    "paceEyebrow": "按自己的节奏挑战",
+    "paceTitle": "可以片刻放松，也能深入挑战。",
+    "paceBody": "从简单开始，逐步挑战中等、困难与疯狂难度。在 iPhone 和 iPad 上，用双指缩放、拖动查看更大的迷宫。",
+    "levels": [
+      "简单",
+      "中等",
+      "困难",
+      "疯狂"
+    ],
+    "featureTitles": [
+      "通关、比较，再试一次",
+      "换个规则，再试一次",
+      "随时随地，走进迷宫"
+    ],
+    "featureBodies": [
+      "查看用时、步数、回退次数、星级与分数。选择“再玩一次”在同一座迷宫里优化路线，或选择“新迷宫”探索另一种布局。",
+      "选择经典、最少步数、计时挑战或不走回头路。也可开启迷雾，限制探索时的可见范围。",
+      "在 iPhone、iPad、Mac 和 Apple TV 上离线体验核心迷宫玩法。Game Center 功能需要联网并登录。"
+    ],
+    "closing": "下一条出路，从这里开始。",
+    "closingBody": "选好形状和难度，出发寻找出口。",
+    "circularHelp": "圆形迷宫支持八方向移动。",
+    "shapeHelp": "在迷宫类型菜单中选择矩形、六边形、蜂巢或圆形。",
+    "seoTitle": "Infinity Maze｜四种形状、迷雾与离线迷宫解谜",
+    "seoDescription": "探索矩形、六边形、蜂巢和圆形迷宫，选择四种玩法与四档难度，开启迷雾或重玩同一座迷宫优化路线。适用于 iPhone、iPad、Mac 和 Apple TV，核心玩法支持离线。",
+    "modesTitle": "四种玩法，寻找出口。",
+    "modesIntro": "除了形状和难度，还能选择游戏模式。不同规则带来不同挑战，也影响通关后的星级评价。",
+    "fogBody": "迷雾是一项额外选项：它会限制探索时能看到的迷宫范围。",
+    "faqTitle": "开始前，你可能想了解",
+    "faqs": [
+      [
+        "可以离线玩吗？",
+        "可以。核心迷宫玩法支持离线；Game Center 功能需要联网并登录。"
+      ],
+      [
+        "能重玩同一座迷宫吗？",
+        "可以。通关后可查看用时、步数、回退次数、星级与分数。“再玩一次”保留同一布局，“新迷宫”则生成另一种布局。"
+      ],
+      [
+        "Infinity Maze 免费吗？",
+        "App 可免费下载，无需 Pro 即可体验核心迷宫玩法。可选 Pro 内购可解锁全部英雄，并使累计排行榜得分翻倍。当前价格以 App 内展示为准。"
+      ],
+      [
+        "如何移动和查看迷宫？",
+        "在 iPhone 和 iPad 上，可点击路径方向，或点击、按住方向按钮移动；双指缩放、拖动平移。Mac 支持键盘或点击操作；Apple TV 使用 Siri Remote 点按板滑动。"
+      ]
+    ],
+    "seoHelp": "Infinity Maze 帮助｜玩法、重玩与操作指南",
+    "helpLead": "了解四种玩法、迷雾、同局重玩、各平台操作、离线游玩和可选 Pro 权益。",
+    "modes": [
+      {
+        "name": "经典模式",
+        "body": "按自己的节奏探索并通关。"
+      },
+      {
+        "name": "最少步数",
+        "body": "争取更高效的路线，星级更看重最短路径。"
+      },
+      {
+        "name": "计时挑战",
+        "body": "争取在目标时间内通关，星级根据完成用时评价。"
+      },
+      {
+        "name": "不走回头路",
+        "body": "不能反向移动，需要更谨慎地选择路线。"
+      }
+    ]
+  },
+  "zh-Hant": {
+    "headline": [
+      "四種迷宮，",
+      "無限出路。"
+    ],
+    "eyebrow": "按自己的步調，尋找出路",
+    "intro": "Infinity Maze 是適用於 iPhone、iPad、Mac 與 Apple TV 的離線迷宮解謎遊戲。在矩形、六邊形、蜂巢與圓形迷宮中尋找出口，也能開啟迷霧探索。",
+    "shapesLink": "探索四種迷宮",
+    "skip": "跳至正文",
+    "shapeEyebrow": "選擇你的迷宮形狀",
+    "shapeTitle": "換一種形狀，換一種思路。",
+    "shapeIntro": "選擇「新迷宮」產生新的佈局，或重玩同一座迷宮，嘗試另一條路線。不同形狀，帶來不同的尋路方式。",
+    "shapeNames": [
+      "矩形",
+      "六邊形",
+      "蜂巢",
+      "圓形"
+    ],
+    "shapeBodies": [
+      "熟悉的格子，意想不到的轉角。",
+      "在六邊形結構中，尋找新的方向。",
+      "穿過相連的蜂巢單元，逐步探索。",
+      "沿著圓環前進，重新思考路線。"
+    ],
+    "capture": "實際遊戲畫面",
+    "gallery": "選擇要查看的遊戲截圖",
+    "paceEyebrow": "按自己的節奏挑戰",
+    "paceTitle": "可以片刻放鬆，也能深入挑戰。",
+    "paceBody": "從簡單開始，逐步挑戰中等、困難與瘋狂難度。在 iPhone 和 iPad 上，用雙指縮放、拖曳查看更大的迷宮。",
+    "levels": [
+      "簡單",
+      "中等",
+      "困難",
+      "瘋狂"
+    ],
+    "featureTitles": [
+      "過關、比較，再試一次",
+      "換個規則，再試一次",
+      "隨時隨地，走進迷宮"
+    ],
+    "featureBodies": [
+      "查看用時、步數、回頭次數、星級與分數。選擇「再玩一次」在同一座迷宮改善路線，或選擇「新迷宮」探索另一種佈局。",
+      "選擇經典、最少步數、計時挑戰或不走回頭路。也能開啟迷霧，限制探索時的可見範圍。",
+      "在 iPhone、iPad、Mac 與 Apple TV 上離線體驗核心迷宮玩法。Game Center 功能需要網路連線並登入。"
+    ],
+    "closing": "下一條出路，從這裡開始。",
+    "closingBody": "選好形狀和難度，出發尋找出口。",
+    "circularHelp": "圓形迷宮支援八方向移動。",
+    "shapeHelp": "在迷宮類型選單中選擇矩形、六邊形、蜂巢或圓形。",
+    "seoTitle": "Infinity Maze｜四種形狀、迷霧與離線迷宮解謎",
+    "seoDescription": "探索矩形、六邊形、蜂巢與圓形迷宮，選擇四種玩法與四種難度，開啟迷霧或重玩同一座迷宮改善路線。適用於 iPhone、iPad、Mac 與 Apple TV，核心玩法支援離線。",
+    "modesTitle": "四種玩法，尋找出口。",
+    "modesIntro": "除了形狀與難度，還能選擇遊戲模式。不同規則帶來不同挑戰，也影響過關後的星級評價。",
+    "fogBody": "迷霧是一項額外選項：它會限制探索時能看見的迷宮範圍。",
+    "faqTitle": "開始前，你可能想了解",
+    "faqs": [
+      [
+        "可以離線玩嗎？",
+        "可以。核心迷宮玩法支援離線；Game Center 功能需要網路連線並登入。"
+      ],
+      [
+        "能重玩同一座迷宮嗎？",
+        "可以。過關後可查看用時、步數、回頭次數、星級與分數。「再玩一次」保留同一佈局，「新迷宮」則產生另一種佈局。"
+      ],
+      [
+        "Infinity Maze 免費嗎？",
+        "App 可免費下載，無需 Pro 即可體驗核心迷宮玩法。可選 Pro 內購可解鎖全部英雄，並使累計排行榜得分加倍。目前價格以 App 內顯示為準。"
+      ],
+      [
+        "如何移動與查看迷宮？",
+        "在 iPhone 與 iPad 上，可點按路徑方向，或點按、按住方向按鈕移動；雙指縮放、拖曳平移。Mac 支援鍵盤或點按操作；Apple TV 使用 Siri Remote 點按板滑動。"
+      ]
+    ],
+    "seoHelp": "Infinity Maze 幫助｜玩法、重玩與操作指南",
+    "helpLead": "了解四種玩法、迷霧、同局重玩、各平台操作、離線遊玩與可選 Pro 權益。",
+    "modes": [
+      {
+        "name": "經典模式",
+        "body": "按自己的步調探索並過關。"
+      },
+      {
+        "name": "最少步數",
+        "body": "尋找更有效率的路線，星級更重視最短路徑。"
+      },
+      {
+        "name": "計時挑戰",
+        "body": "爭取在目標時間內過關，星級依完成用時評價。"
+      },
+      {
+        "name": "不走回頭路",
+        "body": "不能反向移動，需要更謹慎地選擇路線。"
+      }
+    ]
+  }
+}

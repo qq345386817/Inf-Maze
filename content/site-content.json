@@ -1,90 +1,90 @@
 {
   "home": {
     "en": {
-      "tagline": "Endless procedural mazes for quick focus, spatial reasoning, and relaxed puzzle runs.",
-      "feature1": "Procedurally generated rectangular, hexagonal, and honeycomb mazes.",
-      "feature2": "Easy, Medium, Hard, and Insane levels with short replayable sessions.",
-      "feature3": "Designed for iPhone, iPad, Mac, and Apple TV, with offline play.",
+      "tagline": "Infinity Maze is an offline maze puzzle game for iPhone, iPad, Mac and Apple TV. Explore rectangles, hexagons, honeycombs and circles, with optional fog.",
+      "feature1": "Rectangular, Hexagonal, Honeycomb, Circular",
+      "feature2": "Review your time, steps, backtracks, stars and score. Choose Play Again to improve your route in the same maze, or New Maze for a fresh layout.",
+      "feature3": "Core maze play works offline on iPhone, iPad, Mac and Apple TV. Game Center requires a network connection and sign-in.",
       "help": "Help Center",
       "privacy": "Privacy Policy",
       "contact": "If you have any questions, contact support: cameoshell09@gmail.com",
       "language": "Language"
     },
     "ar": {
-      "tagline": "متاهات إجرائية لا نهائية للتركيز السريع والتفكير المكاني وجولات ألغاز هادئة.",
-      "feature1": "متاهات مستطيلة وسداسية وشبيهة بقرص العسل يتم إنشاؤها إجرائياً.",
-      "feature2": "مستويات Easy وMedium وHard وInsane لجولات قصيرة قابلة للإعادة.",
-      "feature3": "مصممة لـ iPhone وiPad وMac وApple TV، وتعمل دون اتصال.",
+      "tagline": "Infinity Maze لعبة ألغاز متاهات دون اتصال على iPhone وiPad وMac وApple TV. ابحث عن المخرج في متاهات مستطيلة وسداسية وخلايا عسل ودائرية، مع ضباب اختياري.",
+      "feature1": "مستطيلة, سداسية, خلايا العسل, دائرية",
+      "feature2": "راجع الوقت والخطوات والتراجعات والنجوم والنقاط. أعد المتاهة نفسها لتحسين مسارك، أو اختر متاهة جديدة لاستكشاف تخطيط آخر.",
+      "feature3": "تعمل تجربة المتاهات الأساسية دون اتصال على iPhone وiPad وMac وApple TV. تتطلب ميزات Game Center اتصالًا بالشبكة وتسجيل الدخول.",
       "help": "مركز المساعدة",
       "privacy": "سياسة الخصوصية",
       "contact": "إذا كانت لديك أي أسئلة، تواصل مع الدعم: cameoshell09@gmail.com",
       "language": "اللغة"
     },
     "de": {
-      "tagline": "Endlose prozedurale Labyrinthe für schnellen Fokus, räumliches Denken und entspannte Puzzle-Runden.",
-      "feature1": "Prozedural erzeugte rechteckige, hexagonale und Honeycomb-Labyrinthe.",
-      "feature2": "Easy-, Medium-, Hard- und Insane-Level für kurze, wiederholbare Runden.",
-      "feature3": "Für iPhone, iPad, Mac und Apple TV entwickelt, offline spielbar.",
+      "tagline": "Infinity Maze ist ein Offline-Labyrinthspiel für iPhone, iPad, Mac und Apple TV. Finde den Ausgang in Rechtecken, Sechsecken, Waben und Kreisen – auf Wunsch mit Nebel.",
+      "feature1": "Rechteck, Sechseck, Waben, Kreis",
+      "feature2": "Prüfe Zeit, Schritte, Rückwege, Sterne und Punkte. Spiele dasselbe Labyrinth erneut, um deinen Weg zu verbessern, oder wähle ein neues Layout.",
+      "feature3": "Das eigentliche Labyrinthspiel funktioniert auf iPhone, iPad, Mac und Apple TV offline. Game Center benötigt eine Internetverbindung und Anmeldung.",
       "help": "Hilfezentrum",
       "privacy": "Datenschutzrichtlinie",
       "contact": "Bei Fragen kontaktieren Sie den Support: cameoshell09@gmail.com",
       "language": "Sprache"
     },
     "es": {
-      "tagline": "Laberintos procedurales infinitos para concentración rápida, razonamiento espacial y partidas relajadas.",
-      "feature1": "Laberintos rectangulares, hexagonales y Honeycomb generados proceduralmente.",
-      "feature2": "Niveles Easy, Medium, Hard e Insane para sesiones cortas y rejugables.",
-      "feature3": "Diseñado para iPhone, iPad, Mac y Apple TV, con juego sin conexión.",
+      "tagline": "Infinity Maze es un juego de laberintos sin conexión para iPhone, iPad, Mac y Apple TV. Busca la salida en rectángulos, hexágonos, panales y círculos, con niebla opcional.",
+      "feature1": "Rectangular, Hexagonal, Panal, Circular",
+      "feature2": "Revisa el tiempo, los pasos, los retrocesos, las estrellas y los puntos. Repite el mismo laberinto para mejorar la ruta o elige un diseño nuevo.",
+      "feature3": "El juego de laberintos funciona sin conexión en iPhone, iPad, Mac y Apple TV. Game Center requiere conexión e inicio de sesión.",
       "help": "Centro de ayuda",
       "privacy": "Política de privacidad",
       "contact": "Si tienes preguntas, contacta con soporte: cameoshell09@gmail.com",
       "language": "Idioma"
     },
     "fr": {
-      "tagline": "Labyrinthes procéduraux infinis pour la concentration rapide, le raisonnement spatial et des parties détendues.",
-      "feature1": "Labyrinthes rectangulaires, hexagonaux et Honeycomb générés procéduralement.",
-      "feature2": "Niveaux Easy, Medium, Hard et Insane pour des sessions courtes rejouables.",
-      "feature3": "Conçu pour iPhone, iPad, Mac et Apple TV, jouable hors ligne.",
+      "tagline": "Infinity Maze est un jeu de labyrinthes hors ligne pour iPhone, iPad, Mac et Apple TV. Trouvez la sortie dans des rectangles, hexagones, alvéoles et cercles, avec de la brume en option.",
+      "feature1": "Rectangulaire, Hexagonal, Alvéoles, Circulaire",
+      "feature2": "Consultez le temps, les pas, les retours, les étoiles et le score. Rejouez le même labyrinthe pour améliorer votre trajet, ou choisissez un nouveau plan.",
+      "feature3": "Le jeu de labyrinthe fonctionne hors ligne sur iPhone, iPad, Mac et Apple TV. Game Center nécessite une connexion et une identification.",
       "help": "Centre d’aide",
       "privacy": "Politique de confidentialité",
       "contact": "Pour toute question, contactez le support : cameoshell09@gmail.com",
       "language": "Langue"
     },
     "ja": {
-      "tagline": "短時間の集中、空間認識、リラックスしたパズルに向いた無限の自動生成迷路。",
-      "feature1": "長方形、Hexagonal、Honeycombの迷路を手続き生成します。",
-      "feature2": "Easy、Medium、Hard、Insaneの短く繰り返し遊べるレベル。",
-      "feature3": "iPhone、iPad、Mac、Apple TV向け。オフラインで遊べます。",
+      "tagline": "Infinity Mazeは、iPhone、iPad、Mac、Apple TVで遊べるオフライン迷路パズルです。四角形・六角形・ハニカム・円形の迷路で出口を探し、霧を使った探索にも挑戦できます。",
+      "feature1": "長方形, 六角形, ハニカム, 円形",
+      "feature2": "時間、歩数、引き返した回数、星、スコアを確認。同じ迷路をもう一度遊んでルートを改善するか、新しい迷路で別の配置に挑戦できます。",
+      "feature3": "iPhone、iPad、Mac、Apple TVで迷路の基本プレイをオフラインで楽しめます。Game Centerの利用にはネット接続とサインインが必要です。",
       "help": "ヘルプセンター",
       "privacy": "プライバシーポリシー",
       "contact": "ご質問はサポートまで: cameoshell09@gmail.com",
       "language": "言語"
     },
     "ko": {
-      "tagline": "빠른 집중, 공간 추론, 편안한 퍼즐 플레이를 위한 끝없는 절차적 미로.",
-      "feature1": "직사각형, Hexagonal, Honeycomb 미로를 절차적으로 생성합니다.",
-      "feature2": "짧고 반복해서 즐길 수 있는 Easy, Medium, Hard, Insane 레벨.",
-      "feature3": "iPhone, iPad, Mac, Apple TV용으로 설계되었으며 오프라인 플레이를 지원합니다.",
+      "tagline": "Infinity Maze는 iPhone, iPad, Mac, Apple TV에서 즐기는 오프라인 미로 퍼즐입니다. 사각형, 육각형, 벌집형, 원형 미로에서 출구를 찾고 안개를 켜서 탐험할 수도 있습니다.",
+      "feature1": "직사각형, 육각형, 벌집, 원형",
+      "feature2": "시간, 걸음 수, 되돌아간 횟수, 별과 점수를 확인하세요. 같은 미로를 다시 플레이해 경로를 개선하거나 새 미로에서 다른 배치를 탐험할 수 있습니다.",
+      "feature3": "iPhone, iPad, Mac, Apple TV에서 핵심 미로 플레이를 오프라인으로 즐길 수 있습니다. Game Center 기능은 네트워크 연결과 로그인이 필요합니다.",
       "help": "도움말 센터",
       "privacy": "개인정보 처리방침",
       "contact": "문의가 있으면 지원팀으로 연락하세요: cameoshell09@gmail.com",
       "language": "언어"
     },
     "zh-Hans": {
-      "tagline": "无限程序生成迷宫，适合快速专注、空间推理和轻松解谜。",
-      "feature1": "程序生成矩形、六边形和蜂巢迷宫。",
-      "feature2": "Easy、Medium、Hard 和 Insane 难度，适合短回合反复挑战。",
-      "feature3": "适配 iPhone、iPad、Mac 和 Apple TV，并支持离线游玩。",
+      "tagline": "Infinity Maze 是适用于 iPhone、iPad、Mac 和 Apple TV 的离线迷宫解谜游戏。在矩形、六边形、蜂巢和圆形迷宫中寻找出口，也可开启迷雾探索。",
+      "feature1": "矩形, 六边形, 蜂巢, 圆形",
+      "feature2": "查看用时、步数、回退次数、星级与分数。选择“再玩一次”在同一座迷宫里优化路线，或选择“新迷宫”探索另一种布局。",
+      "feature3": "在 iPhone、iPad、Mac 和 Apple TV 上离线体验核心迷宫玩法。Game Center 功能需要联网并登录。",
       "help": "帮助中心",
       "privacy": "隐私政策",
       "contact": "如有问题，请联系支持：cameoshell09@gmail.com",
       "language": "语言"
     },
     "zh-Hant": {
-      "tagline": "無限程式生成迷宮，適合快速專注、空間推理和輕鬆解謎。",
-      "feature1": "程式生成矩形、六邊形和蜂巢迷宮。",
-      "feature2": "Easy、Medium、Hard 和 Insane 難度，適合短回合反覆挑戰。",
-      "feature3": "適配 iPhone、iPad、Mac 和 Apple TV，並支援離線遊玩。",
+      "tagline": "Infinity Maze 是適用於 iPhone、iPad、Mac 與 Apple TV 的離線迷宮解謎遊戲。在矩形、六邊形、蜂巢與圓形迷宮中尋找出口，也能開啟迷霧探索。",
+      "feature1": "矩形, 六邊形, 蜂巢, 圓形",
+      "feature2": "查看用時、步數、回頭次數、星級與分數。選擇「再玩一次」在同一座迷宮改善路線，或選擇「新迷宮」探索另一種佈局。",
+      "feature3": "在 iPhone、iPad、Mac 與 Apple TV 上離線體驗核心迷宮玩法。Game Center 功能需要網路連線並登入。",
       "help": "幫助中心",
       "privacy": "隱私政策",
       "contact": "如有問題，請聯絡支援：cameoshell09@gmail.com",
@@ -100,7 +100,7 @@
       "tvosTitle": "On Apple TV",
       "footer": "If you have any questions, contact support: cameoshell09@gmail.com",
       "ios": [
-        "Tap the screen in the direction you want the hero to move.",
+        "Tap toward the path, or use the direction buttons: tap for one step and hold to keep moving. Pinch to zoom and drag to pan.",
         "Choose Rectangular, Hexagonal, or Honeycomb maze types from the game menu.",
         "Hexagonal and Honeycomb mazes support six directions; tap diagonally to move along diagonal paths.",
         "Tap Start Over to start a new game.",
@@ -109,7 +109,7 @@
         "Use Print when you want a hard copy of the current maze."
       ],
       "mac": [
-        "Click in the game window, or use arrow keys, to move in the corresponding direction.",
+        "Click toward a path or use the keyboard. Six-direction mazes use W/E/A/D/Z/X; circular mazes use Q/W/E/A/D/Z/X/C.",
         "Choose Rectangular, Hexagonal, or Honeycomb maze types from the maze type menu.",
         "Hexagonal and Honeycomb mazes support six directions; click or use supported controls toward the diagonal path.",
         "Click Start Over to start a new game.",
@@ -135,7 +135,7 @@
       "tvosTitle": "على Apple TV",
       "footer": "إذا كانت لديك أي أسئلة، تواصل مع الدعم: cameoshell09@gmail.com",
       "ios": [
-        "اضغط على الشاشة في الاتجاه الذي تريد أن يتحرك إليه البطل.",
+        "انقر باتجاه المسار أو استخدم أزرار الاتجاهات: نقرة لخطوة واحدة وضغط مطوّل لمواصلة الحركة. قرّب بإصبعين واسحب لتحريك عرض المتاهة.",
         "اختر نوع المتاهة Rectangular أو Hexagonal أو Honeycomb من قائمة اللعبة.",
         "تدعم متاهات Hexagonal وHoneycomb ستة اتجاهات؛ اضغط قطرياً للتحرك عبر المسارات القطرية.",
         "اضغط Start Over لبدء لعبة جديدة.",
@@ -144,7 +144,7 @@
         "استخدم Print إذا أردت نسخة ورقية من المتاهة الحالية."
       ],
       "mac": [
-        "انقر داخل نافذة اللعبة، أو استخدم مفاتيح الأسهم، للتحرك في الاتجاه المقابل.",
+        "انقر باتجاه المسار أو استخدم لوحة المفاتيح. للمتاهات ذات الستة اتجاهات: W/E/A/D/Z/X. وللمتاهات الدائرية: Q/W/E/A/D/Z/X/C.",
         "اختر Rectangular أو Hexagonal أو Honeycomb من قائمة نوع المتاهة.",
         "تدعم Hexagonal وHoneycomb ستة اتجاهات؛ انقر أو استخدم عناصر التحكم المدعومة باتجاه المسار القطري.",
         "انقر Start Over لبدء لعبة جديدة.",
@@ -170,7 +170,7 @@
       "tvosTitle": "Auf Apple TV",
       "footer": "Bei Fragen kontaktieren Sie den Support: cameoshell09@gmail.com",
       "ios": [
-        "Tippen Sie in die Richtung, in die sich der Held bewegen soll.",
+        "Tippe in Wegrichtung oder nutze die Richtungstasten: tippen für einen Schritt, halten zum Weitergehen. Zoome mit zwei Fingern und verschiebe durch Ziehen.",
         "Wählen Sie Rectangular, Hexagonal oder Honeycomb im Spielmenü.",
         "Hexagonal- und Honeycomb-Labyrinthe unterstützen sechs Richtungen; tippen Sie diagonal für diagonale Wege.",
         "Tippen Sie auf Start Over, um ein neues Spiel zu beginnen.",
@@ -179,7 +179,7 @@
         "Nutzen Sie Print für einen Ausdruck des aktuellen Labyrinths."
       ],
       "mac": [
-        "Klicken Sie ins Spielfenster oder verwenden Sie die Pfeiltasten, um sich zu bewegen.",
+        "Klicke in Wegrichtung oder nutze die Tastatur. Sechs Richtungen: W/E/A/D/Z/X. Kreisförmige Labyrinthe: Q/W/E/A/D/Z/X/C.",
         "Wählen Sie Rectangular, Hexagonal oder Honeycomb im Labyrinthtyp-Menü.",
         "Hexagonal- und Honeycomb-Labyrinthe unterstützen sechs Richtungen; klicken oder steuern Sie in Richtung diagonaler Wege.",
         "Klicken Sie auf Start Over, um ein neues Spiel zu beginnen.",
@@ -205,7 +205,7 @@
       "tvosTitle": "En Apple TV",
       "footer": "Si tienes preguntas, contacta con soporte: cameoshell09@gmail.com",
       "ios": [
-        "Toca la pantalla en la dirección en la que quieres mover al héroe.",
+        "Toca hacia el camino o usa los botones de dirección: un toque para un paso y una pulsación larga para continuar. Pellizca para ampliar y arrastra para desplazar la vista.",
         "Elige Rectangular, Hexagonal o Honeycomb desde el menú del juego.",
         "Los laberintos Hexagonal y Honeycomb admiten seis direcciones; toca en diagonal para seguir caminos diagonales.",
         "Toca Start Over para empezar una partida nueva.",
@@ -214,7 +214,7 @@
         "Usa Print si quieres una copia en papel del laberinto actual."
       ],
       "mac": [
-        "Haz clic en la ventana del juego, o usa las flechas, para moverte en la dirección correspondiente.",
+        "Haz clic hacia un camino o usa el teclado. Seis direcciones: W/E/A/D/Z/X. Laberintos circulares: Q/W/E/A/D/Z/X/C.",
         "Elige Rectangular, Hexagonal o Honeycomb desde el menú de tipo de laberinto.",
         "Hexagonal y Honeycomb admiten seis direcciones; haz clic o usa controles compatibles hacia el camino diagonal.",
         "Haz clic en Start Over para empezar una partida nueva.",
@@ -240,7 +240,7 @@
       "tvosTitle": "Sur Apple TV",
       "footer": "Pour toute question, contactez le support : cameoshell09@gmail.com",
       "ios": [
-        "Touchez l’écran dans la direction où vous voulez déplacer le héros.",
+        "Touchez la direction du chemin ou utilisez les boutons directionnels : un toucher pour un pas, un appui prolongé pour continuer. Pincez pour zoomer et faites glisser pour déplacer la vue.",
         "Choisissez Rectangular, Hexagonal ou Honeycomb dans le menu du jeu.",
         "Les labyrinthes Hexagonal et Honeycomb prennent en charge six directions ; touchez en diagonale pour suivre les chemins diagonaux.",
         "Touchez Start Over pour commencer une nouvelle partie.",
@@ -249,7 +249,7 @@
         "Utilisez Print pour obtenir une copie papier du labyrinthe actuel."
       ],
       "mac": [
-        "Cliquez dans la fenêtre du jeu, ou utilisez les flèches, pour vous déplacer dans la direction correspondante.",
+        "Cliquez vers un chemin ou utilisez le clavier. Six directions : W/E/A/D/Z/X. Labyrinthes circulaires : Q/W/E/A/D/Z/X/C.",
         "Choisissez Rectangular, Hexagonal ou Honeycomb dans le menu du type de labyrinthe.",
         "Hexagonal et Honeycomb prennent en charge six directions ; cliquez ou utilisez les commandes compatibles vers les chemins diagonaux.",
         "Cliquez sur Start Over pour commencer une nouvelle partie.",
@@ -275,7 +275,7 @@
       "tvosTitle": "Apple TV",
       "footer": "ご質問はサポートまで: cameoshell09@gmail.com",
       "ios": [
-        "ヒーローを動かしたい方向に画面をタップします。",
+        "道の方向をタップするか、方向ボタンを使います。タップで1歩、長押しで連続移動。ピンチで拡大縮小し、ドラッグで表示を移動できます。",
         "ゲームメニューからRectangular、Hexagonal、Honeycombを選びます。",
         "HexagonalとHoneycombの迷路は6方向移動に対応し、斜め方向をタップして進めます。",
         "Start Overをタップして新しいゲームを始めます。",
@@ -284,7 +284,7 @@
         "現在の迷路を印刷したいときはPrintを使います。"
       ],
       "mac": [
-        "ゲームウィンドウをクリック、または矢印キーで対応する方向に移動します。",
+        "道の方向をクリックするかキーボードを使います。6方向の迷路はW/E/A/D/Z/X、円形迷路はQ/W/E/A/D/Z/X/Cで移動できます。",
         "迷路タイプメニューからRectangular、Hexagonal、Honeycombを選びます。",
         "HexagonalとHoneycombは6方向移動に対応し、斜めの道へクリックまたは対応操作で進みます。",
         "Start Overをクリックして新しいゲームを始めます。",
@@ -310,7 +310,7 @@
       "tvosTitle": "Apple TV",
       "footer": "문의가 있으면 지원팀으로 연락하세요: cameoshell09@gmail.com",
       "ios": [
-        "영웅을 움직일 방향으로 화면을 탭합니다.",
+        "경로 방향을 탭하거나 방향 버튼을 사용하세요. 탭하면 한 걸음, 길게 누르면 연속으로 이동합니다. 두 손가락으로 확대·축소하고 드래그해 화면을 이동하세요.",
         "게임 메뉴에서 Rectangular, Hexagonal, Honeycomb 미로 유형을 선택합니다.",
         "Hexagonal 및 Honeycomb 미로는 여섯 방향 이동을 지원하므로 대각선 경로는 대각선으로 탭하세요.",
         "Start Over를 탭하여 새 게임을 시작합니다.",
@@ -319,7 +319,7 @@
         "현재 미로를 종이로 출력하려면 Print를 사용하세요."
       ],
       "mac": [
-        "게임 창을 클릭하거나 화살표 키를 사용하여 해당 방향으로 이동합니다.",
+        "경로 방향을 클릭하거나 키보드를 사용하세요. 여섯 방향 미로는 W/E/A/D/Z/X, 원형 미로는 Q/W/E/A/D/Z/X/C로 이동할 수 있습니다.",
         "미로 유형 메뉴에서 Rectangular, Hexagonal, Honeycomb을 선택합니다.",
         "Hexagonal 및 Honeycomb은 여섯 방향을 지원하므로 대각선 경로 방향으로 클릭하거나 지원되는 조작을 사용하세요.",
         "Start Over를 클릭하여 새 게임을 시작합니다.",
@@ -345,7 +345,7 @@
       "tvosTitle": "在 Apple TV 上",
       "footer": "如有问题，请联系支持：cameoshell09@gmail.com",
       "ios": [
-        "点击屏幕上希望角色移动的方向。",
+        "点击路径方向，或使用方向按钮：点击移动一步，按住连续移动。双指缩放、拖动平移查看迷宫。",
         "可在游戏菜单中选择矩形、六边形或蜂巢迷宫。",
         "六边形和蜂巢迷宫支持六方向移动，可点击斜向路径前进。",
         "点击“Start Over”开始新游戏。",
@@ -354,7 +354,7 @@
         "如需当前迷宫的纸质版本，可使用 Print。"
       ],
       "mac": [
-        "点击游戏窗口，或使用方向键，按对应方向移动。",
+        "点击路径方向或使用键盘。六方向迷宫可用 W/E/A/D/Z/X；圆形迷宫可用 Q/W/E/A/D/Z/X/C。",
         "可在迷宫类型菜单中选择 Rectangular、Hexagonal 或 Honeycomb。",
         "六边形和蜂巢迷宫支持六方向移动，可点击或使用支持的控制方式朝斜向路径移动。",
         "点击“Start Over”开始新游戏。",
@@ -380,7 +380,7 @@
       "tvosTitle": "在 Apple TV 上",
       "footer": "如有問題，請聯絡支援：cameoshell09@gmail.com",
       "ios": [
-        "點擊螢幕上希望角色移動的方向。",
+        "點按路徑方向，或使用方向按鈕：點按移動一步，按住連續移動。雙指縮放、拖曳平移查看迷宮。",
         "可在遊戲選單中選擇矩形、六邊形或蜂巢迷宮。",
         "六邊形和蜂巢迷宮支援六方向移動，可點擊斜向路徑前進。",
         "點擊「Start Over」開始新遊戲。",
@@ -389,7 +389,7 @@
         "如需目前迷宮的紙本版本，可使用 Print。"
       ],
       "mac": [
-        "點擊遊戲視窗，或使用方向鍵，按對應方向移動。",
+        "點按路徑方向或使用鍵盤。六方向迷宮可用 W/E/A/D/Z/X；圓形迷宮可用 Q/W/E/A/D/Z/X/C。",
         "可在迷宮類型選單中選擇 Rectangular、Hexagonal 或 Honeycomb。",
         "六邊形和蜂巢迷宮支援六方向移動，可點擊或使用支援的控制方式朝斜向路徑移動。",
         "點擊「Start Over」開始新遊戲。",

@@ -1,12 +1,46 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(scriptDir, "..");
 const contentPath = path.join(rootDir, "content", "site-content.json");
 const baseUrl = "https://inf-maze.luopeike.com";
 const supportEmail = "cameoshell09@gmail.com";
+const website = JSON.parse(fs.readFileSync(path.join(rootDir, "content/website.json"), "utf8"));
+const gameplay = JSON.parse(fs.readFileSync(path.join(rootDir, "content/gameplay-images.json"), "utf8"));
+const tokens = JSON.parse(fs.readFileSync(path.join(rootDir, "content/design-tokens.json"), "utf8"));
+const revisionsPath = path.join(rootDir, "content/page-revisions.json");
+const revisions = fs.existsSync(revisionsPath) ? JSON.parse(fs.readFileSync(revisionsPath, "utf8")) : {};
+const previousDates = new Map([...fs.readFileSync(path.join(rootDir, "sitemap.xml"), "utf8").matchAll(/<loc>([^<]+)<\/loc>\s*<lastmod>([^<]+)<\/lastmod>/g)].map(([, url, date]) => [url, date]));
+const today = new Date().toISOString().slice(0, 10);
+
+function contentHash(html) {
+  // A CSS/JS fingerprint changing alone does not date every page as new content.
+  const normalized = html.replace(/\/(style|script)\/generated\/([\w-]+)\.[a-f0-9]{12}\.(css|js)/g, "/$1/generated/$2.$3");
+  return createHash("sha256").update(normalized).digest("hex");
+}
+
+function recordPage(locale, pageKey, html) {
+  const url = `${baseUrl}${pagePath(locale, pageKey)}`;
+  const hash = contentHash(html);
+  const previous = revisions[url];
+  const existingFile = path.join(rootDir, locale.folder, pages[pageKey].file);
+  const unchanged = previous ? previous.hash === hash : fs.existsSync(existingFile) && contentHash(fs.readFileSync(existingFile, "utf8")) === hash;
+  revisions[url] = { hash, lastModified: unchanged ? previous?.lastModified ?? previousDates.get(url) ?? today : today };
+}
+const tokenCss = `:root{${tokens.color.tokens.map(t => `--${t.name}:${t.value};`).join("")}${["spacing","radius"].flatMap(f => tokens[f].tokens.map(t => `--${t.name}:${t.value};`)).join("")}${Object.entries(tokens.type.families).map(([name,value]) => `--font-${name}:${value};`).join("")}}\n`;
+function fingerprint(folder, name, ext, source) {
+  const hash = createHash("sha256").update(source).digest("hex").slice(0,12);
+  const dir = path.join(rootDir, folder, "generated");
+  fs.mkdirSync(dir, {recursive:true});
+  const file = `${name}.${hash}.${ext}`;
+  fs.writeFileSync(path.join(dir,file), source);
+  return `/${folder}/generated/${file}`;
+}
+const websiteCss = fingerprint("style", "site", "css", tokenCss + fs.readFileSync(path.join(rootDir,"style/site.css"),"utf8"));
+const websiteJs = fingerprint("script", "gameplay", "js", fs.readFileSync(path.join(rootDir,"script/gameplay.js"),"utf8"));
 
 const locales = [
   { key: "en", folder: "", htmlLang: "en", hreflang: "en", ogLocale: "en_US", label: "English" },
@@ -155,7 +189,7 @@ function header(locale, pageKey) {
   }).join("");
   return `<header class="topbar">
   <a class="brand" href="${pagePath(locale, "home")}" aria-label="Infinity Maze ${escapeHtml(t.home)}">
-    <img src="/favicon/apple-touch-icon.png" alt="" width="44" height="44">
+    <img src="${pageKey === "privacy" ? "/favicon/apple-touch-icon.png" : gameplay.brand.src}" alt="" width="44" height="44">
     <span>Infinity Maze</span>
   </a>
   <nav class="nav" aria-label="${escapeHtml(t.language)}">${nav}
@@ -172,7 +206,7 @@ function storeButton(locale, compact = false) {
 function footer(locale, pageKey) {
   const t = ui[locale.key];
   return `<footer class="footer">
-  <div class="footer-main"><div><strong>Infinity Maze</strong><p>${escapeHtml(t.copyright)}</p></div>${storeButton(locale, true)}</div>
+  <div class="footer-main"><div><strong>Infinity Maze</strong><p>${escapeHtml(t.copyright)}</p></div>${pageKey === "home" ? "" : storeButton(locale, true)}</div>
   <nav class="footer-languages" aria-label="${escapeHtml(t.language)}"><span>${escapeHtml(t.language)}</span><div>${languageLinks(locale, pageKey)}</div></nav>
 </footer>`;
 }
@@ -186,13 +220,13 @@ function documentHead(locale, pageKey, title, description, schema) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="${escapeHtml(description)}">
   <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="theme-color" content="#101337">
+  <meta name="theme-color" content="${pageKey === "privacy" ? "#101337" : "#080d17"}">
   <meta name="apple-itunes-app" content="app-id=6608970522">
   <meta property="og:title" content="${escapeHtml(title)}">
   <meta property="og:description" content="${escapeHtml(description)}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="${baseUrl}/favicon/android-chrome-512x512.png">
+  <meta property="og:image" content="${baseUrl}${pageKey === "privacy" ? "/favicon/android-chrome-512x512.png" : gameplay.brand.src}">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="512">
   <meta property="og:image:height" content="512">
@@ -202,93 +236,114 @@ function documentHead(locale, pageKey, title, description, schema) {
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="${escapeHtml(title)}">
   <meta name="twitter:description" content="${escapeHtml(description)}">
-  <meta name="twitter:image" content="${baseUrl}/favicon/android-chrome-512x512.png">
+  <meta name="twitter:image" content="${baseUrl}${pageKey === "privacy" ? "/favicon/android-chrome-512x512.png" : gameplay.brand.src}">
   <meta name="twitter:image:alt" content="Infinity Maze app icon">
   <link rel="canonical" href="${canonical}">
 ${alternateLinks(pageKey)}
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  ${pageKey === "privacy" ? '<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">\n  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">\n  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">' : `<link rel="apple-touch-icon" href="${gameplay.brand.src}">\n  <link rel="icon" type="image/png" sizes="512x512" href="${gameplay.brand.src}">`}
   <link rel="manifest" href="/favicon/site.webmanifest">
-  <link rel="stylesheet" href="/style/base.css">
-  <link rel="stylesheet" href="/style/help.css">
+  ${pageKey === "privacy" ? '<link rel="stylesheet" href="/style/base.css">\n  <link rel="stylesheet" href="/style/help.css">' : `<link rel="stylesheet" href="${websiteCss}">`}
   <title>${escapeHtml(title)}</title>
   <script type="application/ld+json">${JSON.stringify(schema).replaceAll("<", "\\u003c")}</script>
 </head>`;
 }
 
-function mazeArtwork() {
-  return `<div class="maze-preview" aria-hidden="true">
-  <svg viewBox="0 0 520 520" role="img">
-    <rect x="16" y="16" width="488" height="488" rx="54" fill="#222222"/>
-    <g fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M78 430V78h132v88h88V78h144v88"/>
-      <path d="M78 210h88v88H78m132-132v176h88v88"/>
-      <path d="M298 166h88v88h56m-144 88h88v88h56"/>
-      <path d="M166 298v132h44m176-176v88"/>
-    </g>
-    <circle cx="78" cy="430" r="16" fill="#55d8e6"/>
-    <circle cx="442" cy="166" r="16" fill="#8b6cff"/>
-  </svg>
-  <span class="preview-chip">Rectangular · Hexagonal · Honeycomb</span>
-</div>`;
+const shapes = ["rectangular", "hexagonal", "honeycomb", "circular"];
+const arrow = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg>';
+function gameImage(asset, alt, className, eager = false) {
+  return `<img class="${className}" src="${asset.src}" alt="${escapeHtml(alt)}" width="${asset.width}" height="${asset.height}" ${eager ? 'fetchpriority="high" loading="eager"' : 'loading="lazy"'} decoding="async">`;
+}
+
+function renderModes(locale) {
+  const text = website[locale.key];
+  return `<section class="section" id="play-modes" aria-labelledby="modes-title">
+    <div class="section-intro"><h2 id="modes-title">${escapeHtml(text.modesTitle)}</h2><p>${escapeHtml(text.modesIntro)}</p></div>
+    <div class="mode-grid">${text.modes.map((mode, index) => `<article class="mode-card"><span class="card-index">0${index + 1}</span><h3>${escapeHtml(mode.name)}</h3><p>${escapeHtml(mode.body)}</p></article>`).join("")}</div>
+    <p class="section-note">${escapeHtml(text.fogBody)}</p>
+  </section>`;
+}
+
+function renderFaq(locale, includeHelpLink = false) {
+  const text = website[locale.key];
+  return `<section class="section" aria-labelledby="faq-title">
+    <div class="section-intro"><h2 id="faq-title">${escapeHtml(text.faqTitle)}</h2></div>
+    <div class="faq-list">${text.faqs.map(([question, answer]) => `<details><summary>${escapeHtml(question)}<span class="faq-toggle" aria-hidden="true">+</span></summary><p>${escapeHtml(answer)}</p></details>`).join("")}</div>
+${includeHelpLink ? `<a class="text-action" href="${pagePath(locale, "help")}">${escapeHtml(ui[locale.key].help)}${arrow}</a>` : ""}
+  </section>`;
 }
 
 function renderHome(locale) {
   const t = ui[locale.key];
-  const home = content.home[locale.key];
+  const home = website[locale.key];
   const schema = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
+    "@id": `${baseUrl}/#app`,
     name: "Infinity Maze",
     applicationCategory: "GameApplication",
     operatingSystem: "iOS, iPadOS, macOS, tvOS",
     inLanguage: locale.htmlLang,
-    description: home.tagline,
+    description: home.intro,
+    featureList: [...home.modes.map(mode => `${mode.name}: ${mode.body}`), home.fogBody, ...home.featureBodies],
+    screenshot: shapes.map(shape => `${baseUrl}${gameplay.locales[locale.key][shape].src}`),
     url: `${baseUrl}${pagePath(locale, "home")}`,
     downloadUrl: appStoreUrl(locale),
     installUrl: appStoreUrl(locale),
-    image: `${baseUrl}/favicon/android-chrome-512x512.png`,
+    image: `${baseUrl}${gameplay.brand.src}`,
     isAccessibleForFree: true,
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
   };
-  return `${documentHead(locale, "home", t.seoHome, home.tagline, schema)}
-<body>
+  return `${documentHead(locale, "home", home.seoTitle, home.seoDescription, schema)}
+<body class="home-page">
+<a class="skip-link" href="#main">${escapeHtml(home.skip)}</a>
 <div class="page"><div class="container">
 ${header(locale, "home")}
-<main>
+<main id="main">
   <section class="hero">
     <div class="hero-copy">
-      <p class="kicker">${escapeHtml(t.eyebrow)}</p>
-      <h1>${escapeHtml(t.title)}</h1>
-      <p class="lead">${escapeHtml(home.tagline)}</p>
-      <div class="actions">${storeButton(locale)}<a class="button secondary" href="${pagePath(locale, "help")}">${escapeHtml(t.help)}</a></div>
+      <p class="kicker">${escapeHtml(home.eyebrow)}</p>
+      <h1>${home.headline.map(line=>`<span>${escapeHtml(line)}</span>`).join("")}</h1>
+      <p class="lead">${escapeHtml(home.intro)}</p>
+      <div class="actions">${storeButton(locale)}<a class="text-action" href="#shapes">${escapeHtml(home.shapesLink)}${arrow}</a></div>
       <p class="platform-note">iPhone · iPad · Mac · Apple TV</p>
     </div>
-    ${mazeArtwork()}
+    <figure class="hero-visual">${gameImage(gameplay.crops.circular,home.shapeNames[3],"hero-image",true)}<figcaption class="image-caption"><span>04 / ${escapeHtml(home.shapeNames[3])}</span><span>${escapeHtml(home.capture)}</span></figcaption></figure>
   </section>
-  <section class="section intro-grid">
-    <article><p class="section-number">01</p><h2>${escapeHtml(t.explore)}</h2><p>${escapeHtml(t.exploreBody)}</p></article>
-    <article><p class="section-number">02</p><h2>${escapeHtml(t.platforms)}</h2><p>${escapeHtml(t.platformsBody)}</p></article>
+  <section class="section" id="shapes" aria-labelledby="shapes-title">
+    <div class="section-intro"><div><p class="section-number">01 / ${escapeHtml(home.shapeEyebrow)}</p><h2 id="shapes-title">${escapeHtml(home.shapeTitle)}</h2></div><p>${escapeHtml(home.shapeIntro)}</p></div>
+    <div class="shape-grid">${shapes.map((shape,i)=>`<article class="shape-card">${gameImage(gameplay.crops[shape],home.shapeNames[i],"shape-image")}<header><h3>${escapeHtml(home.shapeNames[i])}</h3><span>0${i+1}</span></header><p>${escapeHtml(home.shapeBodies[i])}</p></article>`).join("")}</div>
   </section>
-  <section class="section">
-    <div class="section-heading"><p class="kicker">Infinity Maze 1.5</p><h2>${escapeHtml(t.featuresTitle)}</h2></div>
+  <section class="section" aria-labelledby="pace-title">
+    <div class="challenge">
+      <div class="capture-panel" data-gameplay-gallery>
+        <figure>${gameImage(gameplay.locales[locale.key].circular,`${home.shapeNames[3]} — ${home.capture}`,"full-capture").replace('<img ','<img id="gameplay-image" data-gameplay-image ')}<figcaption data-gameplay-caption aria-live="polite">${escapeHtml(`${home.shapeNames[3]} — ${home.capture}`)}</figcaption></figure>
+        <div class="capture-choices" role="group" aria-label="${escapeHtml(home.gallery)}">${shapes.map((shape,i)=>`<button type="button" class="capture-choice" aria-controls="gameplay-image" aria-pressed="${i===3}" data-gameplay-src="${gameplay.locales[locale.key][shape].src}" data-gameplay-alt="${escapeHtml(`${home.shapeNames[i]} — ${home.capture}`)}"><span aria-hidden="true">0${i+1}</span>${escapeHtml(home.shapeNames[i])}</button>`).join("")}</div>
+      </div>
+      <div class="challenge-copy"><p class="section-number">02 / ${escapeHtml(home.paceEyebrow)}</p><h2 id="pace-title">${escapeHtml(home.paceTitle)}</h2><p>${escapeHtml(home.paceBody)}</p><ul class="level-list">${home.levels.map(l=>`<li>${escapeHtml(l)}</li>`).join("")}</ul><a class="text-action" href="${pagePath(locale,"help")}">${escapeHtml(t.help)}${arrow}</a></div>
+    </div>
     <div class="feature-grid">
-      <article class="feature"><span class="feature-icon">▦</span><p>${escapeHtml(home.feature1)}</p></article>
-      <article class="feature"><span class="feature-icon">✦</span><p>${escapeHtml(home.feature2)}</p></article>
-      <article class="feature"><span class="feature-icon"></span><p>${escapeHtml(home.feature3)}</p></article>
+      ${home.featureTitles.map((title,i)=>`<article class="feature"><span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">${['<path d="M20 7v5h-5M4 17v-5h5M5.6 7a7 7 0 0 1 11.6-1L20 9M4 15l2.8 3A7 7 0 0 0 18.4 17"/>','<path d="M4 6h16M4 12h16M4 18h16"/><circle cx="8" cy="6" r="2" fill="currentColor"/><circle cx="16" cy="12" r="2" fill="currentColor"/><circle cx="10" cy="18" r="2" fill="currentColor"/>','<rect x="3" y="4" width="14" height="11" rx="2"/><path d="M7 20h6M10 15v5"/><rect x="16" y="11" width="5" height="10" rx="1"/>'][i]}</svg></span><h3>${escapeHtml(title)}</h3><p>${escapeHtml(home.featureBodies[i])}</p></article>`).join("")}
     </div>
   </section>
+  ${renderModes(locale)}
+  ${renderFaq(locale, true)}
+  <section class="closing"><div><h2>${escapeHtml(home.closing)}</h2><p>${escapeHtml(home.closingBody)}</p></div>${storeButton(locale)}</section>
 </main>
 ${footer(locale, "home")}
 </div></div>
+<script src="${websiteJs}" defer></script>
 </body>
 </html>\n`;
 }
 
 function renderHelp(locale) {
   const t = ui[locale.key];
-  const help = content.help[locale.key];
+  const help = structuredClone(content.help[locale.key]);
+  const copy = website[locale.key];
+  help.ios[1] = copy.shapeHelp;
+  help.mac[1] = copy.shapeHelp;
+  for (const platform of ["ios","mac","tvos"]) help[platform].push(copy.circularHelp);
+  help.tvos.push(copy.shapeHelp);
   const faq = [
     [help.iosTitle, help.ios],
     [help.macTitle, help.mac],
@@ -298,19 +353,24 @@ function renderHelp(locale) {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     inLanguage: locale.htmlLang,
-    mainEntity: faq.map(([name, items]) => ({
+    mainEntity: [...faq.map(([name, items]) => ({
       "@type": "Question",
       name,
       acceptedAnswer: { "@type": "Answer", text: items.join(" ") },
-    })),
+    })), ...copy.faqs.map(([name, text]) => ({
+      "@type": "Question", name,
+      acceptedAnswer: { "@type": "Answer", text },
+    }))],
   };
   const cards = faq.map(([title, items], index) => `<article class="help-card"><span class="card-index">0${index + 1}</span><h2>${escapeHtml(title)}</h2><ul>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul></article>`).join("\n");
-  return `${documentHead(locale, "help", t.seoHelp, t.helpLead, schema)}
+  return `${documentHead(locale, "help", copy.seoHelp, copy.helpLead, schema)}
 <body><div class="page"><div class="container">
 ${header(locale, "help")}
 <main>
-  <header class="page-header"><p class="kicker">${escapeHtml(t.help)}</p><h1>${escapeHtml(help.title)}</h1><p class="lead">${escapeHtml(t.helpLead)}</p></header>
+  <header class="page-header"><p class="kicker">${escapeHtml(t.help)}</p><h1>${escapeHtml(help.title)}</h1><p class="lead">${escapeHtml(copy.helpLead)}</p></header>
   <section class="help-grid">${cards}</section>
+  ${renderModes(locale)}
+  ${renderFaq(locale)}
   <section class="download-panel"><div><h2>${escapeHtml(t.platforms)}</h2><p>${escapeHtml(t.platformsBody)}</p></div>${storeButton(locale, true)}</section>
 </main>
 ${footer(locale, "help")}
@@ -373,11 +433,16 @@ ${footer(locale, "support")}
 for (const locale of locales) {
   const outputDir = locale.folder ? path.join(rootDir, locale.folder) : rootDir;
   fs.mkdirSync(outputDir, { recursive: true });
-  fs.writeFileSync(path.join(outputDir, pages.home.file), renderHome(locale));
-  fs.writeFileSync(path.join(outputDir, pages.help.file), renderHelp(locale));
-  fs.writeFileSync(path.join(outputDir, pages.privacy.file), renderPrivacy(locale));
-  fs.writeFileSync(path.join(outputDir, pages.support.file), renderSupport(locale));
+  for (const pageKey of ["home", "help", "support"]) {
+    const html = {home: renderHome, help: renderHelp, support: renderSupport}[pageKey](locale);
+    recordPage(locale, pageKey, html);
+    fs.writeFileSync(path.join(outputDir, pages[pageKey].file), html);
+  }
+  // Privacy policy content and its legacy styles are explicitly out of scope.
+  if (!fs.existsSync(path.join(outputDir, pages.privacy.file))) throw new Error("Existing privacy policy missing; refusing to generate a replacement.");
+  recordPage(locale, "privacy", fs.readFileSync(path.join(outputDir, pages.privacy.file), "utf8"));
 }
+fs.writeFileSync(revisionsPath, `${JSON.stringify(revisions, null, 2)}\n`);
 
 const sitemapUrls = [];
 for (const pageKey of Object.keys(pages)) {
@@ -385,7 +450,7 @@ for (const pageKey of Object.keys(pages)) {
     sitemapUrls.push({
       url: `${baseUrl}${pagePath(locale, pageKey)}`,
       pageKey,
-      lastModified: "2026-09-20",
+      lastModified: revisions[`${baseUrl}${pagePath(locale, pageKey)}`].lastModified,
     });
   }
 }
